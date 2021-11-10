@@ -1,1 +1,1 @@
-MOCC Client App - an angular application
+MOCC Client App - a wonderful angular application
