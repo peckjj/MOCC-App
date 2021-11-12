@@ -1,0 +1,9 @@
+.root {
+  margin: 0 auto;
+  background-color: gold;
+  background-size: 100%;
+  color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
