@@ -1,10 +1,16 @@
-.container {
+.root {
+    background-color: gold;
+    color: brown;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .intro {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    border: 0.6rem solid brown;
     text-align: center;
-    width: 50%;
+    font-size: large;
+    width: 45rem;
+    height: 18rem;
 }

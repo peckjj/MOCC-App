@@ -1,5 +1,7 @@
 .root {
+  position: absolute;
   background-color: gold;
   color: brown;
   display: flex;
 }
+
