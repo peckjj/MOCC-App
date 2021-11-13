@@ -8,6 +8,13 @@ import { HomeComponent } from './home/home/home.component';
 import { SubmitComponent } from './submit/submit.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
+import { AboutComponent } from './about/about.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { SubmitArtComponent } from './submit-art/submit-art.component';
+import { PaymentComponent } from './payment/payment.component';
+import { ContactComponent } from './contact/contact.component';
+import { CreateProfileComponent } from './create-profile/create-profile.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -16,7 +23,14 @@ import { SearchComponent } from './search/search.component';
     HeaderComponent,
     HomeComponent,
     SubmitComponent,
-    SearchComponent
+    SearchComponent,
+    AboutComponent,
+    GalleryComponent,
+    SubmitArtComponent,
+    PaymentComponent,
+    ContactComponent,
+    CreateProfileComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

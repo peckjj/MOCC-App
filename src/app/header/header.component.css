@@ -8,7 +8,7 @@
 .title {
     position: absolute;
     margin-top: 1rem;
-    margin-left: -13rem;
+    margin-left: -12rem;
     white-space: nowrap;
 }
 
@@ -21,23 +21,43 @@
     position: absolute;
     border: 0.6rem solid brown;
     margin-left: -50rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 12rem;
     height: 10rem;
 }
 
 .topnav {
     position: absolute;
-    margin-top: 10rem;
-    margin-left: -28rem;
+    margin-top: 13rem;
+    margin-left: -25rem;
+    padding-top: 0.5rem;
     border: 0.6rem solid brown;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 55rem;
-    height: 1.5rem;
+    height: 2rem;
 }
 
 .subbar {
     display: flex;
     flex-direction: row;
 }
+
+.ad1 {
+    position: absolute;
+    margin-left: -50rem;
+    margin-top: 20rem;
+    border: 0.6rem solid brown;
+    width: 10rem;
+    height: 35rem;
+}
+
+.ad2 {
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: 20rem;
+    border: 0.6rem solid brown;
+    width: 10rem;
+    height: 35rem;
+}
+
