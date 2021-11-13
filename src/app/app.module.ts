@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home/home.component';
 import { SubmitComponent } from './submit/submit.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SubmitComponent
+    SubmitComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

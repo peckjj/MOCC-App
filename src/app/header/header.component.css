@@ -1,21 +1,43 @@
-div {
+.root {
+    position: absolute;
+    background-color: gold;
+    color: brown;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.container {
+.title {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -13rem;
+    white-space: nowrap;
+}
+
+.subheader {
+    white-space: nowrap;
+    margin-left: 9rem;
+}
+
+.logo {
+    position: absolute;
+    border: 0.6rem solid brown;
+    margin-left: -50rem;
+    margin-top: 3rem;
+    width: 12rem;
+    height: 10rem;
 }
 
 .topnav {
-    border: 2px solid black;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: -28rem;
+    border: 0.6rem solid brown;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 55rem;
+    height: 1.5rem;
 }
 
-#subbar {
+.subbar {
     display: flex;
     flex-direction: row;
 }
