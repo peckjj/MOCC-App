@@ -1,1 +1,98 @@
-<p>create-profile works!</p>
+<div class="root">
+
+  <h2 class="accountHeader">Create Your Account</h2>
+  <div class="accountCreation">
+      <form class="legalInfo" action="CreateProfile2.html" method="get">
+          <br />
+          <label for="firstName">First name:</label><br>
+          <input type="text" id="firstName" name="firstName" size="40" required><br><br />
+
+          <label for="lastName">Last name:</label><br>
+          <input type="text" id="lastName" name="lastName" size="40" required><br><br />
+
+          <label for="birthday">Birthday:</label><br>
+          <input type="date" id="birthday" name="birthday" required><br><br />
+
+          <label for="phone">Contact number:</label><br>
+          <input type="text" id="number" name="number" required><br><br />
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" size="40" required><br><br />
+
+          <label for="BusName">Business Name:</label><br>
+          <input type="text" id="BusName" name="BusName" size="40" required><br><br />
+
+          <label for="address">Business Address:</label><br>
+          <input type="text" id="address" name="address" size="40" required><br><br />
+
+          <label for="city">City:</label><br>
+          <input type="text" id="city" name="city" required><br><br />
+
+          <label for="state">State:</label><br>
+          <input type="text" id="state" name="state" required><br><br />
+
+          <label for="zip">Zip:</label><br>
+          <input type="number" id="zip" name="zip" required><br><br />
+
+          <label for="Business Type">Business Type:</label><br />
+          <select name="dropdown" required>
+              <option value="Other">Other</option>
+              <option value="Art">Art</option>
+              <option value="Automobile">Auto</option>
+              <option value="Bank">Banking/Financial Services</option>
+              <option value="Beauty">Beauty</option>
+              <option value="Child Ser">Child Services</option>
+              <option value="Clothing">Clothing</option>
+              <option value="Consult">Consulting</option>
+              <option value="Cosmo">Cosmetology</option>
+              <option value="Educate">Education</option>
+              <option value="Entertainment">Entertainment</option>
+              <option value="Food">Food Services</option>
+              <option value="Funeral">Funeral Home</option>
+              <option value="Health">Health</option>
+              <option value="Home">Home Improvement</option>
+              <option value="Landscaping">Landscaping</option>
+              <option value="Law">Legal Services</option>
+              <option value="Photo">Photography</option>
+              <option value="Real Estate">Real Estate</option>
+              <option value="Retail">Retail</option>
+              <option value="Tech">Tech Needs</option>
+              <option value="Travel">Travel</option>
+          </select>
+
+          <br /><br />
+          <label for="description">If Other, give description:</label><br>
+          <input type="text" id="description" name="description"><br><br />
+
+          <label for="experience">Years in Business:</label><br>
+          <input type="number" id="experience" name="experience" required><br><br />
+
+          <label for="ownership">What type of ownership do you have? (LLC, Corporation, etc...)</label><br>
+          <input type="text" id="ownership" name="ownership" required><br /><br />
+
+          <label for="missionState">What is your mission statement?</label><br>
+          <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="100" placeholder="Enter you mission statement here" required></textarea><br><br />
+
+          <div class="ownership" style="width: 700px;">
+              <div style="width: 40%; float: left">
+                  <label for="webLink">Insert Business website link:</label><br>
+                  <input type="url" id="weblink" name="weblink" size="40"><br><br />
+              </div>
+
+              <div style="width: 40%; float: right">
+                  <label for="myfile">Select a .img / .jpeg file for your picture:</label>
+                  <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br><br>
+              </div>
+
+          </div>
+          
+              <div style="clear: both;">
+              
+              </div>
+
+              <button class="submit" id="btn" onclick="addcompany">Submit</button>
+      </form>
+
+  </div>
+  
+</div>

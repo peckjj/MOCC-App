@@ -3,3 +3,12 @@
   color: brown;
   display: flex;
 }
+
+.contact {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-left: 25rem;
+  margin-top: 25rem;
+  width: 40rem;
+  height: 20rem;
+}
