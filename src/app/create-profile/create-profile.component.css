@@ -3,3 +3,10 @@
   color: brown;
   display: flex;
 }
+
+.accountCreation {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 25rem;
+  height: 15rem;
+}
