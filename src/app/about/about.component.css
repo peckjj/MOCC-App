@@ -3,3 +3,29 @@
   color: brown;
   display: flex;
 }
+
+.title {
+  position: absolute;
+  margin-top: 23rem;
+  margin-left: -5rem;
+
+}
+
+.about {
+  position: absolute;
+  border: 0.6rem solid brown;
+  text-align: center;
+  margin-top: 27rem;
+  margin-left: -22rem;
+  width: 45rem;
+  height: 10rem;
+}
+
+.picture {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 40rem;
+  margin-left: -12rem;
+  width: 25rem;
+  height: 13rem;
+}
