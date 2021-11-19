@@ -15,16 +15,16 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'submit', component: SubmitComponent},
   {path: 'search', component:  SearchComponent},
-  {path: 'About', component: AboutComponent},
-  {path: 'Gallery', component: GalleryComponent},
-  {path: 'SubmitArt', component: SubmitArtComponent},
-  {path: 'Payment', component: PaymentComponent},
-  {path: 'Contact', component: ContactComponent},
-  {path: 'CreateProfile', component: CreateProfileComponent},
-  {path: 'Login', component: LoginComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'gallery', component: GalleryComponent},
+  {path: 'submitart', component: SubmitArtComponent},
+  {path: 'payment', component: PaymentComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'createprofile', component: CreateProfileComponent},
+  {path: 'login', component: LoginComponent},
 
 
-
+  {path: '**', redirectTo: ''}
 ];
 
 @NgModule({
