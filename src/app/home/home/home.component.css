@@ -4,9 +4,16 @@
     display: flex;
 }
 
+.header {
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: -14rem;
+}
+
 .intro {
-    margin-top: 25rem;
-    margin-left: 3rem;
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: -22rem;
     margin-bottom: 2rem;
     padding-top: 1rem;
     border: 0.6rem solid brown;
@@ -14,4 +21,13 @@
     font-size: large;
     width: 45rem;
     height: 18rem;
+}
+
+.media {
+    position: absolute;
+    border: 0.6rem solid brown;
+    margin-top: 45rem;
+    margin-left: -20rem;
+    width: 40rem;
+    height: 10rem;
 }

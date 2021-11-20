@@ -8,15 +8,15 @@
     <img class="logo" src="MOCC.Client\MOCC-client-app\src\assets\logo.png">
 
     <div class="topnav">
-        <a routerLink="/">Home</a>
-        <a routerLink="/submit">Submit</a>
-        <a routerLink="/search">Search</a>
-        <a routerLink="/about">About</a>
-        <a routerLink="/gallery">Gallery</a>
-        <a routerLink="/submitart">Submit Art</a>
-        <a routerLink="/payment">Payment</a>
-        <a routerLink="/contact">Contact</a>
-        <a routerLink="/createprofile">Create Profile</a>
+        <a [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['active']">Home</a>
+        <a routerLink="submit" routerLinkActive="active">Submit</a>
+        <a routerLink="search" routerLinkActive="active">Search</a>
+        <a routerLink="about" routerLinkActive="active">About</a>
+        <a routerLink="gallery" routerLinkActive="active">Gallery</a>
+        <a routerLink="submitart" routerLinkActive="active">Submit Art</a>
+        <a routerLink="payment" routerLinkActive="active">Payment</a>
+        <a routerLink="contact" routerLinkActive="active">Contact</a>
+        <a routerLink="createprofile" routerLinkActive="active">Create Profile</a>
         <div id="subbar">
             <input type="text" placeholder="Submit..">
             <button>Submit</button>

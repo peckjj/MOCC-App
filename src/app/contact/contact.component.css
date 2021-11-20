@@ -4,11 +4,24 @@
   display: flex;
 }
 
+.title {
+  position: absolute;
+  margin-left: -3rem;
+  margin-top: 23rem;
+}
+
 .contact {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-left: 25rem;
-  margin-top: 25rem;
+  text-align: center;
+  margin-left: -19rem;
+  margin-top: 26rem;
   width: 40rem;
   height: 20rem;
 }
+
+.feedback {
+  position: absolute;
+  margin-left: 2rem;
+}
+

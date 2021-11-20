@@ -3,3 +3,36 @@
   color: brown;
   display: flex;
 }
+
+.accountHeader {
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: -12rem;
+}
+
+.cardInfo {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 23rem;
+  margin-left: -22rem;
+  width: 45rem;
+  height: 33rem;
+}
+
+.paymentInfo {
+  position: absolute;
+  margin-top: 12rem;
+  margin-left: 15rem;
+}
+
+.pricing {
+  position: absolute;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.submit {
+  position: absolute;
+  margin-left: 5rem;
+  width: 5rem;
+}
