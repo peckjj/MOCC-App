@@ -3,3 +3,36 @@
   color: brown;
   display: flex;
 }
+
+.title {
+  position: absolute;
+  margin-top: 22.5rem;
+  margin-left: -30rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 25rem;
+  margin-left: -20rem;
+  width: 40rem;
+  height: 30rem;
+}
+
+.artInfo {
+  position: absolute;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.button {
+  position: absolute;
+  margin-top: 11rem;
+  margin-left: -20rem;
+  width: 6rem;
+  height: 1.5rem;
+
+}
+
+
+
