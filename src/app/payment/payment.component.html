@@ -12,7 +12,10 @@
 
       <form class="paymentInfo" action="Home.html">
           <label for="cardHolder">Cardholder's Name:</label><br>
-          <input type="text" id="cardHolder" name="cardHolder" size="40"><br><br />
+          <input type="text" id="cardHolder" name="cardHolder" size="30"><br><br />
+
+          <label for="cardBrand">Card Brand:</label><br>
+          <input type="text" id="cardBrand" name="cardBrand" size="20"><br><br />
 
           <label for="cardNumber">Card Number:</label><br>
           <input type="number" id="cardNum" name="cardNum" size="25"><br><br />
@@ -22,9 +25,6 @@
 
           <label for="cardSecNum">Card Security Number: ( 3-digit number on the back )</label><br>
           <input type="number" id="cardSecNum" name="cardSecNum" size="40"><br><br />
-
-          <label for="cardBrand">Card Brand:</label><br>
-          <input type="text" id="cardBrand" name="cardBrand" size="20"><br><br />
 
           <input class="submit" type="submit" value="Submit" id="sub" onclick="addcard">
       </form>

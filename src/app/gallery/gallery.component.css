@@ -3,3 +3,52 @@
   color: brown;
   display: flex;
 }
+
+.gallery {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 45rem;
+  height: 35rem;
+  margin-top: 23rem;
+  margin-left: -21rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 15rem;
+  height: 10rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.media-body {
+  position: absolute;
+  margin-top: 8rem;
+  font-size: large;
+}
+
+.media-body1 {
+  position: absolute;
+  margin-top: 8rem;
+  font-size: large;
+} 
+
+.media1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 15rem;
+  height: 10rem;
+  margin-top: 1rem;
+  margin-left: 25rem;
+}
+
+.uploads {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 37rem;
+  height: 16rem;
+  margin-top: 15rem;
+  margin-left: 3rem;
+}
+
