@@ -22,6 +22,9 @@
 
 .feedback {
   position: absolute;
-  margin-left: 2rem;
+  border: 0.5rem solid brown;
+  margin-top: -0.5rem;
+  margin-left: -18.2rem;
 }
+
 

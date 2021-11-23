@@ -6,6 +6,7 @@ import { CreateProfileComponent } from './create-profile/create-profile.componen
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home/home.component';
 import { LoginComponent } from './login/login.component';
+import { MediaComponent } from './media/media.component';
 import { PaymentComponent } from './payment/payment.component';
 import { SearchComponent } from './search/search.component';
 import { SubmitArtComponent } from './submit-art/submit-art.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'createprofile', component: CreateProfileComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'media', component: MediaComponent},
 
 
   {path: '**', redirectTo: ''}

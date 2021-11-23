@@ -15,6 +15,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
 import { LoginComponent } from './login/login.component';
+import { MediaComponent } from './media/media.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { LoginComponent } from './login/login.component';
     PaymentComponent,
     ContactComponent,
     CreateProfileComponent,
-    LoginComponent
+    LoginComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,

@@ -27,12 +27,14 @@
 
 .button {
   position: absolute;
+  border: 0.25rem solid brown;
   margin-top: 11rem;
   margin-left: -20rem;
   width: 6rem;
-  height: 1.5rem;
-
+  height: 2rem;
 }
 
-
+.caption {
+  border: 0.4rem solid brown;
+}
 

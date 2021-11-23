@@ -33,6 +33,8 @@
 
 .submit {
   position: absolute;
+  border: 0.25rem solid brown;
   margin-left: 5rem;
-  width: 5rem;
+  width: 6rem;
+  height: 2rem;
 }

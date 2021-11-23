@@ -3,38 +3,41 @@
   <h2 class="accountHeader">Create Your Account</h2>
   <div class="accountCreation">
       <form class="legalInfo" action="CreateProfile2.html" method="get">
-          <br />
+
           <label for="firstName">First name:</label><br>
-          <input type="text" id="firstName" name="firstName" size="40" required><br><br />
+          <input type="text" id="firstName" name="firstName" required><br>
 
           <label for="lastName">Last name:</label><br>
-          <input type="text" id="lastName" name="lastName" size="40" required><br><br />
+          <input type="text" id="lastName" name="lastName" required><br>
 
           <label for="birthday">Birthday:</label><br>
-          <input type="date" id="birthday" name="birthday" required><br><br />
+          <input type="date" id="birthday" name="birthday" required><br>
 
           <label for="phone">Contact number:</label><br>
-          <input type="text" id="number" name="number" required><br><br />
+          <input type="text" id="number" name="number" required><br>
 
           <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email" size="40" required><br><br />
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required><br>
 
           <label for="BusName">Business Name:</label><br>
-          <input type="text" id="BusName" name="BusName" size="40" required><br><br />
+          <input type="text" id="BusName" name="BusName" required><br>
 
           <label for="address">Business Address:</label><br>
-          <input type="text" id="address" name="address" size="40" required><br><br />
+          <input type="text" id="address" name="address" required><br>
 
           <label for="city">City:</label><br>
-          <input type="text" id="city" name="city" required><br><br />
+          <input type="text" id="city" name="city" required><br>
 
           <label for="state">State:</label><br>
-          <input type="text" id="state" name="state" required><br><br />
+          <input type="text" id="state" name="state" required><br>
 
           <label for="zip">Zip:</label><br>
-          <input type="number" id="zip" name="zip" required><br><br />
+          <input type="number" id="zip" name="zip" required><br>
 
-          <label for="Business Type">Business Type:</label><br />
+          <label for="Business Type">Business Type:</label><br>
           <select name="dropdown" required>
               <option value="Other">Other</option>
               <option value="Art">Art</option>
@@ -60,28 +63,28 @@
               <option value="Travel">Travel</option>
           </select>
 
-          <br /><br />
+          <br />
           <label for="description">If Other, give description:</label><br>
-          <input type="text" id="description" name="description"><br><br />
+          <input type="text" id="description" name="description"><br>
 
           <label for="experience">Years in Business:</label><br>
-          <input type="number" id="experience" name="experience" required><br><br />
+          <input type="number" id="experience" name="experience" required><br>
 
           <label for="ownership">What type of ownership do you have? (LLC, Corporation, etc...)</label><br>
-          <input type="text" id="ownership" name="ownership" required><br /><br />
+          <input type="text" id="ownership" name="ownership" required><br />
 
           <label for="missionState">What is your mission statement?</label><br>
-          <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter you mission statement here" required></textarea><br><br />
+          <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter you mission statement here" required></textarea><br>
 
           <div class="ownership" style="width: 700px;">
               <div style="width: 40%; float: left">
                   <label for="webLink">Insert Business website link:</label><br>
-                  <input type="url" id="weblink" name="weblink" size="40"><br><br />
+                  <input type="url" id="weblink" name="weblink" size="40"><br>
               </div>
 
               <div style="width: 40%; float: right">
                   <label for="myfile">Select a .img / .jpeg file for your picture:</label>
-                  <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br><br>
+                  <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
               </div>
 
           </div>
