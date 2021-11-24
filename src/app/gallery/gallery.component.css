@@ -7,19 +7,19 @@
 .gallery {
   position: absolute;
   border: 0.6rem solid brown;
-  width: 45rem;
+  width: 60rem;
   height: 35rem;
   margin-top: 23rem;
-  margin-left: -21rem;
+  margin-left: -28.5rem;
 }
 
 .media {
   position: absolute;
   border: 0.4rem solid brown;
-  width: 15rem;
+  width: 20rem;
   height: 10rem;
-  margin-top: 1rem;
-  margin-left: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
 }
 
 .media-body {
@@ -37,25 +37,39 @@
 .media1 {
   position: absolute;
   border: 0.4rem solid brown;
-  width: 15rem;
+  width: 20rem;
   height: 10rem;
-  margin-top: 1rem;
-  margin-left: 25rem;
+  margin-top: 0.5rem;
+  margin-left: 35rem;
 }
 
 .uploads {
   position: absolute;
   border: 0.4rem solid brown;
-  width: 37rem;
+  width: 51rem;
   height: 16rem;
   margin-top: 15.5rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
+}
+
+.heading {
+  position: absolute;
+  margin-top: 14rem;
+  margin-left: 4rem;
+  text-decoration: underline;
+  font-size: large;
+}
+
+.upload1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-left: 1rem;
+  width: 7rem;
+  height: 6rem;
 }
 
 .title {
   position: absolute;
-  margin-top: -5.5rem;
-  text-decoration: underline;
-  font-size: larger;
+  margin-top: 5.5rem;
+  font-size: medium;
 }
-
