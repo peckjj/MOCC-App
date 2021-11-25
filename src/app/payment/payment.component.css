@@ -8,6 +8,7 @@
   position: absolute;
   margin-top: 21rem;
   margin-left: -12rem;
+  white-space: nowrap;
 }
 
 .cardInfo {

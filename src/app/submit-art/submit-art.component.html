@@ -1,21 +1,20 @@
 <div class="root">
-
-  <h3 class="title">
-    Insert your art into the catelogue bellow. The submissions will be viewed by admins before being posted on the Creator's Catelogue.
-  </h3>
-
   <div class="submit">
+
+    <h3 class="title">
+      Insert your art into the catelogue bellow. Add a caption so the audience can better understand your media. The submissions will be viewed by MOCC admins before being posted on the Creator's Catelogue.
+    </h3>
 
     <form class="artInfo" action="gallery.html">
 
       <label for="cardHolder">Creator's Name:</label><br>
-      <input type="text" id="cardHolder" name="cardHolder" size="40"><br><br />
+      <input type="text" id="cardHolder" name="cardHolder" size="40"><br>
 
       <label for="title">Artwork Title:</label><br>
-      <input type="text" id="title" name="title" size="40"><br><br />
+      <input type="text" id="title" name="title" size="40"><br>
 
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" size="40" required><br><br />
+      <input type="email" id="email" name="email" size="40" required><br><br>
 
       <label for="myfile">Select a .img / .jpeg file for your picture:</label>
       <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br><br>

@@ -8,7 +8,7 @@
   position: absolute;
   margin-top: 23rem;
   margin-left: -5rem;
-
+  white-space: nowrap;
 }
 
 .about {

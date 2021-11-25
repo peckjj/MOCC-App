@@ -6,7 +6,8 @@
 
 .header {
     position: absolute;
-    margin-top: 20rem;
+    white-space: nowrap;
+    margin-top: 21rem;
     margin-left: -14rem;
 }
 
