@@ -5,32 +5,30 @@
     <form class="filter">
 
       <div class="title">
-        <label class="heading" for="search">Search for the business:</label><br>
+        <label class="heading" for="search">Search for the business here:</label><br>
         <input type="text" id="search" name="search" size="30"><br><br>
       </div>
 
-      <div class="check">
+      
         <div class="label">
-          <label>Select how far you would like the search to be:</label><br>
+          <label class="distance">Select how far you would like the search to be (miles):</label><br>
         </div>
 
-          <input type="checkbox" id="distance1" name="distance1" value="5">
-          <label for="vehicle1"> 5</label><br>
+        <div class="searchBox">
+          <div class="left">
+            <input type="checkbox" id="distance1" name="distance1" value="5">
+            <label class="five" for="distance"> 5</label><br>
+            <input type="checkbox" id="distance3" name="distance3" value="15">
+            <label class="fifteen" for="distance3"> 15</label><br>
+          </div>
 
-        <div class="10">
-          <input type="checkbox" id="distance2" name="distance2" value="10">
-          <label for="distance2"> 10</label><br>
+          <div class="right">
+            <input type="checkbox" id="distance2" name="distance2" value="10">
+            <label class="ten" for="distance2"> 10</label><br>
+            <input type="checkbox" id="distance4" name="distance4" value="20">
+            <label class="twenty" for="distance4"> 20</label><br>
+          </div>
         </div>
-
-        <input type="checkbox" id="distance3" name="distance3" value="15">
-        <label for="distance3"> 15</label><br>
-
-        <div class="20">
-          <input type="checkbox" id="distance4" name="distance4" value="20">
-          <label for="distance4"> 20</label><br>
-        </div>
-
-      </div>
 
       <button class="submit" id="btn" onclick="">Submit</button>
 
