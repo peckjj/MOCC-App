@@ -3,7 +3,7 @@
   <h2 class="accountHeader">Please Insert Your Payment Information</h2>
   <div class="cardInfo">
       <h3 class="pricing">
-          Thank you for your interest in joining the MOCC. Your business information is guaranteed
+          Thank you for your interest in joining the MOCC! Your business information is guaranteed
           to be safely stored and exclusively advertised on this website. The annual fee to be featured on THE Minority Owned Catalogue is $250
           per business. The monthly plan option will be $17/month per business. This revenue will go towards the funding of MOCC operations to 
           provide more exposure and audience to these featured creators. The ultimate goal is to give back and establish opportunities for the
@@ -12,21 +12,27 @@
 
       <form class="paymentInfo" action="Home.html">
           <label for="cardHolder">Cardholder's Name:</label><br>
-          <input type="text" id="cardHolder" name="cardHolder" size="30"><br><br />
+          <input type="text" id="cardHolder" name="cardHolder" size="30" required><br>
+
+          <label for="address">Business Address:</label><br>
+          <input type="text" id="address" name="address" size="30" required><br>
 
           <label for="cardBrand">Card Brand:</label><br>
-          <input type="text" id="cardBrand" name="cardBrand" size="20"><br><br />
+          <input type="text" id="cardBrand" name="cardBrand" size="20" required><br>
 
-          <label for="cardNumber">Card Number:</label><br>
-          <input type="number" id="cardNum" name="cardNum" size="25"><br><br />
+        <div class="col2">
+            <label for="cardNumber">Card Number:</label><br>
+            <input type="number" id="cardNum" name="cardNum" size="20" required><br>
 
-          <label for="cardDate">Card Expiration Date:</label><br>
-          <input type="date" id="date" name="date" size="20"><br><br />
+            <label for="cardDate">Card Expiration Date:</label><br>
+            <input type="date" id="date" name="date" size="20" required><br>
 
-          <label for="cardSecNum">Card Security Number: ( 3-digit number on the back )</label><br>
-          <input type="number" id="cardSecNum" name="cardSecNum" size="40"><br><br />
+            <label class="cardNum" for="cardSecNum">Card Security Number: ( 3-digit number on the back )</label><br>
+            <input type="number" id="cardSecNum" name="cardSecNum" size="40" required><br>
+        </div>
 
           <input class="submit" type="submit" value="Submit" id="submit" onclick="addcard">
+
       </form>
   </div>
   

@@ -16,14 +16,24 @@
   border: 0.6rem solid brown;
   margin-top: 23rem;
   margin-left: -22rem;
-  width: 45rem;
-  height: 33rem;
+  width: 47rem;
+  height: 27rem;
 }
 
 .paymentInfo {
   position: absolute;
   margin-top: 12rem;
-  margin-left: 15rem;
+  margin-left: 3rem;
+}
+
+.col2 {
+  position: absolute;
+  margin-top: -7.5rem;
+  margin-left: 20rem;
+}
+
+.cardNum {
+  white-space: nowrap;
 }
 
 .pricing {
@@ -35,7 +45,8 @@
 .submit {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-left: 17rem;
   width: 6rem;
   height: 2rem;
 }
