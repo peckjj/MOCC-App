@@ -8,9 +8,12 @@ import { HomeComponent } from './home/home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MediaComponent } from './media/media.component';
 import { PaymentComponent } from './payment/payment.component';
+import { PicturesComponent } from './pictures/pictures.component';
 import { SearchComponent } from './search/search.component';
 import { SubmitArtComponent } from './submit-art/submit-art.component';
 import { SubmitComponent } from './submit/submit.component';
+import { TourBoardComponent } from './tour-board/tour-board.component';
+import { VideosComponent } from './videos/videos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -24,6 +27,9 @@ const routes: Routes = [
   {path: 'createprofile', component: CreateProfileComponent},
   {path: 'login', component: LoginComponent},
   {path: 'media', component: MediaComponent},
+  {path: 'pictures', component: PicturesComponent},
+  {path: 'videos', component: VideosComponent},
+  {path: 'tourboard', component: TourBoardComponent},
 
 
   {path: '**', redirectTo: ''}

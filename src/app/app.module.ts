@@ -16,6 +16,9 @@ import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
 import { LoginComponent } from './login/login.component';
 import { MediaComponent } from './media/media.component';
+import { PicturesComponent } from './pictures/pictures.component';
+import { VideosComponent } from './videos/videos.component';
+import { TourBoardComponent } from './tour-board/tour-board.component';
 
 
 @NgModule({
@@ -32,7 +35,10 @@ import { MediaComponent } from './media/media.component';
     ContactComponent,
     CreateProfileComponent,
     LoginComponent,
-    MediaComponent
+    MediaComponent,
+    PicturesComponent,
+    VideosComponent,
+    TourBoardComponent
   ],
   imports: [
     BrowserModule,

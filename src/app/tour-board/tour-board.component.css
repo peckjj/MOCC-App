@@ -1,0 +1,16 @@
+.title {
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: -11rem;
+  white-space: nowrap;
+  font-size: large;
+}
+
+.tours {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 45rem;
+  height: 35rem;
+  margin-top: 23rem;
+  margin-left: -22rem;
+}
