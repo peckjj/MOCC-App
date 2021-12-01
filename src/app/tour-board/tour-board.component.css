@@ -1,9 +1,9 @@
 .title {
   position: absolute;
   margin-top: 21rem;
-  margin-left: -11rem;
+  margin-left: -13rem;
   white-space: nowrap;
-  font-size: large;
+  font-size: 1.25rem;
 }
 
 .tours {
@@ -14,3 +14,10 @@
   margin-top: 23rem;
   margin-left: -22rem;
 }
+
+.dates {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+} 
+
