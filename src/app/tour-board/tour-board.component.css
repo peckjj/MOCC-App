@@ -9,15 +9,15 @@
 .tours {
   position: absolute;
   border: 0.6rem solid brown;
-  width: 45rem;
+  width: 30rem;
   height: 35rem;
   margin-top: 23rem;
-  margin-left: -22rem;
+  margin-left: -14.5rem;
 }
 
 .dates {
   position: absolute;
   margin-top: 1.5rem;
-  margin-left: 5rem;
+  margin-left: 8.5rem;
 } 
 

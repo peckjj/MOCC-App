@@ -30,6 +30,8 @@ const routes: Routes = [
   {path: 'pictures', component: PicturesComponent},
   {path: 'videos', component: VideosComponent},
   {path: 'tourboard', component: TourBoardComponent},
+  
+
 
 
   {path: '**', redirectTo: ''}
