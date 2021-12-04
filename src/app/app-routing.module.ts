@@ -13,6 +13,7 @@ import { SearchComponent } from './search/search.component';
 import { SubmitArtComponent } from './submit-art/submit-art.component';
 import { SubmitComponent } from './submit/submit.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
+import { UserPageComponent } from './user-page/user-page.component';
 import { VideosComponent } from './videos/videos.component';
 
 const routes: Routes = [
@@ -30,7 +31,7 @@ const routes: Routes = [
   {path: 'pictures', component: PicturesComponent},
   {path: 'videos', component: VideosComponent},
   {path: 'tourboard', component: TourBoardComponent},
-  
+  {path: 'userpage', component: UserPageComponent},
 
 
 

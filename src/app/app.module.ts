@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -19,6 +18,7 @@ import { MediaComponent } from './media/media.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { VideosComponent } from './videos/videos.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
+import { UserPageComponent } from './user-page/user-page.component';
 
 
 @NgModule({
@@ -38,7 +38,8 @@ import { TourBoardComponent } from './tour-board/tour-board.component';
     MediaComponent,
     PicturesComponent,
     VideosComponent,
-    TourBoardComponent
+    TourBoardComponent,
+    UserPageComponent
   ],
   imports: [
     BrowserModule,

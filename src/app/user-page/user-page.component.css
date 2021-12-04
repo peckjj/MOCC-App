@@ -1,0 +1,30 @@
+.profile {
+  position: absolute;
+  border: 0.25rem solid brown;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.header {
+  position: absolute;
+  font-size: large;
+  margin-top: 22rem;
+  margin-left: 5rem;
+}
+
+.info {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 21rem;
+  margin-left: 10rem;
+}
+
+.activity {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 25rem;
+  margin-left: 10rem;
+}
+
