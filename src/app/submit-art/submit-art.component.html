@@ -8,20 +8,20 @@
 
     <form class="artInfo" action="gallery.html">
 
-      <label for="cardHolder">Creator's Name:</label><br>
-      <input type="text" id="cardHolder" name="cardHolder" size="40"><br>
+      <label for="name">Creator's Name:</label><br>
+      <input type="text" id="name" name="name" size="40" required><br>
 
       <label for="title">Artwork Title:</label><br>
-      <input type="text" id="title" name="title" size="40"><br>
+      <input type="text" id="title" name="title" size="40" required><br>
 
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email" size="40" required><br><br>
 
       <label for="myfile">Select a .img / .jpeg file for your picture:</label>
-      <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br><br>
+      <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png" required><br><br>
 
       <label for="message">Art Description:</label><br>
-      <textarea class="caption" name="feedback" id="message" cols="70" rows="10">Describe this artpiece to the audience...</textarea>
+      <textarea class="caption" name="feedback" id="message" cols="70" rows="10" required>Describe this artpiece to the audience...</textarea>
 
       <input class="button" type="button" value="Submit" id="sub" onclick="addcard">
 

@@ -19,5 +19,18 @@
   position: absolute;
   margin-top: 1.5rem;
   margin-left: 8.5rem;
+  height: 34rem;
 } 
+
+.plusBtn {
+  position: absolute;
+  margin-top: -1.3rem;
+  margin-left: 12rem;
+}
+
+.submit {
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 23rem;
+}
 

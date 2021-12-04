@@ -1,5 +1,37 @@
 .root {
   background-color: gold;
   color: brown;
-  display: flex;
 }
+
+.result1 {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 21rem;
+  margin-left: -39rem;
+}
+
+.result2 {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 21rem;
+  margin-left: 3rem;
+}
+
+.business {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 38rem;
+  height: 35rem;
+  margin-top: 22.5rem;
+  margin-left: -40rem;
+}
+
+.gallery {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 38rem;
+  height: 35rem;
+  margin-top: 22.5rem;
+  margin-left: 2rem;
+}
+

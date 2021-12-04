@@ -43,11 +43,12 @@
 .subbar {
     display: flex;
     flex-direction: row;
+    height: 1.33rem;
 }
 
 .ad1 {
     position: absolute;
-    margin-left: -50rem;
+    margin-left: -56rem;
     margin-top: 20rem;
     border: 0.6rem solid brown;
     width: 10rem;
@@ -56,7 +57,7 @@
 
 .ad2 {
     position: absolute;
-    margin-left: 40rem;
+    margin-left: 45rem;
     margin-top: 20rem;
     border: 0.6rem solid brown;
     width: 10rem;

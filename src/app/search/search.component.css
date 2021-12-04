@@ -22,6 +22,12 @@
   margin-left: 2rem;
 }
 
+.table {
+  position: absolute;
+  text-decoration: underline;
+
+}
+
 .check {
   position: absolute;
   margin-left: 7rem;
@@ -42,12 +48,11 @@
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
-  text-decoration: underline;
   padding-left: 1rem;
   margin-top: 36rem;
   margin-left: -22rem;
   width: 45rem;
-  height: 2rem;
+  height: 20rem;
 }
 
 .categories {
@@ -104,4 +109,6 @@
   margin-top: 5rem;
   white-space: nowrap;
 }
+
+
 
