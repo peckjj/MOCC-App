@@ -12,7 +12,7 @@
 
 .loginBox {
   position: absolute;
-  height: 15rem;
+  height: 17rem;
   width: 32rem;
   display: flex;
   text-align: center;
@@ -48,14 +48,29 @@
 
 .forgotLogin {
   position: absolute;
-  margin-top: 4rem;
+  margin-top: 5.5rem;
   margin-left: 3rem;
   font-weight: bold;
 }
 
+.google {
+  position: absolute;
+  border: 0.25rem solid brown;
+  width: 7rem;
+  height: 2.2rem;
+  margin-top: 7rem;
+  margin-left: -1rem;
+}
+
+.g-signin2 {
+  position: absolute;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
 .forgotPass {
   position: absolute;
-  margin-top: 6rem;
+  margin-top: 7rem;
   margin-left: 3.3rem;
   font-weight: bold;
 }

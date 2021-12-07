@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  // guser;
+  // constructor(
+  //   ngZone: NgZone
+  // ) {
+  //   window: ['onSignIn'] = user => ngZone.run(
+  //     () => {
+  //       this.afterSignUp(user);
+  //     }
+  //   )
+  // }
 
   ngOnInit(): void {
   }
+
+  // afterSignUp(googleUser) {
+  //   this.guser = googleUser;
+  // }
 
 }

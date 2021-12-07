@@ -19,6 +19,11 @@
   margin-left: -23.5rem;
 }
 
+.videos {
+  position: absolute;
+  overflow: auto;
+}
+
 .title {
   text-decoration: underline;
 }

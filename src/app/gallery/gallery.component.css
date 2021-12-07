@@ -16,6 +16,7 @@
 .gallery {
   position: absolute;
   border: 0.6rem solid brown;
+  overflow: auto;
   width: 60rem;
   height: 35rem;
   margin-top: 23rem;

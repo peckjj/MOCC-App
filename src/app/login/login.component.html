@@ -6,11 +6,14 @@
     <form class="form">
       <h1 class="title">Login to The MOCC</h1>
         <input type="text" placeholder="Enter Username" />
-          <input type="password" placeholder="Enter Password" />
+        <input type="password" placeholder="Enter Password" />
 
           <p class="forgotLogin">Not Registered Yet? <a routerLink="/createprofile">Create an Account</a></p>
           <p class="forgotPass">Forgot Password? <a routerLink="">Recover Password</a></p>
     </form>
+
+    <div class="g-signin2" data-onsuccess="onSignIn" data-longtitle="true"></div>
+    <button class="google">Google Sign In</button>
 
     <button class="submit" onclick=""><a routerLink="/userpage">SUBMIT</a></button>
 

@@ -6,6 +6,7 @@
 
 .accountHeader {
   position: absolute;
+  text-decoration: underline;
   margin-top: 21rem;
   margin-left: -5rem;
   white-space: nowrap;
