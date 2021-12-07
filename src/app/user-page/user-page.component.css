@@ -13,33 +13,38 @@
   white-space: nowrap;
   text-decoration: underline;
   margin-top: 23.5rem;
-  margin-left: -15rem;
+  margin-left: -20rem;
 }
 
 .info {
   position: absolute;
   border: 0.6rem solid brown;
   margin-top: 25rem;
-  margin-left: -15rem;
-  width: 40rem;
-  height: 5rem;
+  margin-left: -20rem;
+  width: 50rem;
+  height: 20rem;
 }
 
 .activity {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 40rem;
+  margin-top: 48rem;
   margin-left: -20rem;
   width: 45rem;
   height: 10rem;
 }
 
+.categories {
+  position: absolute;
+  display: block;
+
+}
+
 .column {
   position: absolute;
-}
-
-.display {
-  position: absolute;
+  display: block;
+  margin-left: 23rem;
 
 }
+
 
