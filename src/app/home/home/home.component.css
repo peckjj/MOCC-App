@@ -6,7 +6,8 @@
 
 .header {
     position: absolute;
-    margin-top: 20rem;
+    white-space: nowrap;
+    margin-top: 21rem;
     margin-left: -14rem;
 }
 
@@ -23,7 +24,7 @@
     height: 18rem;
 }
 
-.media {
+.feed {
     position: absolute;
     border: 0.6rem solid brown;
     margin-top: 45rem;

@@ -1,0 +1,39 @@
+.media {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 45rem;
+  height: 20rem;
+  margin-top: 21rem;
+  margin-left: -21rem;
+}
+
+.media-body {
+  position: absolute;
+  margin-top: 41rem;
+  margin-left: -21rem;
+}
+
+.views {
+  position: absolute;
+  margin-top: 47rem;
+  margin-left: -23.5rem;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.users {
+  position: absolute;
+  margin-top: 48.5rem;
+  margin-left: -23.5rem;
+}
+
+.comments {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 50rem;
+  margin-left: -23.5rem;
+  width: 50rem;
+  height: 6rem;
+}

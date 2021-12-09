@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,6 +14,11 @@ import { PaymentComponent } from './payment/payment.component';
 import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
 import { LoginComponent } from './login/login.component';
+import { MediaComponent } from './media/media.component';
+import { PicturesComponent } from './pictures/pictures.component';
+import { VideosComponent } from './videos/videos.component';
+import { TourBoardComponent } from './tour-board/tour-board.component';
+import { UserPageComponent } from './user-page/user-page.component';
 
 
 @NgModule({
@@ -30,7 +34,12 @@ import { LoginComponent } from './login/login.component';
     PaymentComponent,
     ContactComponent,
     CreateProfileComponent,
-    LoginComponent
+    LoginComponent,
+    MediaComponent,
+    PicturesComponent,
+    VideosComponent,
+    TourBoardComponent,
+    UserPageComponent
   ],
   imports: [
     BrowserModule,

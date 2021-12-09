@@ -1,4 +1,8 @@
 body {
+  position: absolute;
+  margin-left: 60rem;
   background-color: gold;
-  
+  color: brown;
+  display: flex;
+  align-items: center;
 }

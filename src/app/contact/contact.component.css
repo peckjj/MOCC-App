@@ -7,7 +7,8 @@
 .title {
   position: absolute;
   margin-left: -3rem;
-  margin-top: 23rem;
+  margin-top: 24rem;
+  white-space: nowrap;
 }
 
 .contact {
@@ -17,11 +18,21 @@
   margin-left: -19rem;
   margin-top: 26rem;
   width: 40rem;
-  height: 20rem;
+  height: 23rem;
 }
 
 .feedback {
   position: absolute;
-  margin-left: 2rem;
+  border: 0.5rem solid brown;
+  margin-top: -0.5rem;
+  margin-left: -18.2rem;
 }
 
+.submit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-left: -3rem;
+  margin-top: 11rem;
+  height: 2rem;
+  width: 6rem;
+}

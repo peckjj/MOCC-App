@@ -3,3 +3,87 @@
   color: brown;
   display: flex;
 }
+
+.header {
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: -8rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.gallery {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 60rem;
+  height: 35rem;
+  margin-top: 23rem;
+  margin-left: -28.5rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+}
+
+.media-body {
+  position: absolute;
+  margin-top: 9.5rem;
+  margin-left: 4rem;
+  font-size: 1.3rem;
+}
+
+.media-body1 {
+  position: absolute;
+  margin-top: 9.5rem;
+  margin-left: 35rem;
+  font-size: 1.3rem;
+} 
+
+.media1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 0.5rem;
+  margin-left: 35rem;
+}
+
+.uploads {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 51rem;
+  height: 16rem;
+  margin-top: 15.5rem;
+  margin-left: 4rem;
+}
+
+.heading {
+  position: absolute;
+  margin-top: 14rem;
+  margin-left: 4rem;
+  text-decoration: underline;
+  font-size: large;
+}
+
+.upload1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-left: 1rem;
+  width: 7rem;
+  height: 6rem;
+}
+
+.title {
+  position: absolute;
+  margin-top: 7rem;
+  margin-left: 1rem;
+  font-size: medium;
+}
+
+

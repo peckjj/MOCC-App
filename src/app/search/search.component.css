@@ -5,3 +5,110 @@
   display: flex;
 }
 
+.title {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 7rem;
+}
+
+.searchBox {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 8.5rem;
+}
+
+.heading {
+  position: absolute;
+  margin-left: 2rem;
+}
+
+.table {
+  position: absolute;
+  text-decoration: underline;
+
+}
+
+.check {
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: 4rem;
+}
+
+.search {
+  position: absolute;
+  border: 0.6rem solid brown;
+  display: flex;
+  width: 30rem;
+  height: 13rem;
+  margin-top: 20rem;
+  margin-left: -15rem;
+}
+
+.businessTable {
+  position: absolute;
+  border: 0.6rem solid brown;
+  display: flex;
+  padding-left: 1rem;
+  margin-top: 36rem;
+  margin-left: -22rem;
+  width: 45rem;
+  height: 20rem;
+}
+
+.categories {
+  font-size: large;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.submit {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 9rem;
+  margin-left: 11.5rem;
+  width: 7rem;
+  height: 2rem;
+}
+
+.left {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: 3rem;
+}
+
+.right {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: 8rem;
+}
+
+.five {
+  position: absolute;
+  margin-top: 0.01rem;
+  margin-left: 0rem;
+}
+
+.ten {
+  position: absolute;
+  margin-top: 0.01rem;
+}
+
+.fifteen {
+  position: absolute;
+  margin-top: 0.01rem;
+}
+
+.twenty {
+  position: absolute;
+  margin-top: 0.01rem;
+}
+
+.distance {
+  position: absolute;
+  margin-left: 4.5rem;
+  margin-top: 5rem;
+  white-space: nowrap;
+}
+
+
+

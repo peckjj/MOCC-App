@@ -8,6 +8,7 @@
   position: absolute;
   margin-top: 21rem;
   margin-left: -5rem;
+  white-space: nowrap;
 }
 
 .accountCreation {
@@ -16,6 +17,16 @@
   margin-top: 23rem;
   margin-left: -21rem;
   padding-left: 1rem;
+  padding-top: 1rem;
   width: 45rem;
-  height: 65rem;
+  height: 49rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 1rem;
+  margin-left: 18.5rem;
+  width: 6rem;
+  height: 2rem;
 }

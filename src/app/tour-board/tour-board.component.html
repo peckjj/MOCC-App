@@ -1,0 +1,29 @@
+<div class="root">
+
+  <h3 class="title">Artists Enter Your Tour Info To Show The Catelogue!</h3>
+  <div class="tours">
+
+    <form class="dates">
+
+      <label for="name">Artist/Band name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <div class="tourDates">
+        <label for="date">Tour Dates:</label><br>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="place">City/Venue:</label><br>
+        <input type="text" id="place" name="place" required>
+      </div>
+
+      <!-- "tourDates div will expand with more inputs for multiple stops on the artists' tour" -->
+      <button class="plusBtn" onclick="addDate">+</button>
+      
+      <button class="submit" value="Post" onclick="postEvent">Post</button>
+
+    </form>
+
+  </div>
+
+
+</div>

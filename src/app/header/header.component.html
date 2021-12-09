@@ -5,27 +5,31 @@
         <h3 class="subheader">Unite The Cultures</h3>
     </div>
 
-    <img class="logo" src="MOCC.Client\MOCC-client-app\src\assets\logo.png">
+    <img class="logo" src="src\assets\logo.png">
 
     <div class="topnav">
         <a [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['active']">Home</a>
-        <a routerLink="submit" routerLinkActive="active">Submit</a>
+        <a routerLink="userpage" routerLinkActive="active">UP</a>
         <a routerLink="search" routerLinkActive="active">Search</a>
         <a routerLink="about" routerLinkActive="active">About</a>
         <a routerLink="gallery" routerLinkActive="active">Gallery</a>
+        <a routerLink="tourboard" routerLinkActive="active">Tour Board</a>
         <a routerLink="submitart" routerLinkActive="active">Submit Art</a>
         <a routerLink="payment" routerLinkActive="active">Payment</a>
         <a routerLink="contact" routerLinkActive="active">Contact</a>
         <a routerLink="createprofile" routerLinkActive="active">Create Profile</a>
-        <div id="subbar">
+        <a routerLink="login" routerLinkActive="active">Login</a>
+        <div class="subbar">
             <input type="text" placeholder="Submit..">
-            <button>Submit</button>
+            <a routerLink="submit">
+                <button>Submit</button>
+            </a>
         </div>
     </div>
 
     <div class="ad1">
 
-
+        
 
     </div>
 
