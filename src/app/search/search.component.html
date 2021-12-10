@@ -6,7 +6,7 @@
 
       <div class="title">
         <label class="heading" for="search">Search for the business here:</label><br>
-        <input type="text" id="search" name="search" size="30"><br><br>
+        <input type="text" [(ngModel)]="business" id="search" name="search" size="30"><br><br>
       </div>
       
         <div class="label">
@@ -29,7 +29,7 @@
           </div>
         </div>
 
-      <button class="submit" id="btn" onclick="">Submit</button>
+      <button class="submit" id="btn" (click)="search()">Submit</button>
 
     </form>
 
@@ -54,6 +54,16 @@
           <th>Weblink</th>
         </tr>
       </thead>
+
+      <tbody>
+        <tr class="results" *ngFor="let searchResult of searchResults" >
+
+          <td *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
+
+
+        </tr>
+
+      </tbody>
 
     </table>
 
