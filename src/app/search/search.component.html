@@ -40,7 +40,7 @@
     <table class="table">
       <thead>
         <tr class="categories">
-          <th>First</th>
+          <th class="first">First</th>
           <th>Last</th>
           <th>BusinessName</th>
           <th>Address</th>
@@ -55,10 +55,10 @@
         </tr>
       </thead>
 
-      <tbody>
-        <tr class="results" *ngFor="let searchResult of searchResults" >
+      <tbody class="results">
+        <tr class="row" *ngFor="let searchResult of searchResults" >
 
-          <td *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
+          <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
 
 
         </tr>

@@ -50,12 +50,15 @@
   display: flex;
   padding-left: 1rem;
   margin-top: 36rem;
-  margin-left: -22rem;
-  width: 45rem;
+  margin-left: -38rem;
+  width: 75rem;
   height: 20rem;
 }
 
 .categories {
+  position: absolute;
+  margin-left: 14rem;
+  text-decoration: underline;
   font-size: large;
   text-align: center;
   justify-content: space-between;
@@ -110,5 +113,18 @@
   white-space: nowrap;
 }
 
+.results {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 1.5rem;
+  margin-left: -1rem;
+}
 
+.data {
+  margin-top: 1rem;
+}
+
+.row {
+  margin-left: 5rem;
+}
 
