@@ -17,7 +17,8 @@ export class SearchComponent implements OnInit {
     "birthday",
     "rating",
     "mission_statment",
-    "password"
+    "password",
+    "ownership"
   ];
   business: string = "";
 

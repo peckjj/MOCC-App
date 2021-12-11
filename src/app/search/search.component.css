@@ -25,7 +25,7 @@
 .table {
   position: absolute;
   text-decoration: underline;
-
+  border-spacing: 0.75rem;
 }
 
 .check {
@@ -50,18 +50,17 @@
   display: flex;
   padding-left: 1rem;
   margin-top: 36rem;
-  margin-left: -38rem;
-  width: 75rem;
+  margin-left: -40rem;
+  width: 80rem;
   height: 20rem;
 }
 
 .categories {
   position: absolute;
-  margin-left: 14rem;
+  margin-left: 15rem;
   text-decoration: underline;
   font-size: large;
   text-align: center;
-  justify-content: space-between;
 }
 
 .submit {
@@ -116,15 +115,92 @@
 .results {
   position: absolute;
   white-space: nowrap;
-  margin-top: 1.5rem;
-  margin-left: -1rem;
+  margin-top: 1rem;
+  margin-left: -0.5rem;
 }
 
 .data {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .row {
   margin-left: 5rem;
+}
+
+.first {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: -15rem;
+  text-decoration: underline;
+}
+
+.last {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: -11.5rem;
+  text-decoration: underline;
+}
+
+.name {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: -6.5rem;
+  text-decoration: underline;
+}
+
+.address {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 4.3rem;
+  text-decoration: underline;
+}
+
+.email {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 23.3rem;
+  text-decoration: underline;
+}
+
+.state {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 34.5rem;
+  text-decoration: underline;
+}
+
+.number {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 16.3rem;
+  text-decoration: underline;
+}
+
+.city {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 37.8rem;
+  text-decoration: underline;
+}
+
+.zip {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 43rem;
+  text-decoration: underline;
+}
+
+.type {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 46.3rem;
+  text-decoration: underline;
+}
+
+.link {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 52.6rem;
+  text-decoration: underline;
 }
 
