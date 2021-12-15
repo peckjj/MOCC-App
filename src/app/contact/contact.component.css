@@ -6,7 +6,7 @@
 
 .title {
   position: absolute;
-  margin-left: -3rem;
+  margin-left: -2.5rem;
   margin-top: 24rem;
   white-space: nowrap;
 }
@@ -18,21 +18,21 @@
   margin-left: -19rem;
   margin-top: 26rem;
   width: 40rem;
-  height: 23rem;
+  height: 24rem;
 }
 
 .feedback {
   position: absolute;
-  border: 0.5rem solid brown;
+  border: 0.4rem solid brown;
   margin-top: -0.5rem;
   margin-left: -18.2rem;
 }
 
 .submit {
   position: absolute;
-  border: 0.3rem solid brown;
+  border: 0.35rem solid brown;
   margin-left: -3rem;
-  margin-top: 11rem;
+  margin-top: 11.5rem;
   height: 2rem;
   width: 6rem;
 }

@@ -19,10 +19,20 @@
 .info {
   position: absolute;
   border: 0.6rem solid brown;
+  padding-top: 1rem;
   margin-top: 24.5rem;
   margin-left: -20rem;
   width: 45rem;
-  height: 17.5rem;
+  height: 16.5rem;
+}
+
+.logout {
+  position: absolute;
+  border: 0.35rem solid brown;
+  width: 5rem;
+  height: 2rem;
+  margin-left: 35rem;
+  margin-top: 15.8rem;
 }
 
 .activity {

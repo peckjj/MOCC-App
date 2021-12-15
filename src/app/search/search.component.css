@@ -22,6 +22,11 @@
   margin-left: 2rem;
 }
 
+.titles {
+  position: absolute;
+  margin-left: 1.1rem;
+}
+
 .table {
   position: absolute;
   text-decoration: underline;
@@ -38,7 +43,7 @@
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
-  width: 30rem;
+  width: 32rem;
   height: 13rem;
   margin-top: 20rem;
   margin-left: -15rem;
@@ -48,11 +53,15 @@
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
-  padding-left: 1rem;
   margin-top: 36rem;
-  margin-left: -40rem;
-  width: 80rem;
+  margin-left: -45rem;
+  width: 89rem;
   height: 20rem;
+}
+
+.spacing {
+  position: absolute;
+  margin-left: 7.5rem;
 }
 
 .categories {
@@ -115,8 +124,26 @@
 .results {
   position: absolute;
   white-space: nowrap;
+  margin-top: 2.5rem;
+  margin-left: 0.3rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.25rem solid brown;
+  width: 6.5rem;
+  height: 17rem;
   margin-top: 1rem;
-  margin-left: -0.5rem;
+  margin-left: -7rem;
+}
+
+.profile {
+  position: absolute;
+  border: 0.2rem solid brown;
+  width: 3rem;
+  height: 2rem;
+  margin-top: 23rem;
+  margin-left: -3rem;
 }
 
 .data {
@@ -137,7 +164,7 @@
 .last {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: -11.5rem;
+  margin-left: -11.2rem;
   text-decoration: underline;
 }
 
@@ -179,7 +206,7 @@
 .city {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 37.8rem;
+  margin-left: 37.4rem;
   text-decoration: underline;
 }
 
@@ -200,7 +227,7 @@
 .link {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 52.6rem;
+  margin-left: 52.8rem;
   text-decoration: underline;
 }
 

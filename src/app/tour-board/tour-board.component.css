@@ -30,8 +30,11 @@
 
 .submit {
   position: absolute;
+  border: 0.25rem solid brown;
+  width: 4rem;
+  height: 1.75rem;
   margin-left: 5rem;
-  margin-top: 23rem;
+  margin-top: 22.5rem;
 }
 
 

@@ -37,35 +37,45 @@
 
   <div class="businessTable">
 
-    <table class="table">
-      <thead>
-        <tr class="categories">
-          <th class="first">First</th>
-          <th class="last">Last</th>
-          <th class="name">BusinessName</th>
-          <th class="address">Address</th>
-          <th class="number">Phone#</th>
-          <th class="email">Email</th>
-          <th class="state">State</th>
-          <th class="city">City</th>
-          <th class="zip">Zip</th>
-          <th class="type">Service</th>
-          <!-- <th class="hire">Hire</th> -->
-          <th class="link">Weblink</th>
-        </tr>
-      </thead>
+    <div class="spacing">
+      
+      <table class="table">
+        
+        <thead class="titles">
+          <tr class="categories">
+            <th class="first">First</th>
+            <th class="last">Last</th>
+            <th class="name">BusinessName</th>
+            <th class="address">Address</th>
+            <th class="number">Phone#</th>
+            <th class="email">Email</th>
+            <th class="state">State</th>
+            <th class="city">City</th>
+            <th class="zip">Zip</th>
+            <th class="type">Service</th>
+            <!-- <th class="hire">Hire</th> -->
+            <th class="link">Weblink</th>
+          </tr>
+        </thead>
 
-      <tbody class="results">
-        <tr class="row" *ngFor="let searchResult of searchResults" >
+        <div class="media">
 
-          <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
+          <!-- <img class="profile" href="#user profile pic#" *ngFor="let data of getIncluded(searchResults)"> -->
 
+        </div>
 
-        </tr>
+        <tbody class="results">
+          <tr class="row" *ngFor="let searchResult of searchResults" >
 
-      </tbody>
+            <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
 
-    </table>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
 
   </div>
 

@@ -10,6 +10,7 @@ import { MediaComponent } from './media/media.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { SearchComponent } from './search/search.component';
+import { SpecalistsComponent } from './specalists/specalists.component';
 import { SubmitArtComponent } from './submit-art/submit-art.component';
 import { SubmitComponent } from './submit/submit.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
@@ -32,7 +33,7 @@ const routes: Routes = [
   {path: 'videos', component: VideosComponent},
   {path: 'tourboard', component: TourBoardComponent},
   {path: 'userpage', component: UserPageComponent},
-
+  {path: 'specialist', component: SpecalistsComponent},
 
 
   {path: '**', redirectTo: ''}
