@@ -11,6 +11,7 @@ import { HttpService } from '../http.service';
 export class SearchComponent implements OnInit {
 
   searchResults: IBusiness[] = [];
+  
   notIncluded: string[] = [
     "id",
     "status",

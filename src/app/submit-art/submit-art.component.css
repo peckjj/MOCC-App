@@ -26,11 +26,22 @@
   padding-left: 2rem;
 }
 
+.art {
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.fileInput {
+  position: absolute;
+  margin-top: -1.2rem;
+  margin-left: 17rem;
+}
+
 .button {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 11rem;
-  margin-left: -20rem;
+  margin-top: 14.5rem;
+  margin-left: -1rem;
   width: 6rem;
   height: 2rem;
 }

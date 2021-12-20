@@ -18,10 +18,15 @@
       <input type="email" id="email" name="email" size="40" required><br><br>
 
       <label for="myfile">Select a .img / .jpeg file for your picture:</label>
-      <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png" required><br><br>
 
-      <label for="message">Art Description:</label><br>
-      <textarea class="caption" name="feedback" id="message" cols="70" rows="10" required>Describe this artpiece to the audience...</textarea>
+      <div class="fileInput">
+        <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png" required><br><br>
+      </div>
+
+      <div class="art">
+        <label for="message">Art Description:</label><br>
+        <textarea class="caption" name="feedback" id="message" cols="70" rows="10" required>Describe this artpiece to the audience...</textarea>
+      </div>
 
       <input class="button" type="button" value="Submit" id="sub" onclick="addcard">
 

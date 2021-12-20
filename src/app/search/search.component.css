@@ -22,15 +22,10 @@
   margin-left: 2rem;
 }
 
-.titles {
-  position: absolute;
-  margin-left: 1.1rem;
-}
-
 .table {
   position: absolute;
   text-decoration: underline;
-  border-spacing: 0.75rem;
+  border-spacing: 1.3rem 0px;
 }
 
 .check {
@@ -55,7 +50,7 @@
   display: flex;
   margin-top: 36rem;
   margin-left: -45rem;
-  width: 89rem;
+  width: 95rem;
   height: 20rem;
 }
 
@@ -66,7 +61,7 @@
 
 .categories {
   position: absolute;
-  margin-left: 15rem;
+  margin-left: 15.5rem;
   text-decoration: underline;
   font-size: large;
   text-align: center;
@@ -125,7 +120,7 @@
   position: absolute;
   white-space: nowrap;
   margin-top: 2.5rem;
-  margin-left: 0.3rem;
+  margin-left: -0.7rem;
 }
 
 .media {
@@ -134,7 +129,11 @@
   width: 6.5rem;
   height: 17rem;
   margin-top: 1rem;
-  margin-left: -7rem;
+  margin-left: -7.5rem;
+}
+
+.filter {
+  padding-left: 1rem;
 }
 
 .profile {
@@ -164,70 +163,70 @@
 .last {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: -11.2rem;
+  margin-left: -10.7rem;
   text-decoration: underline;
 }
 
 .name {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: -6.5rem;
+  margin-left: -5.4rem;
   text-decoration: underline;
 }
 
 .address {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 4.3rem;
+  margin-left: 6.1rem;
   text-decoration: underline;
 }
 
 .email {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 23.3rem;
+  margin-left: 26rem;
   text-decoration: underline;
 }
 
 .state {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 34.5rem;
+  margin-left: 37.5rem;
   text-decoration: underline;
 }
 
 .number {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 16.3rem;
+  margin-left: 18.6rem;
   text-decoration: underline;
 }
 
 .city {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 37.4rem;
+  margin-left: 42rem;
   text-decoration: underline;
 }
 
 .zip {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 43rem;
+  margin-left: 48rem;
   text-decoration: underline;
 }
 
 .type {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 46.3rem;
+  margin-left: 52rem;
   text-decoration: underline;
 }
 
 .link {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 52.8rem;
+  margin-left: 58.6rem;
   text-decoration: underline;
 }
 
