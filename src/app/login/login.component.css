@@ -55,17 +55,23 @@
 
 .google {
   position: absolute;
-  border: 0.25rem solid brown;
-  width: 7rem;
-  height: 2.2rem;
-  margin-top: 7rem;
-  margin-left: -1rem;
+  width: 10rem;
+  height: 2rem;
+}
+
+.google-icon {
+  position: absolute;
+  margin-left: -2rem;
 }
 
 .g-signin2 {
   position: absolute;
-  margin-left: 3rem;
-  margin-top: 5rem;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  border: 0.25rem solid brown;
+  white-space: nowrap;
+  margin-left: -9.1rem;
+  margin-top: 7rem;
+  width: 10rem;
 }
 
 .forgotPass {
@@ -74,3 +80,7 @@
   margin-left: 3.3rem;
   font-weight: bold;
 }
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
