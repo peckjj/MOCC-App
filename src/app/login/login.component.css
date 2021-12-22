@@ -55,23 +55,27 @@
 
 .google {
   position: absolute;
-  width: 10rem;
-  height: 2rem;
+  margin-left: -2rem;
+  width: 7rem;
+  height: 1.75rem;
 }
 
 .google-icon {
   position: absolute;
-  margin-left: -2rem;
+  margin-top: 0.15rem;
+  margin-left: -3.8rem;
 }
 
 .g-signin2 {
   position: absolute;
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  display: inline-block;
   border: 0.25rem solid brown;
+  padding-right: 0.7rem;
   white-space: nowrap;
-  margin-left: -9.1rem;
-  margin-top: 7rem;
-  width: 10rem;
+  margin-top: 7.5rem;
+  margin-left: -1.3rem;
+  width: 8.5rem;
+  height: 1.75rem;
 }
 
 .forgotPass {
