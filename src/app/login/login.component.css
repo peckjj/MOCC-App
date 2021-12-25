@@ -69,11 +69,12 @@
 .g-signin2 {
   position: absolute;
   display: inline-block;
+  background-color: brown;
   border: 0.25rem solid brown;
   padding-right: 0.7rem;
   white-space: nowrap;
   margin-top: 7.5rem;
-  margin-left: -1.3rem;
+  margin-left: -1.4rem;
   width: 8.5rem;
   height: 1.75rem;
 }
