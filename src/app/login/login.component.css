@@ -55,7 +55,7 @@
 
 .google {
   position: absolute;
-  margin-left: -2rem;
+  margin-left: -2.1rem;
   width: 7rem;
   height: 1.75rem;
 }
@@ -63,7 +63,7 @@
 .google-icon {
   position: absolute;
   margin-top: 0.15rem;
-  margin-left: -3.8rem;
+  margin-left: -4rem;
 }
 
 .g-signin2 {
@@ -74,9 +74,9 @@
   padding-right: 0.7rem;
   white-space: nowrap;
   margin-top: 7.5rem;
-  margin-left: -1.4rem;
+  margin-left: -1.3rem;
   width: 8.5rem;
-  height: 1.75rem;
+  height: 1.8rem;
 }
 
 .forgotPass {

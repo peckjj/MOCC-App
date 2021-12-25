@@ -35,3 +35,21 @@
   margin-left: 2rem;
 }
 
+.Busresults {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-left: 1.3rem;
+  margin-top: 2rem;
+  width: 35rem;
+  height: 6rem;
+}
+
+.Artresults {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 35rem;
+  height: 6rem;
+}
+

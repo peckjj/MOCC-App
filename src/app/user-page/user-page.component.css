@@ -31,8 +31,17 @@
   border: 0.35rem solid brown;
   width: 5rem;
   height: 2rem;
-  margin-left: 35rem;
-  margin-top: 15.8rem;
+  margin-left: 16rem;
+  margin-top: 44rem;
+}
+
+.edit {
+  position: absolute;
+  border: 0.35rem solid brown;
+  width: 5rem;
+  height: 2rem;
+  margin-left: -15rem;
+  margin-top: 44rem;
 }
 
 .activity {
