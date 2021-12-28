@@ -55,13 +55,68 @@
     height: 35rem;
 }
 
-.ad2 {
-    position: absolute;
-    margin-left: 47rem;
-    margin-top: 20rem;
+.uploads {
     border: 0.6rem solid brown;
-    width: 10rem;
-    height: 35rem;
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: 5rem;
+    width: 18rem;
+    height: 30rem;
+}
+
+.recents {
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 3.5rem;
+    margin-left: 35rem;
+}
+
+.media {
+    position: absolute;
+    border: 0.35rem solid brown;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 11rem;
+    height: 6rem;
+}
+
+.media-body {
+    position: absolute;
+    font-size: large;
+    margin-top: 6.1rem;
+    margin-left: 0.5rem;
+}
+
+.media1 {
+    position: absolute;
+    border: 0.35rem solid brown;
+    margin-top: 10.5rem;
+    margin-left: 3rem;
+    width: 11rem;
+    height: 6rem;
+}
+
+.media-body1 {
+    position: absolute;
+    font-size: large;
+    margin-left: 0.5rem;
+    margin-top: 15.6rem;
+}
+
+.media2 {
+    position: absolute;
+    border: 0.35rem solid brown;
+    margin-top: 20rem;
+    margin-left: 3rem;
+    width: 11rem;
+    height: 6rem;
+}
+
+.media-body2 {
+    position: absolute;
+    font-size: large;
+    margin-left: 0.5rem;
+    margin-top: 25rem;
 }
 
 .active {
