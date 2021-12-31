@@ -1,0 +1,57 @@
+.root {
+  position: absolute;
+  display: flex;
+}
+
+.holder {
+  position: absolute;
+  border: 0.5rem solid brown;
+  padding-left: 0.3rem;
+  padding-right: 1rem;
+  margin-top: 24rem;
+  margin-left: -22rem;
+  width: 45rem;
+  height: 7rem;
+}
+
+.info {
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: large;
+  margin-top: 1rem;
+}
+
+.option {
+  position: absolute;
+  border: 0.5rem solid brown;
+  margin-top: 35rem;
+  margin-left: -17rem;
+  width: 35rem;
+  height: 8rem;
+}
+
+.alert {
+  position: absolute;
+  margin-left: 3.5rem;
+  margin-top: 1rem;
+
+}
+
+.prospect {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 4.5rem;
+  margin-left: 7rem;
+  width: 7.5rem;
+  height: 2rem;
+}
+
+.businessOwner {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 4.5rem;
+  margin-left: 18rem;
+  height: 2rem;
+}
+

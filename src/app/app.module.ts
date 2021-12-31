@@ -21,6 +21,7 @@ import { VideosComponent } from './videos/videos.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
 import { UserPageComponent } from './user-page/user-page.component';
 import { SpecalistsComponent } from './specalists/specalists.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { SpecalistsComponent } from './specalists/specalists.component';
     VideosComponent,
     TourBoardComponent,
     UserPageComponent,
-    SpecalistsComponent
+    SpecalistsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
