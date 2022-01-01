@@ -34,7 +34,7 @@ const routes: Routes = [
   {path: 'videos', component: VideosComponent},
   {path: 'tourboard', component: TourBoardComponent},
   {path: 'userpage', component: UserPageComponent},
-  {path: 'specialist', component: SpecalistsComponent},
+  {path: 'specalists', component: SpecalistsComponent},
   {path: 'profile', component: ProfileComponent},
 
   {path: '**', redirectTo: ''}

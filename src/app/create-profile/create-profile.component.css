@@ -7,19 +7,20 @@
 .accountHeader {
   position: absolute;
   text-decoration: underline;
-  margin-top: 21rem;
-  margin-left: -5rem;
   white-space: nowrap;
+  font-size: 1.25rem;
+  margin-top: 21.5rem;
+  margin-left: -9.5rem;
 }
 
 .accountCreation {
   position: absolute;
   border: 0.6rem solid brown;
   margin-top: 23rem;
-  margin-left: -21rem;
+  margin-left: -22rem;
   padding-left: 1rem;
   padding-top: 1rem;
-  width: 45rem;
+  width: 44rem;
   height: 52rem;
 }
 
