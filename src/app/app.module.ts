@@ -22,6 +22,7 @@ import { TourBoardComponent } from './tour-board/tour-board.component';
 import { UserPageComponent } from './user-page/user-page.component';
 import { SpecalistsComponent } from './specalists/specalists.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UserPage1Component } from './user-page1/user-page1.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { ProfileComponent } from './profile/profile.component';
     TourBoardComponent,
     UserPageComponent,
     SpecalistsComponent,
-    ProfileComponent
+    ProfileComponent,
+    UserPage1Component
   ],
   imports: [
     BrowserModule,

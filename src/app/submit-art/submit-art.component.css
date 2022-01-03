@@ -11,13 +11,20 @@
 
 }
 
+.artSelection {
+  position: absolute;
+  margin-top: -0.5rem;
+  margin-left: -0.01rem;
+  white-space: nowrap;
+}
+
 .submit {
   position: absolute;
   border: 0.6rem solid brown;
   margin-top: 22rem;
   margin-left: -20rem;
   width: 40rem;
-  height: 32rem;
+  height: 35rem;
 }
 
 .artInfo {
@@ -28,20 +35,21 @@
 
 .art {
   position: absolute;
-  margin-top: 1rem;
+  margin-top: 4.5rem;
 }
 
 .fileInput {
   position: absolute;
-  margin-top: -1.2rem;
-  margin-left: 17rem;
+  margin-top: 1.2rem;
+  margin-left: -0.01rem;
+  white-space: nowrap;
 }
 
 .button {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 14.5rem;
-  margin-left: -1rem;
+  margin-top: 18rem;
+  margin-left: 15rem;
   width: 6rem;
   height: 2rem;
 }

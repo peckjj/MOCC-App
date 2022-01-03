@@ -16,9 +16,51 @@
   margin-left: -15rem;
 }
 
-.prospect {
-  position: absolute;
+.education {
+  white-space: nowrap;
 }
 
+.input {
+  position: absolute;
+  margin-top: 17rem;
+  margin-left: -7.5rem;
+}
 
+.prospect {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 10rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+
+.last {
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.email {
+  position: absolute;
+  margin-top: 4rem;
+}
+
+.college {
+  position: absolute;
+  margin-top: 7rem;
+}
+
+.city {
+  position: absolute;
+  margin-top: 10rem;
+}
+
+.state {
+  position: absolute;
+  margin-top: 13rem;
+}
+
+.resume {
+  position: absolute;
+  margin-top: 24.5rem;
+}
 

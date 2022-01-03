@@ -6,6 +6,7 @@
 
 .title {
   position: absolute;
+  text-decoration: underline;
   margin-top: -4rem;
   margin-left: 2rem;
 }
