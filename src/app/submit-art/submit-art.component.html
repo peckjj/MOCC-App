@@ -1,4 +1,5 @@
 <div class="root">
+  
   <div class="submit">
 
     <h3 class="title">
@@ -8,20 +9,26 @@
 
     <form class="artInfo" action="gallery.html">
 
-        <label for="name">Creator's Name:</label><br>
-        <input type="text" id="name" name="name" size="40" required><br>
+        <div class="name">
+          <label for="name">Creator's Name:</label><br>
+          <input type="text" id="name" name="name" size="40" required><br>
+        </div>
 
-        <label for="title">Artwork Title:</label><br>
-        <input type="text" id="title" name="title" size="40" required><br>
+        <div class="artTitle">
+          <label class="" for="title">Artwork Title:</label><br>
+          <input type="text" id="title" name="title" size="40" required><br>
+        </div>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" size="40" required><br><br>
+        <div class="email">
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" size="40" required><br><br>
+        </div>
 
         <div class="artSelection">
           <label for="art">Art Category:</label>
           <select name="dropdown" required><br>
-            <option value="picture">Picture Art</option>
-            <option value="video">Video Art</option>
+            <option value="picture">Picture</option>
+            <option value="video">Video</option>
           </select><br>
         </div>
 

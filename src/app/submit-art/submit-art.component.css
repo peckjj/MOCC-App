@@ -13,7 +13,7 @@
 
 .artSelection {
   position: absolute;
-  margin-top: -0.5rem;
+  margin-top: 7.2rem;
   margin-left: -0.01rem;
   white-space: nowrap;
 }
@@ -24,7 +24,7 @@
   margin-top: 22rem;
   margin-left: -20rem;
   width: 40rem;
-  height: 35rem;
+  height: 36rem;
 }
 
 .artInfo {
@@ -33,14 +33,24 @@
   padding-left: 2rem;
 }
 
+.artTitle {
+  position: absolute;
+  margin-top: 0.5rem;
+}
+
+.email {
+  position: absolute;
+  margin-top: 3.8rem;
+}
+
 .art {
   position: absolute;
-  margin-top: 4.5rem;
+  margin-top: 12rem;
 }
 
 .fileInput {
   position: absolute;
-  margin-top: 1.2rem;
+  margin-top: 9rem;
   margin-left: -0.01rem;
   white-space: nowrap;
 }
@@ -48,7 +58,7 @@
 .button {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 18rem;
+  margin-top: 24.5rem;
   margin-left: 15rem;
   width: 6rem;
   height: 2rem;
