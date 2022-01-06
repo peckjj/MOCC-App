@@ -7,14 +7,15 @@
 .title {
   position: absolute;
   white-space: nowrap;
-  margin-top: 21rem;
+  margin-top: 18rem;
   margin-left: -5rem;
+  text-decoration: underline;
 }
 
 .intro {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 23rem;
+  margin-top: 20rem;
   margin-left: -22rem;
   width: 45rem;
   height: 17rem;
@@ -27,7 +28,7 @@
   border: 0.6rem solid brown;
   text-align: center;
   font-size: large;
-  margin-top: 43rem;
+  margin-top: 40rem;
   margin-left: -22rem;
   width: 45rem;
   height: 13rem;

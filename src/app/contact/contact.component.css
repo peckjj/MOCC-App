@@ -7,9 +7,9 @@
 .title {
   position: absolute;
   margin-left: -2.5rem;
-  margin-top: 24rem;
+  margin-top: 18rem;
   white-space: nowrap;
-  
+  text-decoration: underline;
 }
 
 .contact {
@@ -17,7 +17,7 @@
   border: 0.6rem solid brown;
   text-align: center;
   margin-left: -19rem;
-  margin-top: 26rem;
+  margin-top: 20rem;
   width: 40rem;
   height: 24rem;
 }
@@ -33,7 +33,7 @@
   position: absolute;
   border: 0.35rem solid brown;
   margin-left: -2rem;
-  margin-top: 47.5rem;
+  margin-top: 41rem;
   height: 2rem;
   width: 6rem;
 }

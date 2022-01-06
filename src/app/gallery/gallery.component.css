@@ -6,11 +6,12 @@
 
 .header {
   position: absolute;
-  margin-top: 21rem;
+  margin-top: 18rem;
   margin-left: -8rem;
   font-size: 1.5rem;
   text-decoration: underline;
   white-space: nowrap;
+
 }
 
 .gallery {
@@ -19,7 +20,7 @@
   overflow: auto;
   width: 60rem;
   height: 35rem;
-  margin-top: 23rem;
+  margin-top: 20rem;
   margin-left: -28.5rem;
 }
 

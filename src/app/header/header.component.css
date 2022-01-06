@@ -7,8 +7,8 @@
 
 .title {
     position: absolute;
-    margin-top: 5rem;
-    margin-left: -17rem;
+    margin-top: 3rem;
+    margin-left: -16rem;
     white-space: nowrap;
 }
 
@@ -30,7 +30,7 @@
 
 .topnav {
     position: absolute;
-    margin-top: 15rem;
+    margin-top: 11.5rem;
     margin-left: -26rem;
     padding-top: 0.5rem;
     border: 0.6rem solid brown;
@@ -58,9 +58,9 @@
 .uploads {
     border: 0.6rem solid brown;
     position: absolute;
-    margin-left: 35rem;
+    margin-left: 44rem;
     margin-top: 5rem;
-    width: 18rem;
+    width: 11rem;
     height: 30rem;
 }
 
@@ -68,15 +68,15 @@
     position: absolute;
     white-space: nowrap;
     margin-top: 3.5rem;
-    margin-left: 35rem;
+    margin-left: 44rem;
 }
 
 .media {
     position: absolute;
     border: 0.35rem solid brown;
     margin-top: 1rem;
-    margin-left: 3rem;
-    width: 11rem;
+    margin-left: 1.5rem;
+    width: 7rem;
     height: 6rem;
 }
 
@@ -91,8 +91,8 @@
     position: absolute;
     border: 0.35rem solid brown;
     margin-top: 10.5rem;
-    margin-left: 3rem;
-    width: 11rem;
+    margin-left: 1.5rem;
+    width: 7rem;
     height: 6rem;
 }
 
@@ -107,8 +107,8 @@
     position: absolute;
     border: 0.35rem solid brown;
     margin-top: 20rem;
-    margin-left: 3rem;
-    width: 11rem;
+    margin-left: 1.5rem;
+    width: 7rem;
     height: 6rem;
 }
 
