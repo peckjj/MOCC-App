@@ -17,6 +17,12 @@
   margin-left: 8.5rem;
 }
 
+.searchResults {
+  position: absolute;
+  margin-top: 36.5rem;
+  margin-left: -41.5rem;
+}
+
 .header {
   position: absolute;
   white-space: nowrap;

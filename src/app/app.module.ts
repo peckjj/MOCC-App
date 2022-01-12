@@ -23,6 +23,7 @@ import { UserPageComponent } from './user-page/user-page.component';
 import { SpecalistsComponent } from './specalists/specalists.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UserPage1Component } from './user-page1/user-page1.component';
+import { ProspectComponent } from './prospect/prospect.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { UserPage1Component } from './user-page1/user-page1.component';
     UserPageComponent,
     SpecalistsComponent,
     ProfileComponent,
-    UserPage1Component
+    UserPage1Component,
+    ProspectComponent
   ],
   imports: [
     BrowserModule,

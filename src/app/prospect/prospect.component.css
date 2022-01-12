@@ -1,0 +1,37 @@
+.prospectList {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 55rem;
+  height: 33rem;
+  margin-top: 23rem;
+  margin-left: -26rem;
+}
+
+.title {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: 1.3rem;
+  margin-top: 21.5rem;
+  margin-left: -5rem;
+}
+
+.search {
+  position: absolute;
+  margin-top: -3rem;
+}
+
+.heading {
+  position: absolute;
+  white-space: nowrap;
+  font-size: large;
+  margin-top: 21rem;
+  margin-left: -8.7rem;
+}
+
+.input {
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: -7.7rem;
+}
+
