@@ -59,6 +59,7 @@
 .uploads {
   position: absolute;
   border: 0.4rem solid brown;
+  overflow: auto;
   width: 51rem;
   height: 16rem;
   margin-top: 15.5rem;

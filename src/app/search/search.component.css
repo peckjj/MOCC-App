@@ -17,9 +17,18 @@
   margin-left: 8.5rem;
 }
 
+.header {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 18.5rem;
+  margin-left: -4.7rem;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
 .heading {
   position: absolute;
-  margin-left: 2rem;
+  margin-left: 3.3rem;
 }
 
 .table {
@@ -40,7 +49,7 @@
   display: flex;
   width: 32rem;
   height: 13rem;
-  margin-top: 20rem;
+  margin-top: 20.1rem;
   margin-left: -15rem;
 }
 
@@ -48,6 +57,7 @@
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
+  overflow: auto;
   margin-top: 38rem;
   margin-left: -42rem;
   width: 95rem;
