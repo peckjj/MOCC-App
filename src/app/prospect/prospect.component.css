@@ -1,16 +1,27 @@
 .prospectList {
   position: absolute;
   border: 0.6rem solid brown;
-  width: 55rem;
-  height: 33rem;
+  width: 80rem;
+  height: 35rem;
   margin-top: 23rem;
-  margin-left: -26rem;
+  margin-left: -40.5rem;
 }
 
 .prospect {
   position: absolute;
-  margin-top: 2.5rem;
-  margin-left: 10rem; 
+  overflow: auto;
+  border-spacing: 3rem 0px;
+  margin-top: 2rem;
+  margin-left: 5.5rem; 
+}
+
+.submit {
+  position: absolute;
+  border: 0.2rem solid brown;
+  margin-top: 21.5rem;
+  margin-left: -1rem;
+  width: 4.5rem;
+  height: 1.75rem;
 }
 
 .title {
@@ -22,9 +33,16 @@
   margin-left: -5rem;
 }
 
+.categories {
+  position: absolute;
+  text-decoration: underline;
+  font-size: large;
+  text-align: center;
+}
+
 .search {
   position: absolute;
-  margin-top: -3rem;
+  margin-top: -4.5rem;
 }
 
 .heading {
