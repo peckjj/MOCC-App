@@ -3,6 +3,88 @@
   white-space: nowrap;
   text-decoration: underline;
   font-size: 1.3rem;
-  margin-top: 20rem;
-  margin-left: -3.5rem;
+  margin-top: 18rem;
+  margin-left: 1rem;
 }
+
+.profile {
+  position: absolute;
+  border: 0.5rem solid brown;
+  margin-top: 1rem;
+  margin-left: -17rem;
+  width: 12rem;
+  height: 8.5rem;
+}
+
+.info {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 19.5rem;
+  margin-left: -25rem;
+  width: 60rem;
+  height: 35rem;
+}
+
+.userInfo {
+  position: absolute;
+  border: 0.35rem solid brown;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 55rem;
+  height: 6rem;
+}
+
+.table {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  border-spacing: 2rem 0px;
+  font-size: medium;
+} 
+
+.contactInfo {
+  position: absolute;
+  font-size: large;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  margin-left: 25rem;
+}
+
+.bio {
+  position: absolute;
+  border: 0.35rem solid brown;
+  margin-top: 9.2rem;
+  margin-left: 2rem;
+  width: 55rem;
+  height: 8rem;
+}
+
+.description {
+  position: absolute;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 9rem;
+  margin-left: 27rem;
+}
+
+.resume {
+  position: absolute;
+  margin-top: 20.1rem;
+  margin-left: 27.5rem;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.file {
+  position: absolute;
+  border: 0.35rem solid brown;
+  margin-top: 21.5rem;
+  margin-left: 2rem;
+  width: 55rem;
+  height: 8rem;
+}
+
