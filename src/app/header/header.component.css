@@ -31,12 +31,12 @@
 .topnav {
     position: absolute;
     margin-top: 11.5rem;
-    margin-left: -26rem;
+    margin-left: -30rem;
     padding-top: 0.5rem;
     border: 0.6rem solid brown;
     display: flex;
     justify-content: space-around;
-    width: 55rem;
+    width: 65rem;
     height: 2rem;
 }
 
