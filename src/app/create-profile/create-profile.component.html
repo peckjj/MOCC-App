@@ -39,8 +39,11 @@
           <label for="zip">Zip:</label><br>
           <input type="number" id="zip" name="zip" required><br>
 
-          <label for="hire">For Hire (yes or no):</label><br>
-          <input type="text" id="hire" name="hire" required><br>
+          <label for="hire">Are you currently hiring?:</label><br>
+          <select name="hire" required><br>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select><br>
 
           <label for="businessType">Business Type:</label><br>
           <select name="dropdown" required>
@@ -87,8 +90,8 @@
                   <input type="url" id="weblink" name="weblink" size="40"><br>
               </div>
 
-              <div style="width: 40%; float: right">
-                  <label for="myfile">Select a .img / .jpeg file for your picture:</label>
+              <div class="file" style="width: 40%; float: right">
+                  <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
                   <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
               </div>
 

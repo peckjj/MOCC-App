@@ -9,19 +9,24 @@
   text-decoration: underline;
   white-space: nowrap;
   font-size: 1.25rem;
-  margin-top: 21.5rem;
+  margin-top: 17rem;
   margin-left: -9.5rem;
 }
 
 .accountCreation {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 23rem;
+  margin-top: 18.5rem;
   margin-left: -22rem;
   padding-left: 1rem;
   padding-top: 1rem;
   width: 44rem;
   height: 52rem;
+}
+
+.file {
+  position: absolute;
+  margin-left: 23.5rem;
 }
 
 .submit {
