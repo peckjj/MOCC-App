@@ -3,7 +3,8 @@
   <div class="submit">
 
     <h3 class="title">
-      Insert your art into the catelogue bellow. Add a caption so the MOCC audience can better understand your media. 
+      Submit your art's information into the catelogue bellow. Add a caption so the MOCC audience can better understand your media.
+      If you are submitting a picture/painting, you have the option to monetize your art to catelogue members.
       The submissions will be viewed by MOCC admins before being posted on the Creator's Catelogue.
     </h3>
 
@@ -25,11 +26,19 @@
         </div>
 
         <div class="artSelection">
-          <label for="art">Art Category:</label>
+          <label for="artCategory">Art Category:</label>
           <select name="dropdown" required><br>
             <option value="picture">Picture</option>
             <option value="video">Video</option>
           </select><br>
+        </div>
+
+        <div class="monetize">
+          <label for="monetize">Monetize your Picture?</label>
+          <select name="selection" required><br>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
         </div>
 
         <div class="fileInput">

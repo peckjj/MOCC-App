@@ -24,6 +24,7 @@ import { SpecalistsComponent } from './specalists/specalists.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UserPage1Component } from './user-page1/user-page1.component';
 import { ProspectComponent } from './prospect/prospect.component';
+import { ToursComponent } from './tours/tours.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { ProspectComponent } from './prospect/prospect.component';
     SpecalistsComponent,
     ProfileComponent,
     UserPage1Component,
-    ProspectComponent
+    ProspectComponent,
+    ToursComponent
   ],
   imports: [
     BrowserModule,

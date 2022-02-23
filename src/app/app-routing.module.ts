@@ -16,6 +16,7 @@ import { SpecalistsComponent } from './specalists/specalists.component';
 import { SubmitArtComponent } from './submit-art/submit-art.component';
 import { SubmitComponent } from './submit/submit.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
+import { ToursComponent } from './tours/tours.component';
 import { UserPageComponent } from './user-page/user-page.component';
 import { UserPage1Component } from './user-page1/user-page1.component';
 import { VideosComponent } from './videos/videos.component';
@@ -40,7 +41,7 @@ const routes: Routes = [
   {path: 'profile', component: ProfileComponent},
   {path: 'userpage1', component: UserPage1Component},
   {path: 'prospect', component: ProspectComponent},
-
+  {path: 'tours', component: ToursComponent},
   
   {path: '**', redirectTo: ''}
 ];
