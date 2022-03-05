@@ -2,9 +2,24 @@
   position: absolute;
   border: 0.6rem solid brown;
   width: 80rem;
-  height: 35rem;
-  margin-top: 23rem;
+  height: 25rem;
+  margin-top: 30rem;
   margin-left: -40.5rem;
+}
+
+.searchBar {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 50rem;
+  height: 9rem;
+  margin-left: -23rem;
+  margin-top: 18.5rem;
+}
+
+.location {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 27rem;
 }
 
 .prospect {
@@ -18,10 +33,10 @@
 .submit {
   position: absolute;
   border: 0.2rem solid brown;
-  margin-top: 21.5rem;
-  margin-left: -1rem;
-  width: 4.5rem;
-  height: 1.75rem;
+  margin-top: 5.5rem;
+  margin-left: 21rem;
+  width: 6rem;
+  height: 2rem;
 }
 
 .title {
@@ -29,8 +44,8 @@
   white-space: nowrap;
   text-decoration: underline;
   font-size: 1.3rem;
-  margin-top: 21.5rem;
-  margin-left: -5rem;
+  margin-top: 16.5rem;
+  margin-left: -3.5rem;
 }
 
 .categories {
@@ -42,20 +57,24 @@
 
 .search {
   position: absolute;
-  margin-top: -4.5rem;
+  margin-top: 5.5rem;
 }
 
 .heading {
   position: absolute;
   white-space: nowrap;
-  font-size: large;
-  margin-top: 21rem;
-  margin-left: -8.7rem;
+  margin-top: -4rem;
+  margin-left: 3rem;
 }
 
 .input {
   position: absolute;
-  margin-top: 21rem;
-  margin-left: -7.7rem;
+  margin-top: -4rem;
+  margin-left: 3rem;
+}
+
+.heading1 {
+  position: absolute;
+  margin-left: 7rem;
 }
 

@@ -25,24 +25,23 @@
 .option {
   position: absolute;
   border: 0.5rem solid brown;
-  margin-top: 35rem;
+  margin-top: 33rem;
   margin-left: -17rem;
   width: 35rem;
-  height: 8rem;
+  height: 20rem;
 }
 
 .alert {
   position: absolute;
   margin-left: 3.5rem;
   margin-top: 1rem;
-
 }
 
 .prospect {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 4.5rem;
-  margin-left: 7rem;
+  margin-top: 16.5rem;
+  margin-left: 5rem;
   width: 7.5rem;
   height: 2rem;
 }
@@ -50,8 +49,28 @@
 .businessOwner {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 4.5rem;
+  margin-top: 16.5rem;
   margin-left: 18rem;
   height: 2rem;
+  width: 12rem;
 }
+
+.picture {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 10rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+  margin-left: 4rem;
+}
+
+.picture1 {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 10rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+  margin-left: 20rem;
+}
+
 
