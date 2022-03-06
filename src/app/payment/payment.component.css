@@ -7,7 +7,7 @@
 .accountHeader {
   position: absolute;
   margin-top: 18rem;
-  margin-left: -12rem;
+  margin-left: -11rem;
   white-space: nowrap;
   text-decoration: underline;
 }
@@ -18,68 +18,30 @@
   margin-top: 20rem;
   margin-left: -22rem;
   width: 47rem;
-  height: 23.5rem;
-}
-
-.paymentInfo {
-  position: absolute;
-  margin-top: 12rem;
-  margin-left: 3rem;
-}
-
-.col2 {
-  position: absolute;
-  margin-top: -7.5rem;
-  margin-left: 20rem;
-}
-
-.cardNum {
-  white-space: nowrap;
+  height: 21rem;
 }
 
 .pricing {
   position: absolute;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
 }
 
-.submit {
+.monthly {
   position: absolute;
-  border: 0.25rem solid brown;
-  margin-top: 7.5rem;
-  margin-left: 17rem;
-  width: 6rem;
-  height: 2rem;
+  border: 0.3rem solid brown;
+  margin-top: 16rem;
+  margin-left: 27rem;
+  height: 2.5rem;
 }
 
-.name {
+.yearly {
   position: absolute;
-  margin-top: -2.5rem;
+  border: 0.3rem solid brown;
+  margin-top: 16rem;
+  margin-left: 10rem;
+  height: 2.5rem;
+
 }
-
-.addy {
-  position: absolute;
-  margin-top: 0.5rem;
-}
-
-.brand {
-  position: absolute;
-  margin-top: 3.7rem;
-}
-
-.number {
-  position: absolute;
-  margin-top: 5rem;
-}
-
-.date {
-  position: absolute;
-  margin-top: 7.95rem;
-}
-
-.security {
-  position: absolute;
-  margin-top: 11.2rem;
-}
-
-

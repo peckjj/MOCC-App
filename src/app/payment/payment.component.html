@@ -10,45 +10,14 @@
           communities of minorites with scarce resources.
       </h3>
 
-      <form class="paymentInfo" action="Home.html">
+      <a routerLink="/cardinfo">
+        <input class="yearly" value="Yearly Subscription" type="button" action="">
+      </a>
 
-        <div class="name">
-          <label for="cardHolder">Cardholder's Name:</label><br>
-          <input type="text" id="cardHolder" name="cardHolder" size="30" required><br>
-        </div>
+      <a routerLink="/cardinfo">
+        <input class="monthly" value="Monthly Subscription" type="button" action="">
+      </a>
 
-        <div class="addy">
-          <label for="address">Business Address:</label><br>
-          <input type="text" id="address" name="address" size="30" required><br>
-        </div>
-
-        <div class="brand">
-          <label for="cardBrand">Card Brand:</label><br>
-          <input type="text" id="cardBrand" name="cardBrand" size="20" required><br>
-        </div>
-
-        <div class="col2">
-          
-          <div class="number">
-            <label for="cardNumber">Card Number:</label><br>
-            <input type="number" id="cardNum" name="cardNum" size="20" required><br>
-          </div>
-
-          <div class="date">
-            <label for="cardDate">Card Expiration Date:</label><br>
-            <input type="date" id="date" name="date" size="20" required><br>
-          </div>
-
-          <div class="security">
-            <label class="cardNum" for="cardSecNum">Card Security Number: ( 3-digit number on the back )</label><br>
-            <input type="number" id="cardSecNum" name="cardSecNum" size="40" required><br>
-          </div>
-
-        </div>
-
-          <input class="submit" type="submit" value="Submit" id="submit" onclick="addcard">
-
-      </form>
   </div>
   
 </div>

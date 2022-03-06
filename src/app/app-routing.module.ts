@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { CardInfoComponent } from './card-info/card-info.component';
 import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -42,7 +43,8 @@ const routes: Routes = [
   {path: 'userpage1', component: UserPage1Component},
   {path: 'prospect', component: ProspectComponent},
   {path: 'tours', component: ToursComponent},
-  
+  {path: 'cardinfo', component: CardInfoComponent},
+
   {path: '**', redirectTo: ''}
 ];
 

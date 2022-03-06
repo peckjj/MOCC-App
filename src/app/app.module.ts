@@ -25,6 +25,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { UserPage1Component } from './user-page1/user-page1.component';
 import { ProspectComponent } from './prospect/prospect.component';
 import { ToursComponent } from './tours/tours.component';
+import { CardInfoComponent } from './card-info/card-info.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { ToursComponent } from './tours/tours.component';
     ProfileComponent,
     UserPage1Component,
     ProspectComponent,
-    ToursComponent
+    ToursComponent,
+    CardInfoComponent
   ],
   imports: [
     BrowserModule,

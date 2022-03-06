@@ -10,7 +10,7 @@
 .searchBar {
   position: absolute;
   border: 0.6rem solid brown;
-  width: 50rem;
+  width: 48rem;
   height: 9rem;
   margin-left: -23rem;
   margin-top: 18.5rem;
@@ -19,7 +19,7 @@
 .location {
   position: absolute;
   margin-top: 1.5rem;
-  margin-left: 27rem;
+  margin-left: 27.5rem;
 }
 
 .prospect {

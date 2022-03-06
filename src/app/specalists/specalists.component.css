@@ -28,7 +28,7 @@
 
 .prospect {
   position: absolute;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   margin-left: 10rem;
   padding-top: 1rem;
   padding-left: 3rem;
@@ -62,5 +62,14 @@
 .resume {
   position: absolute;
   margin-top: 24.5rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 32rem;
+  margin-left: 16.5rem;
+  width: 5.5rem;
+  height: 2rem;
 }
 
