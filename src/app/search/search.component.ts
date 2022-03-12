@@ -21,6 +21,7 @@ export class SearchComponent implements OnInit {
     "password",
     "ownership"
   ];
+  
   business: string = "";
 
   constructor(private http: HttpService) { 
@@ -33,7 +34,7 @@ export class SearchComponent implements OnInit {
   }
 
   search() {
-    this.http.searchByName(this.business).then(data => this.searchResults= data);
+    this.http.searchByBusinessName(this.business).then(data => this.searchResults= data);
   }
 
   getIncluded(title: IBusiness): string[] {

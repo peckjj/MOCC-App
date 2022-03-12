@@ -26,6 +26,8 @@ import { UserPage1Component } from './user-page1/user-page1.component';
 import { ProspectComponent } from './prospect/prospect.component';
 import { ToursComponent } from './tours/tours.component';
 import { CardInfoComponent } from './card-info/card-info.component';
+import { ArtistsComponent } from './artists/artists.component';
+import { MusicMarketplaceComponent } from './music-marketplace/music-marketplace.component';
 
 
 @NgModule({
@@ -52,7 +54,9 @@ import { CardInfoComponent } from './card-info/card-info.component';
     UserPage1Component,
     ProspectComponent,
     ToursComponent,
-    CardInfoComponent
+    CardInfoComponent,
+    ArtistsComponent,
+    MusicMarketplaceComponent
   ],
   imports: [
     BrowserModule,

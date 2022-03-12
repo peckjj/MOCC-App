@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { ArtistsComponent } from './artists/artists.component';
 import { CardInfoComponent } from './card-info/card-info.component';
 import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
@@ -8,6 +9,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MediaComponent } from './media/media.component';
+import { MusicMarketplaceComponent } from './music-marketplace/music-marketplace.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -44,6 +46,9 @@ const routes: Routes = [
   {path: 'prospect', component: ProspectComponent},
   {path: 'tours', component: ToursComponent},
   {path: 'cardinfo', component: CardInfoComponent},
+  {path: 'artists', component: ArtistsComponent},
+  {path: 'musicmarketplace', component: MusicMarketplaceComponent},
+  
 
   {path: '**', redirectTo: ''}
 ];

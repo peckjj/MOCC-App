@@ -4,7 +4,7 @@
   margin-top: 19rem;
   margin-left: -19rem;
   width: 40rem;
-  height: 35rem;
+  height: 38rem;
 }
 
 .title {
@@ -22,7 +22,7 @@
 
 .input {
   position: absolute;
-  margin-top: 17rem;
+  margin-top: 20rem;
   margin-left: -7.5rem;
 }
 
@@ -44,30 +44,35 @@
   margin-top: 4rem;
 }
 
-.college {
+.password {
   position: absolute;
   margin-top: 7rem;
 }
 
-.city {
+.college {
   position: absolute;
   margin-top: 10rem;
 }
 
-.state {
+.city {
   position: absolute;
   margin-top: 13rem;
 }
 
+.state {
+  position: absolute;
+  margin-top: 16rem;
+}
+
 .resume {
   position: absolute;
-  margin-top: 24.5rem;
+  margin-top: 27rem;
 }
 
 .submit {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 32rem;
+  margin-top: 34.5rem;
   margin-left: 16.5rem;
   width: 5.5rem;
   height: 2rem;

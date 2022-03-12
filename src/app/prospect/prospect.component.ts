@@ -7,9 +7,10 @@ import { HttpService } from '../http.service';
   templateUrl: './prospect.component.html',
   styleUrls: ['./prospect.component.css']
 })
+
 export class ProspectComponent implements OnInit {
 
-  searchResults: IProspect[];
+  searchResults: IProspect[] = [];
 
   notIncluded: string[] = [
 
@@ -19,20 +20,22 @@ export class ProspectComponent implements OnInit {
     "status",
     "password",
 
-  ]
+  ];
 
   prospect: string = "";
 
-  constructor() { }
+  constructor(private http: HttpService) { }
 
   ngOnInit(): void {
+
   }
 
-  search() {
-    this.http.searchByName(this.prospect).then(data => this.searchResults= data);
-  }
+  // searchProspect() {
+  //   this.http.searchByName(this.prospect).then(data => this.searchResults= data);
+  // }
 
-  getIncluded(title: IProspect): string[] {
-    return Object.keys(title).filter( (data)=> !this.notIncluded.includes(data) );
+  // include(title: IProspect): string[] {
+  //   return Object.keys(title).filter( (data)=> !this.notIncluded.includes(data) );
+  // }
 
 }

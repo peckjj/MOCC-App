@@ -27,7 +27,7 @@
 .media {
   position: absolute;
   border: 0.4rem solid brown;
-  width: 20rem;
+  width: 12rem;
   height: 10rem;
   margin-top: 0.5rem;
   margin-left: 4rem;
@@ -43,17 +43,33 @@
 .media-body1 {
   position: absolute;
   margin-top: 9.5rem;
-  margin-left: 35rem;
+  margin-left: 24rem;
   font-size: 1.3rem;
 } 
+
+.media-body2 {
+  position: absolute;
+  margin-top: 9.5rem;
+  margin-left: 43rem;
+  font-size: 1.3rem;
+}
 
 .media1 {
   position: absolute;
   border: 0.4rem solid brown;
-  width: 20rem;
+  width: 12rem;
   height: 10rem;
   margin-top: 0.5rem;
-  margin-left: 35rem;
+  margin-left: 24rem;
+}
+
+.media2 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  width: 12rem;
+  height: 10rem;
+  margin-top: 0.5rem;
+  margin-left: 43rem;
 }
 
 .uploads {
