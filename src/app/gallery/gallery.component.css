@@ -6,7 +6,7 @@
 
 .header {
   position: absolute;
-  margin-top: 18rem;
+  margin-top: 17rem;
   margin-left: -8rem;
   font-size: 1.5rem;
   text-decoration: underline;
@@ -77,14 +77,14 @@
   border: 0.4rem solid brown;
   overflow: auto;
   width: 51rem;
-  height: 18rem;
-  margin-top: 15.5rem;
+  height: 19rem;
+  margin-top: 15rem;
   margin-left: 4rem;
 }
 
 .heading {
   position: absolute;
-  margin-top: 14rem;
+  margin-top: 13.5rem;
   margin-left: 4rem;
   text-decoration: underline;
   font-size: large;
