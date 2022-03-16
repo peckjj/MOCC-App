@@ -3,15 +3,15 @@
   border: 0.6rem solid brown;
   overflow: auto;
   width: 55rem;
-  height: 35rem;
-  margin-top: 21.7rem;
+  height: 25rem;
+  margin-top: 31rem;
   margin-left: -26rem;
 }
 
 .heading { 
   position: absolute;
-  margin-top: 19.5rem;
-  margin-left: -6rem;
+  margin-top: 29rem;
+  margin-left: -6.5rem;
   white-space: nowrap;
   text-decoration: underline;
 }
@@ -31,4 +31,48 @@ h5 {
   margin-top: 8rem;
   margin-left: 2rem;
   white-space: nowrap;
+}
+
+.searchBar {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 35rem;
+  height: 8rem;
+  margin-left: -17rem;
+  margin-top: 18.5rem;
+}
+
+.title {
+  position: absolute;
+  margin-top: -2.3rem;
+  margin-left: 11.5rem;
+  text-decoration: underline;
+}
+
+.header {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 13rem;
+  font-size: medium;
+}
+
+.input {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 7rem;
+}
+
+.search {
+  position: absolute;
+  margin-top: 1.8rem;
+  margin-left: 15rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.2rem solid brown;
+  margin-top: 3rem;
+  margin-left: 14rem;
+  width: 6rem;
+  height: 2rem;
 }

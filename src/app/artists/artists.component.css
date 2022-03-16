@@ -1,0 +1,23 @@
+.title {
+  position: absolute;
+  margin-top: 18rem;
+  margin-left: -7.5rem;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+.register {
+  position: absolute;
+  border: 0.6rem solid brown;
+  height: 30rem;
+  width: 40rem;
+  margin-top: 20rem;
+  margin-left: -19rem;
+}
+
+.account {
+  position: absolute;
+  
+}
+
+
