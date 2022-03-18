@@ -8,14 +8,20 @@
 .title {
     position: absolute;
     margin-top: 3rem;
-    margin-left: -16rem;
+    margin-left: -15rem;
     white-space: nowrap;
+}
+
+.header {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 4.5rem;
 }
 
 .subheader {
     white-space: nowrap;
-    margin-top: 1rem;
-    margin-left: 12rem;
+    margin-top: 4rem;
+    margin-left: 10.5rem;
     font-size: 1.3rem;
 }
 
