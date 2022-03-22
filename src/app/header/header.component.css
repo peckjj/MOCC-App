@@ -5,38 +5,31 @@
     display: flex;
 }
 
-.title {
-    position: absolute;
-    margin-top: 3rem;
-    margin-left: -15rem;
-    white-space: nowrap;
-}
-
 .header {
     position: absolute;
     margin-top: 0.5rem;
-    margin-left: 4.5rem;
+    margin-left: 25rem;
 }
 
 .subheader {
     white-space: nowrap;
-    margin-top: 4rem;
-    margin-left: 10.5rem;
+    margin-top: 3.3rem;
+    margin-left: 30rem;
     font-size: 1.3rem;
 }
 
 .logo {
     position: absolute;
     border: 0.6rem solid brown;
-    margin-left: -50rem;
-    margin-top: 5rem;
-    width: 12rem;
-    height: 10rem;
+    margin-left: -34rem;
+    margin-top: 2rem;
+    width: 75rem;
+    height: 14rem;
 }
 
 .topnav {
     position: absolute;
-    margin-top: 11.5rem;
+    margin-top: 11rem;
     margin-left: -32rem;
     padding-top: 0.5rem;
     border: 0.6rem solid brown;

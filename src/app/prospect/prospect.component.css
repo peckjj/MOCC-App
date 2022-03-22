@@ -2,8 +2,8 @@
   position: absolute;
   border: 0.6rem solid brown;
   width: 80rem;
-  height: 25rem;
-  margin-top: 30rem;
+  height: 18rem;
+  margin-top: 38rem;
   margin-left: -40.5rem;
 }
 
@@ -13,7 +13,7 @@
   width: 48rem;
   height: 9rem;
   margin-left: -23rem;
-  margin-top: 18.5rem;
+  margin-top: 25rem;
 }
 
 .location {
@@ -44,8 +44,8 @@
   white-space: nowrap;
   text-decoration: underline;
   font-size: 1.3rem;
-  margin-top: 16.5rem;
-  margin-left: -3.5rem;
+  margin-top: 23rem;
+  margin-left: -4rem;
 }
 
 .categories {

@@ -26,7 +26,7 @@
 .header {
   position: absolute;
   white-space: nowrap;
-  margin-top: 18.5rem;
+  margin-top: 23rem;
   margin-left: -4.7rem;
   font-size: 1.3rem;
   text-decoration: underline;
@@ -55,7 +55,7 @@
   display: flex;
   width: 32rem;
   height: 13rem;
-  margin-top: 20.1rem;
+  margin-top: 22rem;
   margin-left: -15rem;
 }
 
