@@ -7,21 +7,22 @@
 
 .header {
     position: absolute;
-    margin-top: 0.5rem;
-    margin-left: 25rem;
+    margin-top: 3rem;
+    margin-left: -11rem;
+    white-space: nowrap;
 }
 
 .subheader {
     white-space: nowrap;
-    margin-top: 3.3rem;
-    margin-left: 30rem;
+    margin-top: 6rem;
+    margin-left: -5rem;
     font-size: 1.3rem;
 }
 
 .logo {
     position: absolute;
     border: 0.6rem solid brown;
-    margin-left: -34rem;
+    margin-left: -37rem;
     margin-top: 2rem;
     width: 75rem;
     height: 14rem;
@@ -30,7 +31,7 @@
 .topnav {
     position: absolute;
     margin-top: 11rem;
-    margin-left: -32rem;
+    margin-left: -34.5rem;
     padding-top: 0.5rem;
     border: 0.6rem solid brown;
     display: flex;
