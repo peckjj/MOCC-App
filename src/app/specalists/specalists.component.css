@@ -1,7 +1,7 @@
 .specialists {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 19rem;
+  margin-top: 20rem;
   margin-left: -19rem;
   width: 40rem;
   height: 38rem;
@@ -12,7 +12,7 @@
   font-size: 1.25rem;
   text-decoration: underline;
   white-space: nowrap;
-  margin-top: 17.5rem;
+  margin-top: 18.5rem;
   margin-left: -15rem;
 }
 

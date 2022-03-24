@@ -4,13 +4,13 @@
   overflow: auto;
   width: 55rem;
   height: 25rem;
-  margin-top: 31rem;
+  margin-top: 32.5rem;
   margin-left: -26rem;
 }
 
 .heading { 
   position: absolute;
-  margin-top: 29rem;
+  margin-top: 30.5rem;
   margin-left: -6.5rem;
   white-space: nowrap;
   text-decoration: underline;
@@ -39,13 +39,14 @@ h5 {
   width: 35rem;
   height: 8rem;
   margin-left: -17rem;
-  margin-top: 18.5rem;
+  margin-top: 20.5rem;
 }
 
 .title {
   position: absolute;
-  margin-top: -2.3rem;
-  margin-left: 11.5rem;
+  margin-top: 18.5rem;
+  margin-left: -5.3rem;
+  white-space: nowrap;
   text-decoration: underline;
 }
 

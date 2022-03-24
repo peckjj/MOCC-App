@@ -1,10 +1,11 @@
 .prospectName {
   position: absolute;
+  font-size: large;
   white-space: nowrap;
   text-decoration: underline;
   font-size: 1.3rem;
-  margin-top: 18rem;
-  margin-left: 1rem;
+  margin-top: 19.5rem;
+  margin-left: -25rem;
 }
 
 .profile {
@@ -19,7 +20,7 @@
 .info {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 19.5rem;
+  margin-top: 21rem;
   margin-left: -25rem;
   width: 60rem;
   height: 35rem;

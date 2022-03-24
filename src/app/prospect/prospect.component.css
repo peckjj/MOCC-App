@@ -3,7 +3,7 @@
   border: 0.6rem solid brown;
   width: 80rem;
   height: 18rem;
-  margin-top: 38rem;
+  margin-top: 36rem;
   margin-left: -40.5rem;
 }
 
@@ -13,7 +13,7 @@
   width: 48rem;
   height: 9rem;
   margin-left: -23rem;
-  margin-top: 25rem;
+  margin-top: 23rem;
 }
 
 .location {
@@ -32,9 +32,9 @@
 
 .submit {
   position: absolute;
-  border: 0.2rem solid brown;
+  border: 0.3rem solid brown;
   margin-top: 5.5rem;
-  margin-left: 21rem;
+  margin-left: 21.3rem;
   width: 6rem;
   height: 2rem;
 }
@@ -44,8 +44,8 @@
   white-space: nowrap;
   text-decoration: underline;
   font-size: 1.3rem;
-  margin-top: 23rem;
-  margin-left: -4rem;
+  margin-top: 21rem;
+  margin-left: -5rem;
 }
 
 .categories {

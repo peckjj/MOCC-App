@@ -6,7 +6,7 @@
 
 .accountHeader {
   position: absolute;
-  margin-top: 18rem;
+  margin-top: 23rem;
   margin-left: -11rem;
   white-space: nowrap;
   text-decoration: underline;
@@ -15,7 +15,7 @@
 .cardInfo {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 20rem;
+  margin-top: 25rem;
   margin-left: -22rem;
   width: 47rem;
   height: 21rem;

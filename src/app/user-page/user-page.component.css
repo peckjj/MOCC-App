@@ -3,7 +3,7 @@
   border: 0.5rem solid brown;
   width: 15rem;
   height: 13rem;
-  margin-top: 21.5rem;
+  margin-top: 22rem;
   margin-left: -40rem;
 }
 
@@ -12,7 +12,7 @@
   font-size: large;
   white-space: nowrap;
   text-decoration: underline;
-  margin-top: 18rem;
+  margin-top: 20.5rem;
   margin-left: -20rem;
 }
 
@@ -20,7 +20,7 @@
   position: absolute;
   border: 0.6rem solid brown;
   padding-top: 1rem;
-  margin-top: 19.5rem;
+  margin-top: 22rem;
   margin-left: -20rem;
   width: 45rem;
   height: 16.5rem;
@@ -32,7 +32,7 @@
   width: 5rem;
   height: 2rem;
   margin-left: 16rem;
-  margin-top: 42rem;
+  margin-top: 43rem;
 }
 
 .edit {
@@ -41,7 +41,7 @@
   width: 5rem;
   height: 2rem;
   margin-left: -15rem;
-  margin-top: 42rem;
+  margin-top: 43rem;
 }
 
 .resume {
