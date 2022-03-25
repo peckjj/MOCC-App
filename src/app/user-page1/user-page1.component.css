@@ -11,10 +11,16 @@
 .profile {
   position: absolute;
   border: 0.5rem solid brown;
-  margin-top: 1rem;
-  margin-left: -17rem;
-  width: 12rem;
-  height: 9.5rem;
+  margin-top: 21rem;
+  margin-left: -42rem;
+  width: 14rem;
+  height: 10rem;
+}
+
+.edit {
+  position: absolute;
+  margin-top: 32rem;
+  margin-left: -42rem;
 }
 
 .info {

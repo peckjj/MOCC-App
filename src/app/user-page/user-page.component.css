@@ -1,9 +1,15 @@
 .profile {
   position: absolute;
   border: 0.5rem solid brown;
-  width: 15rem;
-  height: 13rem;
+  width: 14rem;
+  height: 10rem;
   margin-top: 22rem;
+  margin-left: -40rem;
+}
+
+.picFile {
+  position: absolute;
+  margin-top: 33rem;
   margin-left: -40rem;
 }
 
