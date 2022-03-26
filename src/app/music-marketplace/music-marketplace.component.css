@@ -1,0 +1,54 @@
+.title {
+  position: absolute;
+  white-space: nowrap;
+  font-size: x-large;
+  text-decoration: underline;
+  margin-top: 23rem;
+  margin-left: -11rem;
+}
+
+.searchBar {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 35rem;
+  height: 8rem;
+  margin-left: -17rem;
+  margin-top: 25rem;
+}
+
+.heading {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 37rem;
+  margin-left: -8rem;
+}
+
+.header {
+  position: absolute;
+  margin-top: 2.3rem;
+  margin-left: 13rem;
+}
+
+.input {
+  position: absolute;
+  margin-top: 2.5rem;
+  margin-left: 7rem;
+
+}
+
+.submit {
+  position: absolute;
+  margin-top: 3.5rem;
+  margin-left: 16rem;
+
+}
+
+.gallery {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 25rem;
+  height: 10rem;
+  margin-top: 42rem;
+  margin-left: -17rem;
+}
+

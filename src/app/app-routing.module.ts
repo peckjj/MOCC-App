@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { ArtistAccountComponent } from './artist-account/artist-account.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { CardInfoComponent } from './card-info/card-info.component';
 import { ContactComponent } from './contact/contact.component';
@@ -47,6 +48,7 @@ const routes: Routes = [
   {path: 'tours', component: ToursComponent},
   {path: 'cardinfo', component: CardInfoComponent},
   {path: 'artists', component: ArtistsComponent},
+  {path: 'artistaccount', component: ArtistAccountComponent},
   {path: 'musicmarketplace', component: MusicMarketplaceComponent},
   
 
