@@ -3,52 +3,74 @@
   white-space: nowrap;
   font-size: x-large;
   text-decoration: underline;
-  margin-top: 23rem;
+  margin-top: 18.5rem;
   margin-left: -11rem;
 }
 
 .searchBar {
   position: absolute;
   border: 0.6rem solid brown;
-  width: 35rem;
+  width: 30rem;
   height: 8rem;
-  margin-left: -17rem;
-  margin-top: 25rem;
+  margin-left: -15.5rem;
+  margin-top: 20.5rem;
 }
 
 .heading {
   position: absolute;
   white-space: nowrap;
-  margin-top: 37rem;
+  text-decoration: underline;
+  margin-top: 30.5rem;
   margin-left: -8rem;
 }
 
 .header {
   position: absolute;
-  margin-top: 2.3rem;
-  margin-left: 13rem;
+  margin-top: 1.5rem;
+  margin-left: 11rem;
 }
 
 .input {
   position: absolute;
-  margin-top: 2.5rem;
-  margin-left: 7rem;
+  margin-top: 2rem;
+  margin-left: 5.5rem;
 
 }
 
 .submit {
   position: absolute;
   margin-top: 3.5rem;
-  margin-left: 16rem;
-
+  margin-left: 14rem;
+  border: 0.2rem solid brown;
+  width: 6rem;
+  height: 2rem;
+  margin-top: 3rem;
+  margin-left: 13rem;
 }
 
 .gallery {
   position: absolute;
   border: 0.6rem solid brown;
-  width: 25rem;
-  height: 10rem;
-  margin-top: 42rem;
-  margin-left: -17rem;
+  width: 70rem;
+  height: 25rem;
+  margin-top: 32.5rem;
+  margin-left: -35.5rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 6rem;
+}
+
+h5 {
+  position: absolute;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+  margin-top: 8rem;
+  margin-left: 2rem;
 }
 

@@ -2,10 +2,10 @@
   position: absolute;
   border: 0.6rem solid brown;
   overflow: auto;
-  width: 55rem;
+  width: 70rem;
   height: 25rem;
   margin-top: 32.5rem;
-  margin-left: -26rem;
+  margin-left: -35.5rem;
 }
 
 .heading { 
@@ -27,10 +27,10 @@
 
 h5 {
   position: absolute;
+  text-overflow: ellipsis;
   font-size: 0.9rem;
   margin-top: 8rem;
   margin-left: 2rem;
-  white-space: nowrap;
 }
 
 .searchBar {

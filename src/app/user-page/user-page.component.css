@@ -13,9 +13,9 @@
   margin-left: -40rem;
 }
 
-.header {
+.user {
   position: absolute;
-  font-size: large;
+  font-size: 1.3rem;
   white-space: nowrap;
   text-decoration: underline;
   margin-top: 20.5rem;

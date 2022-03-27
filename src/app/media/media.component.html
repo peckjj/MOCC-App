@@ -11,11 +11,53 @@
     <h3 class="title">Media heading</h3>
   </div>
 
-  <div class="videos">
-
+  <div class="purchase">
     
+    <form class="mediaBid">
+
+      <h3 class="account">Interested in this media? Set Your Bid Here</h3>
+
+      <label class="bidPrice" id="bidPrice">The starting bid for this media is: #$bidPrice#</label>
+
+      <div class="bidIn">
+
+        <h3 class="placeBid">Enter your bid:</h3>
+
+        <input class="price" type="text" id="bidPrice" name="bidPrice" required>
+
+        <h4>$</h4>
+
+      </div>
+      
+      <div class="info">
+
+        <label for="firstName">First name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="phone">Contact number:</label><br>
+        <input type="text" id="number" name="number" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+      </div>
+
+      <a routerLink="/transaction">
+        <button class="submit" id="bid">Set Bid</button>
+      </a>
+
+    </form>
 
   </div>
+
+  <label class="bid">Sign in to purchase media</label>
+
+  <a routerLink="/login">
+    <button class="sign-in">Sign In</button>
+  </a>
 
   <h3 class="views">Views: #views#</h3>
 

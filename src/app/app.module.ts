@@ -29,6 +29,7 @@ import { CardInfoComponent } from './card-info/card-info.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { MusicMarketplaceComponent } from './music-marketplace/music-marketplace.component';
 import { ArtistAccountComponent } from './artist-account/artist-account.component';
+import { TransactionComponent } from './transaction/transaction.component';
 
 
 @NgModule({
@@ -58,7 +59,8 @@ import { ArtistAccountComponent } from './artist-account/artist-account.componen
     CardInfoComponent,
     ArtistsComponent,
     MusicMarketplaceComponent,
-    ArtistAccountComponent
+    ArtistAccountComponent,
+    TransactionComponent
   ],
   imports: [
     BrowserModule,

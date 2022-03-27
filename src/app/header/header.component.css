@@ -90,6 +90,7 @@
 .media-body {
     position: absolute;
     font-size: large;
+    text-overflow: ellipsis;
     margin-top: 6.1rem;
     margin-left: 0.5rem;
 }
@@ -106,6 +107,7 @@
 .media-body1 {
     position: absolute;
     font-size: large;
+    text-overflow: ellipsis;
     margin-left: 0.5rem;
     margin-top: 15.6rem;
 }

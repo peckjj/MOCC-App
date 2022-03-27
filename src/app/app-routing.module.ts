@@ -21,6 +21,7 @@ import { SubmitArtComponent } from './submit-art/submit-art.component';
 import { SubmitComponent } from './submit/submit.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
 import { ToursComponent } from './tours/tours.component';
+import { TransactionComponent } from './transaction/transaction.component';
 import { UserPageComponent } from './user-page/user-page.component';
 import { UserPage1Component } from './user-page1/user-page1.component';
 import { VideosComponent } from './videos/videos.component';
@@ -50,7 +51,7 @@ const routes: Routes = [
   {path: 'artists', component: ArtistsComponent},
   {path: 'artistaccount', component: ArtistAccountComponent},
   {path: 'musicmarketplace', component: MusicMarketplaceComponent},
-  
+  {path: 'transaction', component: TransactionComponent},
 
   {path: '**', redirectTo: ''}
 ];
