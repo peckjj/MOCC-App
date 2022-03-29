@@ -52,6 +52,7 @@ const routes: Routes = [
   {path: 'artistaccount', component: ArtistAccountComponent},
   {path: 'musicmarketplace', component: MusicMarketplaceComponent},
   {path: 'transaction', component: TransactionComponent},
+  
 
   {path: '**', redirectTo: ''}
 ];

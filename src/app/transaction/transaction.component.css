@@ -1,0 +1,59 @@
+.label {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: x-large;
+  margin-top: 19.8rem;
+  margin-left: -3rem;
+}
+
+.cardHolder {
+  position: absolute;
+  white-space: nowrap;
+  font-size: x-large;
+  text-decoration: underline;
+  margin-top: 19.8rem;
+  margin-left: -37rem;
+}
+
+.info {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 21.5rem;
+  margin-left: -37rem;
+  width: 30rem;
+  height: 20rem;
+}
+
+.item {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 21.5rem;
+  margin-left: -3rem;
+  width: 40rem;
+  height: 20rem;
+}
+
+.itemTitle {
+  position: absolute;
+  font-size: x-large;
+  text-overflow: ellipsis;
+  width: 40rem;
+  margin-top: 17.5rem;
+  margin-left: -0.5rem;
+}
+
+.paymentInfo {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 0.7rem;
+  margin-left: 7rem;
+  width: 6rem;
+  height: 2rem;
+}
