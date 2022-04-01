@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ArtistAccountComponent } from './artist-account/artist-account.component';
 import { ArtistsComponent } from './artists/artists.component';
+import { BookClubComponent } from './book-club/book-club.component';
 import { CardInfoComponent } from './card-info/card-info.component';
 import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
@@ -52,6 +53,7 @@ const routes: Routes = [
   {path: 'artistaccount', component: ArtistAccountComponent},
   {path: 'musicmarketplace', component: MusicMarketplaceComponent},
   {path: 'transaction', component: TransactionComponent},
+  {path: "bookclub", component: BookClubComponent},
   
 
   {path: '**', redirectTo: ''}

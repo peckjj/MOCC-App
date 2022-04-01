@@ -39,12 +39,12 @@ h5 {
   width: 35rem;
   height: 8rem;
   margin-left: -17rem;
-  margin-top: 20.5rem;
+  margin-top: 18.5rem;
 }
 
 .title {
   position: absolute;
-  margin-top: 18.5rem;
+  margin-top: 16.5rem;
   margin-left: -5.3rem;
   white-space: nowrap;
   text-decoration: underline;
@@ -73,7 +73,7 @@ h5 {
   position: absolute;
   border: 0.2rem solid brown;
   margin-top: 3rem;
-  margin-left: 12rem;
+  margin-left: 14rem;
   width: 6rem;
   height: 2rem;
 }
