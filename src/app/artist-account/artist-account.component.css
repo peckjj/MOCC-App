@@ -110,3 +110,12 @@
   margin-top: 3rem;
   margin-left: -0.3rem;
 }
+
+.post {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 35rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}

@@ -57,6 +57,7 @@
 .bookShelf {
   position: absolute;
   border: 0.6rem solid brown;
+  overflow: auto;
   margin-top: 33rem;
   margin-left: -39rem;
   width: 35rem;
@@ -66,6 +67,7 @@
 .authorSection {
   position: absolute;
   border: 0.6rem solid brown;
+  overflow: auto;
   margin-top: 33rem;
   margin-left: 3rem;
   width: 35rem;

@@ -1,0 +1,59 @@
+.title {
+  position: absolute;
+  text-decoration: underline;
+  white-space: nowrap;
+  font-size: x-large;
+  margin-top: 23.2rem;
+  margin-left: -9rem;
+}
+
+.description {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 40rem;
+  height: 23rem;
+  margin-top: 25rem;
+  margin-left: -18rem;
+}
+
+.type {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.name {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 8.5rem;
+}
+
+.text {
+  position: absolute;
+  margin-top: 4.5rem;
+}
+
+.selection {
+  position: absolute;
+  margin-top: 11.5rem;
+  margin-left: 6rem;
+}
+
+.destination {
+  white-space: nowrap;
+}
+
+.file {
+  position: absolute;
+  margin-top: 14.5rem;
+  margin-left: 6rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 18rem;
+  margin-left: 12rem;
+}

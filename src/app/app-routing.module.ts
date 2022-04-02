@@ -14,6 +14,7 @@ import { MediaComponent } from './media/media.component';
 import { MusicMarketplaceComponent } from './music-marketplace/music-marketplace.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PicturesComponent } from './pictures/pictures.component';
+import { PostComponent } from './post/post.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProspectComponent } from './prospect/prospect.component';
 import { SearchComponent } from './search/search.component';
@@ -53,7 +54,8 @@ const routes: Routes = [
   {path: 'artistaccount', component: ArtistAccountComponent},
   {path: 'musicmarketplace', component: MusicMarketplaceComponent},
   {path: 'transaction', component: TransactionComponent},
-  {path: "bookclub", component: BookClubComponent},
+  {path: 'bookclub', component: BookClubComponent},
+  {path: 'post', component: PostComponent},
   
 
   {path: '**', redirectTo: ''}

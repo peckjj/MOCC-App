@@ -19,6 +19,15 @@
     font-size: 1.3rem;
 }
 
+.signIn {
+    position: absolute;
+    border: 0.3rem solid brown;
+    white-space: nowrap;
+    margin-top: 8.5rem;
+    margin-left: -8.5rem;
+    width: 5rem;
+}
+
 .border {
     position: absolute;
     border: 0.6rem solid brown;
@@ -31,7 +40,6 @@
 
 .logo {
     position: absolute;
-    
     
 }
 

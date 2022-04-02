@@ -31,6 +31,7 @@ import { MusicMarketplaceComponent } from './music-marketplace/music-marketplace
 import { ArtistAccountComponent } from './artist-account/artist-account.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { BookClubComponent } from './book-club/book-club.component';
+import { PostComponent } from './post/post.component';
 
 
 @NgModule({
@@ -62,7 +63,8 @@ import { BookClubComponent } from './book-club/book-club.component';
     MusicMarketplaceComponent,
     ArtistAccountComponent,
     TransactionComponent,
-    BookClubComponent
+    BookClubComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

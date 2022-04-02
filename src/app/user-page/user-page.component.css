@@ -75,7 +75,13 @@
   position: absolute;
   display: block;
   margin-left: 23rem;
-
 }
 
-
+.post {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 35.5rem;
+  margin-left: -35rem;
+  width: 5rem;
+  height: 2rem;
+}
