@@ -71,10 +71,10 @@
 .portfolio {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 15rem;
+  margin-top: 14rem;
   margin-left: 4.5rem;
   width: 55rem;
-  height: 15rem;
+  height: 16.5rem;
 }
 
 .media {
@@ -115,6 +115,24 @@
   position: absolute;
   border: 0.3rem solid brown;
   margin-top: 35rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.logout {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 38rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.edit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 41rem;
   margin-left: -37rem;
   width: 5rem;
   height: 2rem;

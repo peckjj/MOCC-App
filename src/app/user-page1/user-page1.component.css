@@ -102,3 +102,21 @@
   width: 5rem;
   height: 2rem;
 }
+
+.logout {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 38rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.editInfo {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 41rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}

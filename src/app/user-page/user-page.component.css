@@ -34,35 +34,38 @@
 
 .logout {
   position: absolute;
-  border: 0.35rem solid brown;
+  border: 0.3rem solid brown;
   width: 5rem;
   height: 2rem;
-  margin-left: 16rem;
-  margin-top: 43rem;
+  margin-left: -35rem;
+  margin-top: 41.5rem;
 }
 
 .edit {
   position: absolute;
-  border: 0.35rem solid brown;
+  border: 0.3rem solid brown;
   width: 5rem;
   height: 2rem;
-  margin-left: -15rem;
-  margin-top: 43rem;
+  margin-left: -35rem;
+  margin-top: 38.5rem;
 }
 
-.resume {
+.uploads {
   position: absolute;
-  margin-top: 45.5rem;
-  margin-left: 1rem;
+  margin-top: 42.5rem;
+  margin-left: 0.5rem;
+  text-decoration: underline;
+  font-size: x-large;
 }
 
 .activity {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 47rem;
+  overflow: auto;
+  margin-top: 44.3rem;
   margin-left: -20rem;
   width: 45rem;
-  height: 10rem;
+  height: 12rem;
 }
 
 .categories {
@@ -84,4 +87,21 @@
   margin-left: -35rem;
   width: 5rem;
   height: 2rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  width: 10rem;
+  height: 7rem;
+}
+
+.media-body {
+  position: absolute;
+  font-size: large;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  margin-left: 13rem;
 }
