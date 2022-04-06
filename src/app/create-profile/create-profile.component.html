@@ -36,58 +36,68 @@
 
           <div class="column1">
 
-            <label for="city">City:</label><br>
-            <input type="text" id="city" name="city" required><br>
+            <div class="city">
+                <label for="city">City:</label><br>
+                <input type="text" id="city" name="city" required><br>
+            </div>
 
-            <label for="state">State:</label><br>
-            <input type="text" id="state" name="state" required><br>
+            <div class="state">
+                <label for="state">State:</label><br>
+                <input type="text" id="state" name="state" required><br>
+            </div> 
 
-            <label for="zip">Zip:</label><br>
-            <input type="number" id="zip" name="zip" required><br>
+            <div class="zip">
+                <label for="zip">Zip:</label><br>
+                <input type="number" id="zip" name="zip" required><br>
+            </div>
 
-            <label for="hire">Are you currently hiring?:</label><br>
-            <select name="hire" required><br>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-            </select><br>
+            <div class="hire">
+                <label for="hire">Are you currently hiring?:</label><br>
+                <select name="hire" required><br>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select><br>
+            </div>
 
-            <label for="businessType">Business Type:</label><br>
-            <select name="dropdown" required>
-                <option value="Other">Other</option>
-                <option value="Author">Author</option>
-                <option value="Automobile">Auto</option>
-                <option value="Bank">Banking/Financial Services</option>
-                <option value="Beauty">Beauty</option>
-                <option value="Child Ser">Child Services</option>
-                <option value="Clothing">Clothing</option>
-                <option value="Consult">Consulting</option>
-                <option value="Cosmo">Cosmetology</option>
-                <option value="Educate">Education</option>
-                <option value="Entertainment">Entertainment</option>
-                <option value="Food">Food Services</option>
-                <option value="Funeral">Funeral Home</option>
-                <option value="Health">Health</option>
-                <option value="Home">Home Improvement</option>
-                <option value="Landscaping">Landscaping</option>
-                <option value="Law">Legal Services</option>
-                <option value="Photo">Photography</option>
-                <option value="Real Estate">Real Estate</option>
-                <option value="Retail">Retail</option>
-                <option value="Tech">Tech Needs</option>
-                <option value="Travel">Travel</option>
-                <option value="Tutoring">Tutoring Services</option>
-            </select>
+            <div class="businessType">
+                <label for="businessType">Business Type:</label><br>
+                <select name="dropdown" required>
+                    <option value="Other">Other</option>
+                    <option value="Author">Author</option>
+                    <option value="Automobile">Auto</option>
+                    <option value="Bank">Banking/Financial Services</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Child Ser">Child Services</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Consult">Consulting</option>
+                    <option value="Cosmo">Cosmetology</option>
+                    <option value="Educate">Education</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Food">Food Services</option>
+                    <option value="Funeral">Funeral Home</option>
+                    <option value="Health">Health</option>
+                    <option value="Home">Home Improvement</option>
+                    <option value="Landscaping">Landscaping</option>
+                    <option value="Law">Legal Services</option>
+                    <option value="Photo">Photography</option>
+                    <option value="Real Estate">Real Estate</option>
+                    <option value="Retail">Retail</option>
+                    <option value="Tech">Tech Needs</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Tutoring">Tutoring Services</option>
+                </select>
+            </div>
 
-            <br />
-            <label for="description">If Other, give description:</label><br>
-            <input type="text" id="description" name="description"><br>
+            <div class="other">
+                <label for="description">If Other, give description:</label><br>
+                <input type="text" id="description" name="description"><br>
+            </div>
 
-            <label for="experience">Years in Business:</label><br>
-            <input type="number" id="experience" name="experience" required><br>
-
-            <label for="ownership" style="text-overflow: ellipsis;">What type of ownership do you have? </label><br>
-            <input type="text" id="ownership" name="ownership" required><br />
-
+            <div class="businessOwner">
+                <label class="typeLabel" for="ownership">What type of ownership do you have? </label><br>
+                <input type="text" id="ownership" name="ownership" required><br />
+            </div>
+            
            </div>
 
            <div class="column2">

@@ -27,13 +27,13 @@
 
 .column {
   position: absolute;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   margin-left: 7rem;
 }
 
 .column1 {
   position: absolute;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   margin-left: 22rem;
 }
 
@@ -51,6 +51,20 @@
 .text {
   position: absolute;
   margin-top: 0.5rem;
+}
+
+.other {
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.typeLabel {
+  white-space: nowrap;
+}
+
+.businessOwner {
+  position: absolute;
+  margin-top: 2.68rem;
 }
 
 .ownership {
