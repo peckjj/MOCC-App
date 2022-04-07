@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,18 @@ import { PicturesComponent } from './pictures/pictures.component';
 import { VideosComponent } from './videos/videos.component';
 import { TourBoardComponent } from './tour-board/tour-board.component';
 import { UserPageComponent } from './user-page/user-page.component';
+import { SpecalistsComponent } from './specalists/specalists.component';
+import { ProfileComponent } from './profile/profile.component';
+import { UserPage1Component } from './user-page1/user-page1.component';
+import { ProspectComponent } from './prospect/prospect.component';
+import { ToursComponent } from './tours/tours.component';
+import { CardInfoComponent } from './card-info/card-info.component';
+import { ArtistsComponent } from './artists/artists.component';
+import { MusicMarketplaceComponent } from './music-marketplace/music-marketplace.component';
+import { ArtistAccountComponent } from './artist-account/artist-account.component';
+import { TransactionComponent } from './transaction/transaction.component';
+import { BookClubComponent } from './book-club/book-club.component';
+import { PostComponent } from './post/post.component';
 
 
 @NgModule({
@@ -39,12 +52,25 @@ import { UserPageComponent } from './user-page/user-page.component';
     PicturesComponent,
     VideosComponent,
     TourBoardComponent,
-    UserPageComponent
+    UserPageComponent,
+    SpecalistsComponent,
+    ProfileComponent,
+    UserPage1Component,
+    ProspectComponent,
+    ToursComponent,
+    CardInfoComponent,
+    ArtistsComponent,
+    MusicMarketplaceComponent,
+    ArtistAccountComponent,
+    TransactionComponent,
+    BookClubComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

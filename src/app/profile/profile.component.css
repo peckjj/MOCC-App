@@ -1,0 +1,94 @@
+.root {
+  position: absolute;
+  display: flex;
+}
+
+.holder {
+  position: absolute;
+  border: 0.5rem solid brown;
+  padding-left: 0.3rem;
+  padding-right: 1rem;
+  margin-top: 21rem;
+  margin-left: -22rem;
+  width: 45rem;
+  height: 7rem;
+}
+
+.info {
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: large;
+  margin-top: 1rem;
+}
+
+.option {
+  position: absolute;
+  border: 0.5rem solid brown;
+  margin-top: 33rem;
+  margin-left: -24rem;
+  width: 50rem;
+  height: 20rem;
+}
+
+.alert {
+  position: absolute;
+  margin-left: 11.5rem;
+  margin-top: 1rem;
+}
+
+.prospect {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 16.5rem;
+  margin-left: 4.5rem;
+  width: 6.5rem;
+  height: 2rem;
+}
+
+.businessOwner {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 16.5rem;
+  margin-left: 18rem;
+  height: 2rem;
+  width: 12rem;
+}
+
+.artists {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 16.5rem;
+  margin-left: 35.3rem;
+  height: 2rem;
+  width: 8rem;
+}
+
+.picture {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 10rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+  margin-left: 3rem;
+}
+
+.picture1 {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 10rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+  margin-left: 20rem;
+}
+
+.picture2 {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 10rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+  margin-left: 36rem;
+}
+
+

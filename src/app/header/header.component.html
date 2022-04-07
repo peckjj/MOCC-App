@@ -1,11 +1,16 @@
 <div class="root">
 
-    <div class="title">
-        <h1>The Minority Owned Creator's Catalogue</h1>
-        <h3 class="subheader">Unite The Cultures</h3>
+    <div class="border">
+        <img class="logo" src="src\assets\MOCClogo.png">
     </div>
 
-    <img class="logo" src="src\assets\logo.png">
+    <h1 class="header">My Own Creative Catalogue</h1>
+
+    <h3 class="subheader">Own What You Create</h3>
+
+    <a routerLink="/login">
+        <button class="signIn">Sign In</button>
+    </a>
 
     <div class="topnav">
         <a [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['active']">Home</a>
@@ -13,16 +18,21 @@
         <a routerLink="search" routerLinkActive="active">Search</a>
         <a routerLink="about" routerLinkActive="active">About</a>
         <a routerLink="gallery" routerLinkActive="active">Gallery</a>
-        <a routerLink="tourboard" routerLinkActive="active">Tour Board</a>
+        <!-- <a routerLink="tourboard" routerLinkActive="active">Touring</a>
+        <a routerLink="tours" routerLinkActive="active">Tour Dates</a> -->
         <a routerLink="submitart" routerLinkActive="active">Submit Art</a>
         <a routerLink="payment" routerLinkActive="active">Payment</a>
+        <a routerLink="cardinfo" routerLinkActive="active">Card Info</a>
         <a routerLink="contact" routerLinkActive="active">Contact</a>
-        <a routerLink="createprofile" routerLinkActive="active">Create Profile</a>
+        <a routerLink="profile" routerLinkActive="active">Account</a>
+        <a routerLink="artistaccount" routerLinkActive="active">Artists</a>
+        <a routerLink="prospect" routerLinkActive="active">Prospect</a>
+        <a routerLink="userpage1" routerLinkActive="active">UP1</a>
         <a routerLink="login" routerLinkActive="active">Login</a>
         <div class="subbar">
-            <input type="text" placeholder="Submit..">
+            <input type="text" placeholder="Search it..">
             <a routerLink="submit">
-                <button>Submit</button>
+                <button>Search</button>
             </a>
         </div>
     </div>
@@ -33,11 +43,37 @@
 
     </div>
 
+    <h3 class="recents">Recent Uploads:</h3>
+    <div class="uploads">
 
-    <div class="ad2">
+        <div class="newMedia">
+            <a routerLink="media">
+                <img class="media" src="" alt="">
+            </a>
+            <div class="media-body">
+                <h5>Media heading</h5>
+            </div>
+        </div>
 
-        
+        <div class="newMedia1">
+            <a routerLink="media">
+                <img class="media1" src="" alt="">
+            </a>
+            <div class="media-body1">
+                <h5>Media heading</h5>
+            </div>
+        </div>
+
+        <div class="newMedia2">
+            <a routerLink="media">
+                <img class="media2" src="" alt="">
+            </a>
+            <div class="media-body2">
+                <h5>Media heading</h5>
+            </div>
+        </div>
 
     </div>
+
 
 </div>

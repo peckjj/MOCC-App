@@ -17,15 +17,30 @@
   margin-left: 8.5rem;
 }
 
+.searchResults {
+  position: absolute;
+  margin-top: 36.5rem;
+  margin-left: -41.5rem;
+}
+
+.header {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 20rem;
+  margin-left: -4.9rem;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
 .heading {
   position: absolute;
-  margin-left: 2rem;
+  margin-left: 2.3rem;
 }
 
 .table {
   position: absolute;
   text-decoration: underline;
-
+  border-spacing: 1.3rem 0px;
 }
 
 .check {
@@ -38,27 +53,34 @@
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
-  width: 30rem;
+  width: 32rem;
   height: 13rem;
-  margin-top: 20rem;
-  margin-left: -15rem;
+  margin-top: 22rem;
+  margin-left: -15.5rem;
 }
 
 .businessTable {
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
-  padding-left: 1rem;
-  margin-top: 36rem;
-  margin-left: -22rem;
-  width: 45rem;
+  overflow: auto;
+  margin-top: 38rem;
+  margin-left: -42rem;
+  width: 95rem;
   height: 20rem;
 }
 
+.spacing {
+  position: absolute;
+  margin-left: 7.5rem;
+}
+
 .categories {
+  position: absolute;
+  margin-left: 15.5rem;
+  text-decoration: underline;
   font-size: large;
   text-align: center;
-  justify-content: space-between;
 }
 
 .submit {
@@ -110,5 +132,117 @@
   white-space: nowrap;
 }
 
+.results {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 2.5rem;
+  margin-left: -0.7rem;
+}
 
+.media {
+  position: absolute;
+  border: 0.25rem solid brown;
+  width: 6.5rem;
+  height: 17rem;
+  margin-top: 1rem;
+  margin-left: -7.5rem;
+}
+
+.filter {
+  padding-left: 0.4rem;
+}
+
+.profile {
+  position: absolute;
+  border: 0.2rem solid brown;
+  width: 3rem;
+  height: 2rem;
+  margin-top: 23rem;
+  margin-left: -3rem;
+}
+
+.data {
+  margin-top: 2rem;
+}
+
+.row {
+  margin-left: 5rem;
+}
+
+.first {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: -15rem;
+  text-decoration: underline;
+}
+
+.last {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: -10.7rem;
+  text-decoration: underline;
+}
+
+.name {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: -5.4rem;
+  text-decoration: underline;
+}
+
+.address {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 6.1rem;
+  text-decoration: underline;
+}
+
+.email {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 26rem;
+  text-decoration: underline;
+}
+
+.state {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 37.5rem;
+  text-decoration: underline;
+}
+
+.number {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 18.6rem;
+  text-decoration: underline;
+}
+
+.city {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 42rem;
+  text-decoration: underline;
+}
+
+.zip {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 48rem;
+  text-decoration: underline;
+}
+
+.type {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 52rem;
+  text-decoration: underline;
+}
+
+.link {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 58.6rem;
+  text-decoration: underline;
+}
 

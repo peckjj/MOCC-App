@@ -1,0 +1,139 @@
+.profile {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 14rem;
+  height: 10rem;
+  margin-top: 21rem;
+  margin-left: -42rem;
+}
+
+.picFile {
+  position: absolute;
+  margin-top: 32rem;
+  margin-left: -42rem;
+}
+
+.user {
+  position: absolute;
+  font-size: 1.3rem;
+  white-space: nowrap;
+  text-decoration: underline;
+  margin-top: 19.5rem;
+  margin-left: -25rem;
+}
+
+.table {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  border-spacing: 2rem 0px;
+  font-size: medium;
+  text-decoration: underline;
+} 
+
+.genre {
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 1.3rem;
+  text-decoration: underline;
+}
+
+.pw {
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+  text-decoration: underline;
+}
+
+.categories {
+  position: absolute;
+  display: block;
+  text-decoration: underline;
+}
+
+.column {
+  position: absolute;
+  display: block;
+  text-decoration: underline;
+  margin-left: 25rem;
+
+}
+
+.info {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 21rem;
+  margin-left: -25rem;
+  width: 65rem;
+  height: 35rem
+}
+
+.portfolio {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 14rem;
+  margin-left: 4.5rem;
+  width: 55rem;
+  height: 16.5rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 5rem; 
+}
+
+.media-body {
+  position: absolute;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: -0.3rem;
+}
+
+.media1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 1rem;
+  margin-left: 14rem;
+  width: 6rem;
+  height: 5rem;
+}
+
+.media-body1 {
+  position: absolute;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: -0.3rem;
+}
+
+.post {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 35rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.logout {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 38rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.edit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 41rem;
+  margin-left: -37rem;
+  width: 5rem;
+  height: 2rem;
+}

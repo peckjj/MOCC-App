@@ -6,47 +6,42 @@
 
 .accountHeader {
   position: absolute;
-  margin-top: 21rem;
-  margin-left: -12rem;
+  margin-top: 23rem;
+  margin-left: -11rem;
   white-space: nowrap;
+  text-decoration: underline;
 }
 
 .cardInfo {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 23rem;
+  margin-top: 25rem;
   margin-left: -22rem;
   width: 47rem;
-  height: 26rem;
-}
-
-.paymentInfo {
-  position: absolute;
-  margin-top: 12rem;
-  margin-left: 3rem;
-}
-
-.col2 {
-  position: absolute;
-  margin-top: -7.5rem;
-  margin-left: 20rem;
-}
-
-.cardNum {
-  white-space: nowrap;
+  height: 21rem;
 }
 
 .pricing {
   position: absolute;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
 }
 
-.submit {
+.monthly {
   position: absolute;
-  border: 0.25rem solid brown;
-  margin-top: 3rem;
-  margin-left: 17rem;
-  width: 6rem;
-  height: 2rem;
+  border: 0.3rem solid brown;
+  margin-top: 16rem;
+  margin-left: 27rem;
+  height: 2.5rem;
+}
+
+.yearly {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 16rem;
+  margin-left: 10rem;
+  height: 2.5rem;
+
 }

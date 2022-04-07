@@ -1,0 +1,108 @@
+.title {
+  position: absolute;
+  margin-top: 16.5rem;
+  margin-left: -6.5rem;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+.header {
+  position: absolute;
+  margin-left: 13.5rem;
+  margin-top: 1.5rem;
+}
+
+.input {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 7rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 3rem;
+  margin-left: 15rem;
+  width: 6rem;
+  height: 2rem;
+}
+
+.searchBar {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 35rem;
+  height: 8rem;
+  margin-left: -17rem;
+  margin-top: 18.5rem;
+}
+
+.selection {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: x-large;
+  margin-top: 31.2rem;
+  margin-left: -39rem;
+}
+
+.bookClub {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: x-large;
+  margin-top: 31.2rem;
+  margin-left: 3rem;
+}
+
+.bookShelf {
+  position: absolute;
+  border: 0.6rem solid brown;
+  overflow: auto;
+  margin-top: 33rem;
+  margin-left: -39rem;
+  width: 35rem;
+  height: 21.5rem;
+}
+
+.authorSection {
+  position: absolute;
+  border: 0.6rem solid brown;
+  overflow: auto;
+  margin-top: 33rem;
+  margin-left: 3rem;
+  width: 35rem;
+  height: 21.5rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 6rem;
+  height: 5rem;
+}
+
+.media-body {
+  position: absolute;
+  font-size: large;
+  text-overflow: ellipsis;
+  margin-top: 3rem;
+}
+
+.media1 {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 6rem;
+  height: 5rem;
+}
+
+.media-body1 {
+  position: absolute;
+  font-size: large;
+  text-overflow: ellipsis;
+  margin-top: 3rem;
+}
+

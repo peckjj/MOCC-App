@@ -5,38 +5,53 @@
     display: flex;
 }
 
-.title {
+.header {
     position: absolute;
-    margin-top: 5rem;
-    margin-left: -17rem;
+    margin-top: 3rem;
+    margin-left: -11rem;
     white-space: nowrap;
 }
 
 .subheader {
     white-space: nowrap;
-    margin-top: 1rem;
-    margin-left: 13rem;
+    margin-top: 6rem;
+    margin-left: -5rem;
     font-size: 1.3rem;
+}
+
+.signIn {
+    position: absolute;
+    border: 0.3rem solid brown;
+    white-space: nowrap;
+    margin-top: 8.5rem;
+    margin-left: -8.5rem;
+    width: 5rem;
+}
+
+.border {
+    position: absolute;
+    border: 0.6rem solid brown;
+    border-radius: 5rem;
+    margin-left: -55rem;
+    margin-top: 2rem;
+    width: 13rem;
+    height: 12rem;
 }
 
 .logo {
     position: absolute;
-    border: 0.6rem solid brown;
-    margin-left: -50rem;
-    margin-top: 5rem;
-    width: 12rem;
-    height: 10rem;
+    
 }
 
 .topnav {
     position: absolute;
-    margin-top: 15rem;
-    margin-left: -26rem;
+    margin-top: 11rem;
+    margin-left: -34.5rem;
     padding-top: 0.5rem;
     border: 0.6rem solid brown;
     display: flex;
     justify-content: space-around;
-    width: 55rem;
+    width: 70rem;
     height: 2rem;
 }
 
@@ -48,20 +63,77 @@
 
 .ad1 {
     position: absolute;
-    margin-left: -56rem;
+    margin-left: -55rem;
     margin-top: 20rem;
     border: 0.6rem solid brown;
     width: 10rem;
     height: 35rem;
 }
 
-.ad2 {
-    position: absolute;
-    margin-left: 45rem;
-    margin-top: 20rem;
+.uploads {
     border: 0.6rem solid brown;
-    width: 10rem;
-    height: 35rem;
+    position: absolute;
+    margin-left: 44rem;
+    margin-top: 5.5rem;
+    width: 11rem;
+    height: 30rem;
+}
+
+.recents {
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 4rem;
+    margin-left: 44rem;
+}
+
+.media {
+    position: absolute;
+    border: 0.35rem solid brown;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    width: 7rem;
+    height: 6rem;
+}
+
+.media-body {
+    position: absolute;
+    font-size: large;
+    text-overflow: ellipsis;
+    margin-top: 6.1rem;
+    margin-left: 0.5rem;
+}
+
+.media1 {
+    position: absolute;
+    border: 0.35rem solid brown;
+    margin-top: 10.5rem;
+    margin-left: 1.5rem;
+    width: 7rem;
+    height: 6rem;
+}
+
+.media-body1 {
+    position: absolute;
+    font-size: large;
+    text-overflow: ellipsis;
+    margin-left: 0.5rem;
+    margin-top: 15.6rem;
+}
+
+.media2 {
+    position: absolute;
+    border: 0.35rem solid brown;
+    margin-top: 20rem;
+    margin-left: 1.5rem;
+    width: 7rem;
+    height: 6rem;
+}
+
+.media-body2 {
+    position: absolute;
+    font-size: large;
+    margin-left: 0.5rem;
+    margin-top: 25rem;
 }
 
 .active {

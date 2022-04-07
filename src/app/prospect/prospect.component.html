@@ -1,0 +1,59 @@
+<div class="root"> 
+
+  <h3 class="title">Search For A Prospect</h3>
+
+  <div class="searchBar">
+
+    <div class="search">
+      <label class="heading" for="search">Enter Who/What You Are Looking For Here:</label><br>
+      <input class="input" type="text" id="search" name="search" size="35"><br>
+    </div>
+
+    <div class="location">
+      <label class="heading1" for="search">Location:</label><br>
+      <input class="input1" type="text" id="search" name="search" size="35"><br>
+    </div>
+    
+    <input class="submit" type="button" id="submit" value="Search" size="25" onclick="">
+
+  </div>
+
+  <div class="prospectList">
+
+    <table class="prospect">
+
+      <thead class="headers">
+        <tr class="categories">
+          <th class="first">First</th>
+          <th class="last">Last</th>
+          <th class="name">BusinessName</th>
+          <th class="number">Phone#</th>
+          <th class="email">Email</th>
+          <th class="state">State</th>
+          <th class="city">City</th>
+          <th class="type">Service</th>
+          <th class="hire">Hire</th>
+          <th class="link">Weblink</th>
+        </tr>
+      </thead>
+
+      <div class="media">
+
+        <!-- <img class="profile" href="#user profile pic#" *ngFor="let data of getIncluded(searchResults)"> -->
+
+      </div>
+
+      <tbody class="results">
+        <tr class="row" *ngFor="let searchResult of searchResults" >
+
+          <td class="data" *ngFor="let data of include(searchResult)" >{{searchResult[data]}}</td>
+
+        </tr> 
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

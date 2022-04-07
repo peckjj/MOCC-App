@@ -2,9 +2,9 @@
   position: absolute;
   border: 0.6rem solid brown;
   width: 45rem;
-  height: 20rem;
-  margin-top: 21rem;
-  margin-left: -21rem;
+  height: 25rem;
+  margin-top: 18rem;
+  margin-left: -18.5rem;
 }
 
 .media-body {
@@ -19,8 +19,40 @@
   margin-left: -23.5rem;
 }
 
+.purchase {
+  position: absolute;
+  overflow: auto;
+  border: 0.6rem solid brown;
+  margin-top: 20rem;
+  margin-left: -41rem;
+  width: 18.5rem;
+  height: 24rem;
+}
+
+.sign-in {
+  position: absolute;
+  white-space: nowrap;
+  border: 0.25rem solid brown;
+  margin-top: 47rem;
+  margin-left: -33.5rem;
+  width: 5rem;
+  height: 1.8rem;
+}
+
+.bid {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 45.5rem;
+  margin-left: -37.5rem;
+}
+
 .title {
   text-decoration: underline;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
 }
 
 .users {
@@ -36,4 +68,63 @@
   margin-left: -23.5rem;
   width: 50rem;
   height: 6rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 21rem;
+  margin-left: 6.8rem;
+  width: 5rem;
+  height: 1.8rem;
+}
+
+.input {
+  position: absolute;
+  
+}
+
+.info {
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 10rem;
+}
+
+.account {
+  position: absolute;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.bidPrice {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 3.5rem;
+}
+
+.bidIn {
+  position: absolute;
+  margin-top: 2.5rem;
+}
+
+.placeBid {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+
+.price {
+  position: absolute;
+  margin-top: 5.5rem;
+  margin-left: 4rem;
+}
+
+h4 {
+  position: absolute;
+  font-size: large;
+  margin-top: 5.5rem;
+  margin-left: 3.3rem;
 }

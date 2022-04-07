@@ -1,0 +1,74 @@
+<div class="root">
+
+  <h2 class="title">Create Your Artist Account</h2>
+
+  <div class="register">
+
+    <form class="account">
+
+      <div class="first">
+        <label for="firstName">First name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+      </div>
+
+      <div class="last">
+        <label for="lastName">Last name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+      </div>
+
+      <div class="email">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
+      </div>
+
+      <div class="password">
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" required><br>
+      </div>
+
+      <div class="genre">
+        <label class="music" for="music">Choose your genre:</label><br>
+        <select name="dropdown" id="genre" required><br>
+          <option value="Other">Other</option>
+          <option value="Hip-Hop/Rap">Hip-Hop/Rap</option>
+          <option value="R&B">R&B</option>
+          <option value="Alternative">Alternative</option>
+          <option value="Rock">Rock</option>
+          <option value="Country">Country</option>
+        </select><br>
+      </div>
+
+      <div class="other">
+        <label for="other">If your genre is not listed please name it below:</label><br>
+        <input type="text" id="other" name="other" required><br>
+      </div>
+
+      <div class="city">
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required><br>
+      </div>
+
+      <div class="state">
+        <label for="state">State:</label><br>
+        <input type="text" id="state" name="state" required><br>
+      </div>
+
+      <div class="website">
+        <label for="website">Weblink:</label><br>
+        <input type="text" id="website" name="website" required><br>
+      </div>
+
+      <div class="file" style="width: 40%; float: right">
+        <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
+        <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
+      </div>
+
+    </form>
+
+    <a routerLink="/payment">
+      <input class="submit" id="submit" type="button" value="Submit" onclick="">
+    </a>
+
+  </div>
+
+</div>

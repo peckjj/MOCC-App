@@ -1,0 +1,40 @@
+<div class="root">
+
+  <h3 class="title">Post To The Creator's Catalogue</h3>
+
+  <div class="description">
+
+    <form class="type">
+
+      <div class="name">
+        <label for="title">Title Of Post:</label><br>
+        <input type="text" id="title" name="title" required><br>
+      </div>
+
+      <div class="text">
+        <label class="caption">Write Your Post's Caption Here:</label><br>
+        <textarea class="textarea" id="caption" name="caption" rows="5" cols="60" placeholder="Enter your caption here" required></textarea><br>
+      </div>
+
+      <!-- <div class="selection">
+        <label class="destination">Which Gallery Are You Posting To?</label><br>  
+        <select name="dropdown" required>
+          <option value="art">Art Gallery</option>
+          <option value="video">Video Gallery</option>
+          <option value="music">Music Marketplace</option>
+          <option value="author">Book club</option>
+        </select>
+      </div> -->
+
+      <div class="file" style="width: 40%; float: right">
+        <label style="white-space: nowrap;" for="myfile">Select a file for your post:</label>
+        <input type="file" id="myfile" name="myfile" onchange="MediaCapabilities" accept=""><br>
+      </div>
+
+      <button class="submit" id="btn" onclick="post">Post</button>
+
+    </form>
+
+  </div>
+
+</div>

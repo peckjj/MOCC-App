@@ -1,0 +1,80 @@
+.prospectList {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 80rem;
+  height: 18rem;
+  margin-top: 36rem;
+  margin-left: -40.5rem;
+}
+
+.searchBar {
+  position: absolute;
+  border: 0.6rem solid brown;
+  width: 48rem;
+  height: 9rem;
+  margin-left: -23rem;
+  margin-top: 23rem;
+}
+
+.location {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 27.5rem;
+}
+
+.prospect {
+  position: absolute;
+  overflow: auto;
+  border-spacing: 3rem 0px;
+  margin-top: 2rem;
+  margin-left: 5.5rem; 
+}
+
+.submit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 5.5rem;
+  margin-left: 21.3rem;
+  width: 6rem;
+  height: 2rem;
+}
+
+.title {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: 1.3rem;
+  margin-top: 21rem;
+  margin-left: -5rem;
+}
+
+.categories {
+  position: absolute;
+  text-decoration: underline;
+  font-size: large;
+  text-align: center;
+}
+
+.search {
+  position: absolute;
+  margin-top: 5.5rem;
+}
+
+.heading {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: -4rem;
+  margin-left: 3rem;
+}
+
+.input {
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 3rem;
+}
+
+.heading1 {
+  position: absolute;
+  margin-left: 7rem;
+}
+

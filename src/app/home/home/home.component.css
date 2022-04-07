@@ -7,19 +7,21 @@
 .header {
     position: absolute;
     white-space: nowrap;
-    margin-top: 21rem;
+    text-decoration: underline;
+    margin-top: 18rem;
     margin-left: -14rem;
 }
 
 .intro {
     position: absolute;
-    margin-top: 23rem;
+    margin-top: 20rem;
     margin-left: -22rem;
     margin-bottom: 2rem;
     padding-top: 1rem;
     border: 0.6rem solid brown;
     text-align: center;
     font-size: large;
+    overflow: auto;
     width: 45rem;
     height: 18rem;
 }
@@ -27,6 +29,7 @@
 .feed {
     position: absolute;
     border: 0.6rem solid brown;
+    overflow: auto;
     margin-top: 45rem;
     margin-left: -20rem;
     width: 40rem;

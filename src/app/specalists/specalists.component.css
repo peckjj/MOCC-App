@@ -1,0 +1,95 @@
+.specialists {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 20rem;
+  margin-left: -19rem;
+  width: 40rem;
+  height: 38rem;
+}
+
+.title {
+  position: absolute;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  white-space: nowrap;
+  margin-top: 18.5rem;
+  margin-left: -15rem;
+}
+
+.education {
+  white-space: nowrap;
+}
+
+.input {
+  position: absolute;
+  margin-top: 20.7rem;
+  margin-left: -7.5rem;
+}
+
+.link {
+  position: absolute;
+  margin-top: 26rem;
+}
+
+.skill {
+  position: absolute;
+  margin-top: 18.2rem;
+}
+
+.prospect {
+  position: absolute;
+  margin-top: -0.3rem;
+  margin-left: 10rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+
+.last {
+  position: absolute;
+  margin-top: 0.3rem;
+}
+
+.email {
+  position: absolute;
+  margin-top: 3rem;
+}
+
+.password {
+  position: absolute;
+  margin-top: 8.3rem;
+}
+
+.contact {
+  position: absolute;
+  margin-top: 5.6rem;
+}
+
+.college {
+  position: absolute;
+  margin-top: 11rem;
+}
+
+.city {
+  position: absolute;
+  margin-top: 13.4rem;
+}
+
+.state {
+  position: absolute;
+  margin-top: 15.8rem;
+}
+
+.resume {
+  position: absolute;
+  margin-top: 28.7rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 35rem;
+  margin-left: 16.5rem;
+  width: 5.5rem;
+  height: 2rem;
+}
+

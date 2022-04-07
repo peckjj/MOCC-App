@@ -1,12 +1,14 @@
 <div class="root">
 
+  <h3 class="header">Search For A Business</h3>
+
   <div class="search">
 
     <form class="filter">
 
       <div class="title">
-        <label class="heading" for="search">Search for the business here:</label><br>
-        <input type="text" id="search" name="search" size="30"><br><br>
+        <label class="heading" for="search">Enter the business/vendor here:</label><br>
+        <input type="text" [(ngModel)]="business" id="search" name="search" size="35"><br><br>
       </div>
       
         <div class="label">
@@ -21,6 +23,7 @@
             <label class="fifteen" for="distance3"> 15</label><br>
           </div>
 
+
           <div class="right">
             <input type="checkbox" id="distance2" name="distance2" value="10">
             <label class="ten" for="distance2"> 10</label><br>
@@ -29,33 +32,55 @@
           </div>
         </div>
 
-      <button class="submit" id="btn" onclick="">Submit</button>
+      <button class="submit" id="btn" (click)="search()">Submit</button>
 
     </form>
 
   </div>
 
+  <h3 class="searchResults">Results(#)</h3>
+
   <div class="businessTable">
 
-    <table class="table">
-      <thead>
-        <tr class="categories">
-          <th>First</th>
-          <th>Last</th>
-          <th>BusinessName</th>
-          <th>Address</th>
-          <th>Phone#</th>
-          <th>Email</th>
-          <th>State</th>
-          <th>City</th>
-          <th>Zip</th>
-          <th>Specialization</th>
-          <th>Hire</th>
-          <th>Weblink</th>
-        </tr>
-      </thead>
+    <div class="spacing">
+      
+      <table class="table">
+        
+        <thead class="titles">
+          <tr class="categories">
+            <th class="first">First</th>
+            <th class="last">Last</th>
+            <th class="name">BusinessName</th>
+            <th class="address">Address</th>
+            <th class="number">Phone#</th>
+            <th class="email">Email</th>
+            <th class="state">State</th>
+            <th class="city">City</th>
+            <th class="zip">Zip</th>
+            <th class="type">Service</th>
+            <!-- <th class="hire">Hire</th> -->
+            <th class="link">Weblink</th>
+          </tr>
+        </thead>
 
-    </table>
+        <div class="media">
+
+          <!-- <img class="profile" href="#user profile pic#" *ngFor="let data of getIncluded(searchResults)"> -->
+
+        </div>
+
+        <tbody class="results">
+          <tr class="row" *ngFor="let searchResult of searchResults" >
+
+            <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
 
   </div>
 

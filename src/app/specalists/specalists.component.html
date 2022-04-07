@@ -1,0 +1,87 @@
+<div class="root">
+
+  <h3 class="title" >Make Your Prospective Account Here And Show Your Talents!</h3>
+
+  <div class="specialists">
+
+    <form class="prospect">
+
+      <div class="column">
+
+        <div class="first">
+          <label for="firstName">First name:</label><br>
+          <input type="text" id="firstName" name="firstName" required><br>
+        </div>
+
+        <div class="last">
+          <label for="lastName">Last name:</label><br>
+          <input type="text" id="lastName" name="lastName" required><br>
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email" required><br>
+        </div>
+
+        <div class="contact">
+          <label for="phone">Contact number:</label><br>
+          <input type="text" id="number" name="number" required><br>
+        </div>
+
+        <div class="password">
+          <label for="password">Password:</label><br>
+          <input type="text" id="password" name="password" required><br>
+        </div>
+
+        <div class="college">
+          <label class="education" for="college">Education History:</label><br>
+          <select name="dropdown" id="education" required><br>
+            <option value="Highschool">Highschool</option>
+            <option value="Tradeschool">Trade School</option>
+            <option value="2-year">Associates Degree</option>
+            <option value="4-year">Bachelors Degree</option>
+            <option value="Masters">Masters Degree</option>
+          </select><br>
+        </div>
+
+        <div class="city">
+          <label for="city">City:</label><br>
+          <input type="text" id="city" name="city" required><br>
+        </div>
+
+        <div class="state">
+          <label for="state">State:</label><br>
+          <input type="text" id="state" name="state" required><br>
+        </div>
+
+        <div class="skill">
+          <label for="specialization">Skills:</label><br>
+          <input type="text" id="specialization" name="specialization" required><br>
+        </div>
+
+      </div> 
+
+      <div class="input">
+        <label for="missionState">Describe Your Talents/Skills, or Your Education/Occupation:</label><br>
+        <textarea class="textarea" id="bio" name="bio" rows="4" cols="60" placeholder="Enter your bio here" required></textarea><br>
+      </div>
+
+      <div class="link">
+        <label for="webLink">Insert website link:</label><br>
+        <input type="url" id="weblink" name="weblink" size="30"><br>
+      </div>
+
+      <div class="resume">
+        <label for="resume">Upload Your Resume/Portfolio Files:</label>
+        <input type="file" id="resume" name="resume" required>
+      </div>
+      
+    </form>
+
+    <a routerLink="/payment">
+      <input class="submit" id="submit" type="button" value="Submit" onclick="">
+    </a>
+
+  </div>
+
+</div>

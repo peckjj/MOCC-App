@@ -1,30 +1,107 @@
 .profile {
   position: absolute;
-  border: 0.25rem solid brown;
-  width: 5rem;
-  height: 5rem;
-  margin-top: 3rem;
-  margin-left: 3rem;
+  border: 0.5rem solid brown;
+  width: 14rem;
+  height: 10rem;
+  margin-top: 22rem;
+  margin-left: -40rem;
 }
 
-.header {
+.picFile {
   position: absolute;
-  font-size: large;
-  margin-top: 22rem;
-  margin-left: 5rem;
+  margin-top: 33rem;
+  margin-left: -40rem;
+}
+
+.user {
+  position: absolute;
+  font-size: 1.3rem;
+  white-space: nowrap;
+  text-decoration: underline;
+  margin-top: 20.5rem;
+  margin-left: -20rem;
 }
 
 .info {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 21rem;
-  margin-left: 10rem;
+  padding-top: 1rem;
+  margin-top: 22rem;
+  margin-left: -20rem;
+  width: 45rem;
+  height: 16.5rem;
+}
+
+.logout {
+  position: absolute;
+  border: 0.3rem solid brown;
+  width: 5rem;
+  height: 2rem;
+  margin-left: -35rem;
+  margin-top: 41.5rem;
+}
+
+.edit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  width: 5rem;
+  height: 2rem;
+  margin-left: -35rem;
+  margin-top: 38.5rem;
+}
+
+.uploads {
+  position: absolute;
+  margin-top: 42.5rem;
+  margin-left: 0.5rem;
+  text-decoration: underline;
+  font-size: x-large;
 }
 
 .activity {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 25rem;
-  margin-left: 10rem;
+  overflow: auto;
+  margin-top: 44.3rem;
+  margin-left: -20rem;
+  width: 45rem;
+  height: 12rem;
 }
 
+.categories {
+  position: absolute;
+  display: block;
+  
+}
+
+.column {
+  position: absolute;
+  display: block;
+  margin-left: 23rem;
+}
+
+.post {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 35.5rem;
+  margin-left: -35rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.media {
+  position: absolute;
+  border: 0.4rem solid brown;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  width: 10rem;
+  height: 7rem;
+}
+
+.media-body {
+  position: absolute;
+  font-size: large;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  margin-left: 13rem;
+}

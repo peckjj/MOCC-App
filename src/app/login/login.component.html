@@ -1,16 +1,23 @@
 <div class="root">
 
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
   <img class="image" src=""/>
 
   <div class="loginBox">
     <form class="form">
       <h1 class="title">Login to The MOCC</h1>
         <input type="text" placeholder="Enter Username" />
-          <input type="password" placeholder="Enter Password" />
+        <input type="password" placeholder="Enter Password" />
 
-          <p class="forgotLogin">Not Registered Yet? <a routerLink="/createprofile">Create an Account</a></p>
+          <p class="forgotLogin">Not Registered Yet? <a routerLink="/profile">Create an Account</a></p>
           <p class="forgotPass">Forgot Password? <a routerLink="">Recover Password</a></p>
     </form>
+
+    <div class="g-signin2" data-onsuccess="onSignIn" data-longtitle="true">
+      <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+      <button class="google" onclick="">Google Sign In</button>
+    </div>
 
     <button class="submit" onclick=""><a routerLink="/userpage">SUBMIT</a></button>
 

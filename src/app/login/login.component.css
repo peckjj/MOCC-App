@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
 .root {
   background-color: gold;
   color: brown;
@@ -6,13 +8,14 @@
 
 .title {
   position: absolute;
+  text-decoration: underline;
   margin-top: -4rem;
   margin-left: 2rem;
 }
 
 .loginBox {
   position: absolute;
-  height: 15rem;
+  height: 17rem;
   width: 32rem;
   display: flex;
   text-align: center;
@@ -31,7 +34,7 @@
 .image {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 21rem;
+  margin-top: 19rem;
   margin-left: -14rem;
   width: 30rem;
   height: 13rem;
@@ -48,14 +51,44 @@
 
 .forgotLogin {
   position: absolute;
-  margin-top: 4rem;
+  margin-top: 5.5rem;
   margin-left: 3rem;
   font-weight: bold;
 }
 
+.google {
+  position: absolute;
+  margin-left: -2.1rem;
+  width: 7rem;
+  height: 1.75rem;
+}
+
+.google-icon {
+  position: absolute;
+  margin-top: 0.15rem;
+  margin-left: -4rem;
+}
+
+.g-signin2 {
+  position: absolute;
+  display: inline-block;
+  background-color: brown;
+  border: 0.25rem solid brown;
+  padding-right: 0.7rem;
+  white-space: nowrap;
+  margin-top: 7.5rem;
+  margin-left: -1.3rem;
+  width: 8.5rem;
+  height: 1.8rem;
+}
+
 .forgotPass {
   position: absolute;
-  margin-top: 6rem;
+  margin-top: 7rem;
   margin-left: 3.3rem;
   font-weight: bold;
 }
+
+
+
+
