@@ -53,7 +53,7 @@
 
             <div class="hire">
                 <label for="hire">Are you currently hiring?:</label><br>
-                <select name="hire" required><br>
+                <select name="hire" id="hire" required><br>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select><br>
@@ -61,7 +61,7 @@
 
             <div class="businessType">
                 <label for="businessType">Business Type:</label><br>
-                <select name="dropdown" required>
+                <select name="dropdown" id="specialization" required>
                     <option value="Other">Other</option>
                     <option value="Author">Author</option>
                     <option value="Automobile">Auto</option>
@@ -117,7 +117,6 @@
                     <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
                     <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
                 </div>
-
             </div>
             
            </div>

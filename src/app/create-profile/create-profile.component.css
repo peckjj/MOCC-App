@@ -58,13 +58,39 @@
   margin-top: 2rem;
 }
 
+.state {
+  position: absolute;
+  margin-top: 0.5rem;
+}
+
+.zip {
+  position: absolute;
+  margin-top: 3.5rem;
+}
+
+.hire {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 6.2rem;
+}
+
+.businessType {
+  position: absolute;
+  margin-top: 9rem;
+}
+
+.other {
+  position: absolute;
+  margin-top: 11.7rem;
+}
+
 .typeLabel {
   white-space: nowrap;
 }
 
 .businessOwner {
   position: absolute;
-  margin-top: 2.68rem;
+  margin-top: 14.6rem;
 }
 
 .ownership {

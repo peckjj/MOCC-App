@@ -10,7 +10,7 @@
 .register {
   position: absolute;
   border: 0.6rem solid brown;
-  height: 30rem;
+  height: 35rem;
   width: 40rem;
   margin-top: 21.5rem;
   margin-left: -19rem;
@@ -19,7 +19,7 @@
 .account {
   position: absolute;
   margin-top: 1.5rem;
-  margin-left: 12rem;
+  margin-left: 13rem;
 }
 
 .last {
@@ -58,10 +58,20 @@
   margin-top: 18rem;
 }
 
+.website {
+  position: absolute;
+  margin-top: 21rem;
+}
+
+.file {
+  position: absolute;
+  margin-top: 24rem;
+}
+
 .submit {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 26rem;
+  margin-top: 31.5rem;
   margin-left: 17rem;
   width: 5.5rem;
   height: 2rem;

@@ -28,7 +28,7 @@
 
       <div class="genre">
         <label class="music" for="music">Choose your genre:</label><br>
-        <select name="dropdown" required><br>
+        <select name="dropdown" id="genre" required><br>
           <option value="Other">Other</option>
           <option value="Hip-Hop/Rap">Hip-Hop/Rap</option>
           <option value="R&B">R&B</option>
@@ -51,6 +51,16 @@
       <div class="state">
         <label for="state">State:</label><br>
         <input type="text" id="state" name="state" required><br>
+      </div>
+
+      <div class="website">
+        <label for="website">Weblink:</label><br>
+        <input type="text" id="website" name="website" required><br>
+      </div>
+
+      <div class="file" style="width: 40%; float: right">
+        <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
+        <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
       </div>
 
     </form>

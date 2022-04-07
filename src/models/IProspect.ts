@@ -14,5 +14,6 @@ export interface IProspect {
 	website_link:	string;
 	id:	number;
 	specialization:	string;
+	profile: string;
 
 }

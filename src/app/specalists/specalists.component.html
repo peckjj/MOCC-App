@@ -23,6 +23,11 @@
           <input type="text" id="email" name="email" required><br>
         </div>
 
+        <div class="contact">
+          <label for="phone">Contact number:</label><br>
+          <input type="text" id="number" name="number" required><br>
+        </div>
+
         <div class="password">
           <label for="password">Password:</label><br>
           <input type="text" id="password" name="password" required><br>
@@ -30,7 +35,7 @@
 
         <div class="college">
           <label class="education" for="college">Education History:</label><br>
-          <select name="dropdown" required><br>
+          <select name="dropdown" id="education" required><br>
             <option value="Highschool">Highschool</option>
             <option value="Tradeschool">Trade School</option>
             <option value="2-year">Associates Degree</option>
@@ -49,20 +54,26 @@
           <input type="text" id="state" name="state" required><br>
         </div>
 
+        <div class="skill">
+          <label for="specialization">Skills:</label><br>
+          <input type="text" id="specialization" name="specialization" required><br>
+        </div>
+
       </div> 
 
       <div class="input">
-
         <label for="missionState">Describe Your Talents/Skills, or Your Education/Occupation:</label><br>
-        <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter you mission statement here" required></textarea><br>
+        <textarea class="textarea" id="bio" name="bio" rows="4" cols="60" placeholder="Enter your bio here" required></textarea><br>
+      </div>
 
+      <div class="link">
+        <label for="webLink">Insert website link:</label><br>
+        <input type="url" id="weblink" name="weblink" size="30"><br>
       </div>
 
       <div class="resume">
-
         <label for="resume">Upload Your Resume/Portfolio Files:</label>
         <input type="file" id="resume" name="resume" required>
-
       </div>
       
     </form>

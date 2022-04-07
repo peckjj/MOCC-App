@@ -10,7 +10,7 @@ export interface IBusiness {
   email: string;
   state: string;
   city: string;
-  zip: number;
+  zip: string;
   specialization: string;
   ownership: string;
   website_link: string;
@@ -19,6 +19,7 @@ export interface IBusiness {
   hire: string;
   password: string;
   rating: number;
+  profile: string;
 
 }
 

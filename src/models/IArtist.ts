@@ -8,11 +8,12 @@ export interface IArtist {
 	state: string;
 	city: string;
 	status: number;
-	contact: number;
+	contact: string;
 	password: string;
 	website_link: string;
 	portfolio: string;
 	rating: number;
 	genre: string;
+	profile: string;
 
 }
