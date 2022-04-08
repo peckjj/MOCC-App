@@ -90,8 +90,9 @@
   position: absolute;
   text-overflow: ellipsis;
   font-weight: bold;
-  margin-top: 3rem;
-  margin-left: -0.3rem;
+  margin-top: 5.5rem;
+  margin-left: 2rem;
+  width: 8rem;
 }
 
 .media1 {
@@ -107,8 +108,9 @@
   position: absolute;
   text-overflow: ellipsis;
   font-weight: bold;
-  margin-top: 3rem;
-  margin-left: -0.3rem;
+  margin-top: 5.5rem;
+  margin-left: 14rem;
+  width: 8rem;
 }
 
 .post {

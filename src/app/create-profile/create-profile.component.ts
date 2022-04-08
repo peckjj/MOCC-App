@@ -30,8 +30,6 @@ export class CreateProfileComponent implements OnInit {
 
     };
 
-  
-
   // input = document.getElementById("password").innerHTML;
   // value: string = "Retype Password:";
 
