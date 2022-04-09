@@ -1,0 +1,102 @@
+.accountHeader {
+  position: absolute;
+  text-decoration: underline;
+  white-space: nowrap;
+  font-size: x-large;
+  font-size: 1.25rem;
+  margin-top: 18.5rem;
+  margin-left: -9rem;
+}
+
+.accountCreation {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 20rem;
+  margin-left: -21rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 44rem;
+  height: 36rem;
+}
+
+.column {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: 7rem;
+}
+
+.column1 {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: 22rem;
+}
+
+.column2 {
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: 5rem;
+}
+
+.file {
+  position: absolute;
+  margin-left: 17rem;
+}
+
+.text {
+  position: absolute;
+  margin-top: 0.5rem;
+}
+
+.other {
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.state {
+  position: absolute;
+  margin-top: 0.5rem;
+}
+
+.zip {
+  position: absolute;
+  margin-top: 3.5rem;
+}
+
+.hire {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 6.2rem;
+}
+
+.businessType {
+  position: absolute;
+  margin-top: 9rem;
+}
+
+.other {
+  position: absolute;
+  margin-top: 11.7rem;
+}
+
+.typeLabel {
+  white-space: nowrap;
+}
+
+.businessOwner {
+  position: absolute;
+  margin-top: 14.6rem;
+}
+
+.ownership {
+  position: absolute;
+  margin-top: 7.5rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 32.5rem;
+  margin-left: 18rem;
+  width: 6rem;
+  height: 2rem;
+}

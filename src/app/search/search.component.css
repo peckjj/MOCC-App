@@ -135,7 +135,7 @@
 .results {
   position: absolute;
   white-space: nowrap;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   margin-left: -0.7rem;
 }
 
@@ -162,7 +162,7 @@
 }
 
 .data {
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .row {

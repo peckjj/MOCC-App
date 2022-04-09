@@ -135,9 +135,19 @@
 .logout {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 41rem;
+  margin-top: 44rem;
   margin-left: -37rem;
   width: 5rem;
+  height: 2rem;
+}
+
+.tour {
+  position: absolute;
+  border: 0.3rem solid brown;
+  white-space: nowrap;
+  margin-top: 41rem;
+  margin-left: -37.5rem;
+  width: 6rem;
   height: 2rem;
 }
 

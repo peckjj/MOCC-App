@@ -1,1 +1,134 @@
-<p>edit-business works!</p>
+<div class="root">
+
+  <h3 class="accountHeader">Edit Your Catalogue Business Account</h3>
+
+  <!--Insert previous profile data into value fields so that user can change info based on present data-->
+  
+  <div class="accountCreation">
+
+    <form class="legalInfo" method="get">
+
+        <div class="column">
+
+            <label for="firstName">First name:</label><br>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last name:</label><br>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday" required><br>
+
+            <label for="phone">Contact number:</label><br>
+            <input type="text" id="number" name="number" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="busName">Business Name:</label><br>
+            <input type="text" id="busName" name="busName" required><br>
+
+            <label for="address">Business Address:</label><br>
+            <input type="text" id="address" name="address" required><br>
+
+        </div>
+
+        <div class="column1">
+
+            <div class="city">
+                <label for="city">City:</label><br>
+                <input type="text" id="city" name="city" required><br>
+            </div>
+
+            <div class="state">
+                <label for="state">State:</label><br>
+                <input type="text" id="state" name="state" required><br>
+            </div> 
+
+            <div class="zip">
+                <label for="zip">Zip:</label><br>
+                <input type="number" id="zip" name="zip" required><br>
+            </div>
+
+            <div class="hire">
+                <label for="hire">Are you currently hiring?:</label><br>
+                <select name="hire" id="hire" required><br>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select><br>
+            </div>
+
+            <div class="businessType">
+                <label for="businessType">Business Type:</label><br>
+                <select name="dropdown" id="specialization" required>
+                    <option value="Other">Other</option>
+                    <option value="Author">Author</option>
+                    <option value="Automobile">Auto</option>
+                    <option value="Bank">Banking/Financial Services</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Child Ser">Child Services</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Consult">Consulting</option>
+                    <option value="Cosmo">Cosmetology</option>
+                    <option value="Educate">Education</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Food">Food Services</option>
+                    <option value="Funeral">Funeral Home</option>
+                    <option value="Health">Health</option>
+                    <option value="Home">Home Improvement</option>
+                    <option value="Landscaping">Landscaping</option>
+                    <option value="Law">Legal Services</option>
+                    <option value="Photo">Photography</option>
+                    <option value="Real Estate">Real Estate</option>
+                    <option value="Retail">Retail</option>
+                    <option value="Tech">Tech Needs</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Tutoring">Tutoring Services</option>
+                </select>
+            </div>
+
+            <div class="other">
+                <label for="description">If Other, give description:</label><br>
+                <input type="text" id="description" name="description"><br>
+            </div>
+
+            <div class="businessOwner">
+                <label class="typeLabel" for="ownership">What type of ownership do you have? </label><br>
+                <input type="text" id="ownership" name="ownership" required><br />
+            </div>
+            
+          </div>
+
+          <div class="column2">
+
+            <div class="text">
+                <label for="missionState">What is your mission statement?</label><br>
+                <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter your mission statement here" required></textarea><br>
+            </div>
+
+            <div class="ownership" style="width: 700px;">
+                <div style="width: 40%; float: left">
+                    <label for="webLink">Insert Business website link:</label><br>
+                    <input type="url" id="weblink" name="weblink" size="30"><br>
+                </div>
+
+                <div class="file" style="width: 40%; float: right">
+                    <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
+                    <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
+                </div>
+            </div>
+            
+          </div>
+
+        <a routerLink="/userpage">
+            <button class="submit" id="btn" onclick="addcompany">Submit</button>
+        </a>
+
+    </form>
+
+  </div>
+  
+</div>

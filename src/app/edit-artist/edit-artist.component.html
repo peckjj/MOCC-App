@@ -2,33 +2,35 @@
 
   <h2 class="title">Edit Your Artist Account Information</h2>
 
+  <!--Insert previous profile data into value fields so that user can change info based on present data-->  
+
   <div class="register">
 
     <form class="account">
 
       <div class="first">
         <label for="firstName">First name:</label><br>
-        <input type="text" id="firstName" name="firstName" required><br>  // enter previous info as value for edit page
+        <input type="text" id="firstName" name="firstName" [value]="" required><br>  
       </div>
 
       <div class="last">
         <label for="lastName">Last name:</label><br>
-        <input type="text" id="lastName" name="lastName" required><br>
+        <input type="text" id="lastName" name="lastName" [value]="" required><br>
       </div>
 
       <div class="email">
         <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email" required><br>
+        <input type="text" id="email" name="email" [value]="" required><br>
       </div>
 
       <div class="password">
         <label for="password">Password:</label><br>
-        <input type="text" id="password" name="password" required><br>
+        <input type="text" id="password" name="password" [value]="" required><br>
       </div>
 
       <div class="genre">
         <label class="music" for="music">Choose your genre:</label><br>
-        <select name="dropdown" id="genre" required><br>
+        <select name="dropdown" id="genre" [value]="" required><br>
           <option value="Other">Other</option>
           <option value="Hip-Hop/Rap">Hip-Hop/Rap</option>
           <option value="R&B">R&B</option>
@@ -40,22 +42,22 @@
 
       <div class="other">
         <label for="other">If your genre is not listed please name it below:</label><br>
-        <input type="text" id="other" name="other" required><br>
+        <input type="text" id="other" name="other" [value]="" required><br>
       </div>
 
       <div class="city">
         <label for="city">City:</label><br>
-        <input type="text" id="city" name="city" required><br>
+        <input type="text" id="city" name="city" [value]="" required><br>
       </div>
 
       <div class="state">
         <label for="state">State:</label><br>
-        <input type="text" id="state" name="state" required><br>
+        <input type="text" id="state" name="state" [value]="" required><br>
       </div>
 
       <div class="website">
         <label for="website">Weblink:</label><br>
-        <input type="text" id="website" name="website" required><br>  // enter previous info as value for edit page
+        <input type="text" id="website" name="website" [value]="" required><br>  
       </div>
 
       <div class="file" style="width: 40%; float: right">

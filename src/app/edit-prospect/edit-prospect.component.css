@@ -1,0 +1,103 @@
+.specialists {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 20rem;
+  margin-left: -19rem;
+  width: 40rem;
+  height: 30rem;
+}
+
+.title {
+  position: absolute;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  white-space: nowrap;
+  margin-top: 18.5rem;
+  margin-left: -8.3rem;
+}
+
+.column {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: -8rem;
+}
+
+.column1 {
+  position: absolute;
+  margin-top: -11.8rem;
+  margin-left: 6.5rem;
+}
+
+.input {
+  position: absolute;
+  margin-top: 16rem;
+  margin-left: -7.5rem;
+}
+
+.link {
+  position: absolute;
+  margin-top: 24.1rem;
+}
+
+.skill {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 18.8rem;
+}
+
+.prospect {
+  position: absolute;
+  margin-top: -0.3rem;
+  margin-left: 10rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+
+.last {
+  position: absolute;
+  margin-top: 0.3rem;
+}
+
+.email {
+  position: absolute;
+  margin-top: 3rem;
+}
+
+.password {
+  position: absolute;
+  margin-top: 8.3rem;
+}
+
+.contact {
+  position: absolute;
+  margin-top: 5.6rem;
+}
+
+.college {
+  position: absolute;
+  margin-top: 21.4rem;
+}
+
+.city {
+  position: absolute;
+  margin-top: 13.4rem;
+}
+
+.state {
+  position: absolute;
+  margin-top: 16.1rem;
+}
+
+.resume {
+  position: absolute;
+  margin-top: 22rem;
+}
+
+.submit {
+  position: absolute;
+  border: 0.3rem solid brown;
+  margin-top: 26.5rem;
+  margin-left: 16.5rem;
+  width: 5.5rem;
+  height: 2rem;
+}

@@ -1,5 +1,94 @@
 <div class="root">
 
+  <h3 class="title" >Edit Your Prospective Account Here</h3>
 
+  <!--Insert previous profile data into value fields so that user can change info based on present data-->
+
+  <div class="specialists">
+
+    <form class="prospect">
+
+      <div class="column">
+
+        <div class="first">
+          <label for="firstName">First name:</label><br>
+          <input type="text" id="firstName" name="firstName" [value]="" required><br>
+        </div>
+
+        <div class="last">
+          <label for="lastName">Last name:</label><br>
+          <input type="text" id="lastName" name="lastName" [value]="" required><br>
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email" [value]="" required><br>
+        </div>
+
+        <div class="contact">
+          <label for="phone">Contact number:</label><br>
+          <input type="text" id="number" name="number" [value]="" required><br>
+        </div>
+
+        <div class="password">
+          <label for="password">Password:</label><br>
+          <input type="text" id="password" name="password" [value]="" required><br>
+        </div>
+
+      </div>
+
+      <div class="column1">
+
+        <div class="city">
+          <label for="city">City:</label><br>
+          <input type="text" id="city" name="city" [value]="" required><br>
+        </div>
+
+        <div class="state">
+          <label for="state">State:</label><br>
+          <input type="text" id="state" name="state" [value]="" required><br>
+        </div>
+
+        <div class="skill">
+          <label for="specialization">What type of opportunity are you looking for?</label><br>
+          <input type="text" id="specialization" name="specialization" [value]="" required><br>
+        </div>
+
+        <div class="college">
+          <label class="education" for="college">Education History:</label><br>
+          <select name="dropdown" id="education" [value]="" required><br>
+            <option value="Highschool">Highschool</option>
+            <option value="Military">Military</option>
+            <option value="Tradeschool">Trade School</option>
+            <option value="2-year">Associates Degree</option>
+            <option value="4-year">Bachelors Degree</option>
+            <option value="Masters">Masters Degree</option>
+          </select><br>
+        </div>
+
+        <div class="link">
+          <label for="webLink">Insert website link:</label><br>
+          <input type="url" id="weblink" name="weblink" [value]="" size="30"><br>
+        </div>
+
+      </div>       
+
+      <div class="input">
+        <label for="missionState">Describe Your Talents/Skills, or Your Education/Occupation:</label><br>
+        <textarea class="textarea" id="bio" name="bio" rows="4" cols="60" [value]="" required></textarea><br>
+      </div>
+
+      <div class="resume">
+        <label for="resume">Upload Your Resume/Portfolio Files:</label>
+        <input type="file" id="resume" name="resume" required>
+      </div>
+      
+    </form>
+
+    <a routerLink="/userpage1">
+      <input class="submit" id="submit" type="button" value="Submit" onclick="">
+    </a>
+
+  </div>
   
 </div>
