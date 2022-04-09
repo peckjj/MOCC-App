@@ -106,7 +106,7 @@
 .logout {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 38rem;
+  margin-top: 41rem;
   margin-left: -37rem;
   width: 5rem;
   height: 2rem;
@@ -115,8 +115,50 @@
 .editInfo {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 41rem;
+  margin-top: 38rem;
   margin-left: -37rem;
   width: 5rem;
   height: 2rem;
+}
+
+.first {
+  position: absolute;
+  margin-top: -0.2rem;
+  margin-left: -1.5rem;
+}
+
+.last {
+  position: absolute;
+  margin-top: -1.3rem;
+  margin-left: 4.8rem;
+}
+
+.birthday {
+  position: absolute;
+  margin-top: -2.45rem;
+  margin-left: 11rem;
+}
+
+.skill {
+  position: absolute;
+  margin-top: -3.6rem;
+  margin-left: 17.3rem;
+}
+
+.edu {
+  position: absolute;
+  margin-top: -4.7rem;
+  margin-left: 26rem;
+}
+
+.phone {
+  position: absolute;
+  margin-top: -5.9rem;
+  margin-left: 34rem;
+}
+
+.email {
+  position: absolute;
+  margin-top: -7rem;
+  margin-left: 42rem;
 }

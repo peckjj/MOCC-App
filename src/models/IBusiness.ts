@@ -1,6 +1,5 @@
 export interface IBusiness {
 
-  id: number;
   first: string;
   last: string;
   birthday: string;
@@ -14,7 +13,6 @@ export interface IBusiness {
   specialization: string;
   ownership: string;
   website_link: string;
-  status: number;
   mission_statement: string;
   hire: string;
   password: string;

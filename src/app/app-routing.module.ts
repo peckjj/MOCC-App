@@ -7,6 +7,9 @@ import { BookClubComponent } from './book-club/book-club.component';
 import { CardInfoComponent } from './card-info/card-info.component';
 import { ContactComponent } from './contact/contact.component';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
+import { EditArtistComponent } from './edit-artist/edit-artist.component';
+import { EditBusinessComponent } from './edit-business/edit-business.component';
+import { EditProspectComponent } from './edit-prospect/edit-prospect.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -56,7 +59,9 @@ const routes: Routes = [
   {path: 'transaction', component: TransactionComponent},
   {path: 'bookclub', component: BookClubComponent},
   {path: 'post', component: PostComponent},
-  
+  {path: 'editartist', component: EditArtistComponent},
+  {path: 'editbusiness', component: EditBusinessComponent},
+  {path: 'editprospect', component: EditProspectComponent},
 
   {path: '**', redirectTo: ''}
 ];

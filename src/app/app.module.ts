@@ -32,6 +32,9 @@ import { ArtistAccountComponent } from './artist-account/artist-account.componen
 import { TransactionComponent } from './transaction/transaction.component';
 import { BookClubComponent } from './book-club/book-club.component';
 import { PostComponent } from './post/post.component';
+import { EditArtistComponent } from './edit-artist/edit-artist.component';
+import { EditBusinessComponent } from './edit-business/edit-business.component';
+import { EditProspectComponent } from './edit-prospect/edit-prospect.component';
 
 
 @NgModule({
@@ -64,7 +67,10 @@ import { PostComponent } from './post/post.component';
     ArtistAccountComponent,
     TransactionComponent,
     BookClubComponent,
-    PostComponent
+    PostComponent,
+    EditArtistComponent,
+    EditBusinessComponent,
+    EditProspectComponent
   ],
   imports: [
     BrowserModule,
