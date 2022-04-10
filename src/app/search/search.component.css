@@ -8,13 +8,13 @@
 .title {
   position: absolute;
   margin-top: 1.5rem;
-  margin-left: 7rem;
+  margin-left: 5.4rem;
 }
 
 .searchBox {
   position: absolute;
   margin-top: 5rem;
-  margin-left: 8.5rem;
+  margin-left: 9.5rem;
 }
 
 .searchResults {
@@ -57,10 +57,15 @@
   position: absolute;
   border: 0.6rem solid brown;
   display: flex;
-  width: 32rem;
+  width: 30rem;
   height: 13rem;
   margin-top: 22rem;
-  margin-left: -15.5rem;
+  margin-left: -14rem;
+}
+
+.label {
+  position: absolute;
+  margin-left: -1.5rem;
 }
 
 .businessTable {
@@ -90,22 +95,22 @@
 .submit {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 9rem;
-  margin-left: 11.5rem;
+  margin-top: 10rem;
+  margin-left: 11.1rem;
   width: 7rem;
   height: 2rem;
 }
 
 .left {
   position: absolute;
-  margin-top: 0.3rem;
-  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .right {
   position: absolute;
-  margin-top: 0.3rem;
-  margin-left: 8rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
 }
 
 .five {
@@ -131,7 +136,7 @@
 
 .distance {
   position: absolute;
-  margin-left: 4.5rem;
+  margin-left: 5rem;
   margin-top: 5rem;
   white-space: nowrap;
 }
