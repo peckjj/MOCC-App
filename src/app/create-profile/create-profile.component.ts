@@ -30,19 +30,18 @@ export class CreateProfileComponent implements OnInit {
 
   //   };
 
-  // input = document.getElementById("password").innerHTML;
-  // value: string = "Retype Password:";
+  input = document.getElementById("password").innerHTML;
+  value: string = "Retype Password:";
 
-  // passwordLabel = document.createElement("label");
-  
+  passwordLabel = document.createElement("label");
 
-  // password = document.createElement("input");
+  password = document.createElement("input");
 
-  // retypePassword(input) {
-  //   if (input != 0) {
-  //     return console.log(this.passwordLabel);
-  //   }
-  // }
+  retypePassword(input) {
+    if (input != 0) {
+      return console.log(this.passwordLabel);
+    }
+  }
 
   constructor() { }
 

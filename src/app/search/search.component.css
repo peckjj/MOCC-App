@@ -34,13 +34,17 @@
 
 .heading {
   position: absolute;
-  margin-left: 2.3rem;
+  margin-left: 1.7rem;
 }
 
 .table {
   position: absolute;
   text-decoration: underline;
   border-spacing: 1.3rem 0px;
+}
+
+.titles {
+  position: absolute;
 }
 
 .check {
@@ -136,16 +140,7 @@
   position: absolute;
   white-space: nowrap;
   margin-top: 1.5rem;
-  margin-left: -0.7rem;
-}
-
-.media {
-  position: absolute;
-  border: 0.25rem solid brown;
-  width: 6.5rem;
-  height: 17rem;
-  margin-top: 1rem;
-  margin-left: -7.5rem;
+  margin-left: 3rem;
 }
 
 .filter {
@@ -165,108 +160,108 @@
   position: absolute;
   border: 0.3rem solid brown;
   padding-top: 1rem;
-
 }
 
-.businessResults {
-  position: relative;
-  margin-left: -2rem;
-  justify-content: space-around;
+.image {
+  border: 0.25rem solid brown;
+  width: 6rem;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-left: -4.5rem;
 }
 
 .dist {
   position: absolute;
-  margin-top: 5.5rem;
-  margin-left: -5.5rem;
-
+  margin-top: 7.6rem;
+  margin-left: -6.2rem;
 }
 
 .data {
-  border-spacing: 4rem;
-  margin-top: 0.5rem;
-  padding-top: 3.5rem;
-  padding-left: -10rem;
+  border-spacing: 1rem;
+  text-align: left;
+  vertical-align: bottom;
+  margin-top: -0.2rem;
+  margin-left: 3rem;
+  padding-left: 0.3rem;
+  padding-top: 1rem;
+  padding-right: -0.7rem;
   
-}
-
-.row {
-  margin-left: 5rem;
 }
 
 .first {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: -15rem;
+  margin-left: -7.9rem;
   text-decoration: underline;
 }
 
 .last {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: -10.7rem;
+  margin-left: -3.3rem;
   text-decoration: underline;
 }
 
 .name {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: -5.4rem;
+  margin-left: 2.25rem;
   text-decoration: underline;
 }
 
 .address {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 6.1rem;
-  text-decoration: underline;
-}
-
-.email {
-  position: absolute;
-  margin-top: 0.5rem;
-  margin-left: 26rem;
-  text-decoration: underline;
-}
-
-.state {
-  position: absolute;
-  margin-top: 0.5rem;
-  margin-left: 37.5rem;
+  margin-left: 14rem;
   text-decoration: underline;
 }
 
 .number {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 18.6rem;
+  margin-left: 26.5rem;
+  text-decoration: underline;
+}
+
+.email {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 34.3rem;
+  text-decoration: underline;
+}
+
+.state {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 46.3rem;
   text-decoration: underline;
 }
 
 .city {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 42rem;
+  margin-left: 50rem;
   text-decoration: underline;
 }
 
 .zip {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 48rem;
+  margin-left: 56.3rem;
   text-decoration: underline;
 }
 
 .type {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 52rem;
+  margin-left: 60.3rem;
   text-decoration: underline;
 }
 
 .link {
   position: absolute;
   margin-top: 0.5rem;
-  margin-left: 58.6rem;
+  margin-left: 67.5rem;
   text-decoration: underline;
 }
 

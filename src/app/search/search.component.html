@@ -7,7 +7,7 @@
     <form class="filter">
 
       <div class="title">
-        <label class="heading" for="search">Enter the business/vendor here:</label><br>
+        <label class="heading" for="search">Enter the Business or Location Here:</label><br>
         <input type="text" [(ngModel)]="business" id="search" name="search" size="35"><br><br>
       </div>
       
@@ -42,8 +42,6 @@
 
   <div class="businessTable">
 
-    <div class="spacing">
-      
       <table class="table">
         
         <thead class="titles">
@@ -63,23 +61,14 @@
           </tr>
         </thead>
 
-        <!-- <div class="media">
-
-          
-        </div> -->
-
         <tbody class="results">
           <tr class="row" *ngFor="let searchResult of searchResults" >
 
-            <div class="businessResults" >
+            <img class="image" href="#user profile pic#" id="">
 
-              <img class="image" href="#user profile pic#" id="">
-
-              <label class="dist" id="dist">#dist#mi away</label>
-
-              <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
-
-            </div>
+            <label class="dist" id="dist">#dist#mi away</label>
+            
+            <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>              
 
           </tr>
 
@@ -87,7 +76,7 @@
 
       </table>
 
-    </div>
+    
 
   </div>
 
