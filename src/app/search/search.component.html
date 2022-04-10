@@ -63,16 +63,23 @@
           </tr>
         </thead>
 
-        <div class="media">
+        <!-- <div class="media">
 
-          <!-- <img class="profile" href="#user profile pic#" *ngFor="let data of getIncluded(searchResults)"> -->
-
-        </div>
+          
+        </div> -->
 
         <tbody class="results">
           <tr class="row" *ngFor="let searchResult of searchResults" >
 
-            <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
+            <div class="businessResults" >
+
+              <img class="image" href="#user profile pic#" id="">
+
+              <label class="dist" id="dist">#dist#mi away</label>
+
+              <td class="data" *ngFor="let data of getIncluded(searchResult)" >{{searchResult[data]}}</td>
+
+            </div>
 
           </tr>
 
