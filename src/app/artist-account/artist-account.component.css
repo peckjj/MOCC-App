@@ -13,6 +13,16 @@
   margin-left: -42rem;
 }
 
+.addFile {
+  position: absolute;
+  margin-top: 13rem;
+  margin-left: 4.8rem;
+}
+
+.insert {
+  font-size: large;
+}
+
 .user {
   position: absolute;
   font-size: 1.3rem;
@@ -71,7 +81,7 @@
 .portfolio {
   position: absolute;
   border: 0.6rem solid brown;
-  margin-top: 14rem;
+  margin-top: 14.5rem;
   margin-left: 4.5rem;
   width: 55rem;
   height: 16.5rem;
@@ -90,8 +100,9 @@
   position: absolute;
   text-overflow: ellipsis;
   font-weight: bold;
-  margin-top: 3rem;
-  margin-left: -0.3rem;
+  margin-top: 5.5rem;
+  margin-left: 2rem;
+  width: 8rem;
 }
 
 .media1 {
@@ -107,8 +118,9 @@
   position: absolute;
   text-overflow: ellipsis;
   font-weight: bold;
-  margin-top: 3rem;
-  margin-left: -0.3rem;
+  margin-top: 5.5rem;
+  margin-left: 14rem;
+  width: 8rem;
 }
 
 .post {
@@ -123,7 +135,7 @@
 .logout {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 38rem;
+  margin-top: 41rem;
   margin-left: -37rem;
   width: 5rem;
   height: 2rem;
@@ -132,7 +144,7 @@
 .edit {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 41rem;
+  margin-top: 38rem;
   margin-left: -37rem;
   width: 5rem;
   height: 2rem;

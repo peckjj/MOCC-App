@@ -8,11 +8,11 @@
     <button class="post" id="post" onclick="postGallery">Post</button>
   </a>
 
-  <a routerLink="/">
+  <a routerLink="/home">
     <button class="logout" onclick="" >Sign Out</button>
   </a>
 
-  <a routerLink="/">
+  <a routerLink="/editartist">
     <button class="edit" onclick="" >Edit Info</button>
   </a>
 
@@ -55,27 +55,36 @@
 
     </table>
 
+    <div class="addFile">
+      <label class="insert">Add to your Portfolio:</label>
+      <input class="file" type="file" id="file" name="file" onchange="" accept=".jpg, .jpeg, .png, .mp3, .mp4, .avi, .mov">
+    </div>
+
     <div class="portfolio">
       
-      <div class="media">
-        <a class="d-flex" href="#">
-          <img src="" alt="">
-        </a>
-
-        <div class="media-body">
-          <h5>Media heading</h5>
+      <a routerLink="/media">
+        <div class="media">
+          <a class="d-flex" href="#">
+            <img src="" alt="">
+          </a>
         </div>
-      </div>
+      </a>
 
-      <div class="media1">
-        <a class="d-flex" href="#">
-          <img src="" alt="">
-        </a>
+          <div class="media-body">
+            <h5>Media heading</h5>
+          </div>
 
-        <div class="media-body1">
-          <h5>Media heading</h5>
+      <a routerLink="/media">
+        <div class="media1">
+          <a class="d-flex" href="#">
+            <img src="" alt="">
+          </a>
         </div>
-      </div>
+      </a>
+
+          <div class="media-body1">
+            <h5>Media heading</h5>
+          </div>
 
     </div>
 

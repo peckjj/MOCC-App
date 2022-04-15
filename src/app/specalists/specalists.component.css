@@ -4,7 +4,7 @@
   margin-top: 20rem;
   margin-left: -19rem;
   width: 40rem;
-  height: 38rem;
+  height: 30rem;
 }
 
 .title {
@@ -16,24 +16,33 @@
   margin-left: -15rem;
 }
 
-.education {
-  white-space: nowrap;
+.column {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: -8rem;
+}
+
+.column1 {
+  position: absolute;
+  margin-top: -11.8rem;
+  margin-left: 6.5rem;
 }
 
 .input {
   position: absolute;
-  margin-top: 20.7rem;
+  margin-top: 16rem;
   margin-left: -7.5rem;
 }
 
 .link {
   position: absolute;
-  margin-top: 26rem;
+  margin-top: 24.1rem;
 }
 
 .skill {
   position: absolute;
-  margin-top: 18.2rem;
+  white-space: nowrap;
+  margin-top: 18.8rem;
 }
 
 .prospect {
@@ -66,7 +75,7 @@
 
 .college {
   position: absolute;
-  margin-top: 11rem;
+  margin-top: 21.4rem;
 }
 
 .city {
@@ -76,18 +85,18 @@
 
 .state {
   position: absolute;
-  margin-top: 15.8rem;
+  margin-top: 16.1rem;
 }
 
 .resume {
   position: absolute;
-  margin-top: 28.7rem;
+  margin-top: 22rem;
 }
 
 .submit {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 35rem;
+  margin-top: 26.5rem;
   margin-left: 16.5rem;
   width: 5.5rem;
   height: 2rem;
