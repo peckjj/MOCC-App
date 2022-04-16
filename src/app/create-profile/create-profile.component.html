@@ -4,33 +4,41 @@
   
   <div class="accountCreation">
 
-    <form class="legalInfo" action="CreateProfile2.html" method="get">
+    <form class="legalInfo"  action="" method="get">
 
         <div class="column">
 
             <label for="firstName">First name:</label><br>
             <input type="text" id="firstName" name="firstName" required><br>
+            <small >Input Required</small>
 
             <label for="lastName">Last name:</label><br>
             <input type="text" id="lastName" name="lastName" required><br>
+            <small>Input Required</small>
 
             <label for="birthday">Birthday:</label><br>
             <input type="date" id="birthday" name="birthday" required><br>
+            <small class="birthDay">Input Required</small>
 
             <label for="phone">Contact number:</label><br>
             <input type="text" id="number" name="number" required><br>
+            <small>Input Required</small>
 
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
+            <small>Input Required</small>
 
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required><br>
+            <small>Input Required</small>
 
             <label for="busName">Business Name:</label><br>
             <input type="text" id="busName" name="busName" required><br>
+            <small>Input Required</small>
 
             <label for="address">Business Address:</label><br>
             <input type="text" id="address" name="address" required><br>
+            <small>Input Required</small>
 
           </div>
 
@@ -39,16 +47,19 @@
             <div class="city">
                 <label for="city">City:</label><br>
                 <input type="text" id="city" name="city" required><br>
+                <small>Input Required</small>
             </div>
 
             <div class="state">
                 <label for="state">State:</label><br>
                 <input type="text" id="state" name="state" required><br>
+                <small>Input Required</small>
             </div> 
 
             <div class="zip">
                 <label for="zip">Zip:</label><br>
                 <input type="number" id="zip" name="zip" required><br>
+                <small>Input Required</small>
             </div>
 
             <div class="hire">
@@ -57,6 +68,7 @@
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select><br>
+                <small class="hiring">Input Required</small>
             </div>
 
             <div class="businessType">
@@ -86,16 +98,19 @@
                     <option value="Travel">Travel</option>
                     <option value="Tutoring">Tutoring Services</option>
                 </select>
+                <small class="busnType">Input Required</small>
             </div>
 
             <div class="other">
                 <label for="description">If Other, give description:</label><br>
                 <input type="text" id="description" name="description"><br>
+                <small>Input Required</small>
             </div>
 
             <div class="businessOwner">
                 <label class="typeLabel" for="ownership">What type of ownership do you have? </label><br>
                 <input type="text" id="ownership" name="ownership" required><br />
+                <small>Input Required</small>
             </div>
             
            </div>
@@ -105,6 +120,7 @@
             <div class="text">
                 <label for="missionState">What is your mission statement?</label><br>
                 <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter your mission statement here" required></textarea><br>
+                <small class="statement">Input Required</small>
             </div>
 
             <div class="ownership" style="width: 700px;">
@@ -122,7 +138,7 @@
            </div>
 
         <a routerLink="/payment">
-            <button class="submit" id="btn" onclick="addcompany">Submit</button>
+            <button class="submit" id="btn" [disabled]="isSubmitting" (click)="onsubmit()">Submit</button>
         </a>
 
     </form>

@@ -16,7 +16,7 @@ export interface IBusiness {
   mission_statement: string;
   hire: string;
   password: string;
-  rating: number;
+  rating?: number;
   profile: string;
 
 }

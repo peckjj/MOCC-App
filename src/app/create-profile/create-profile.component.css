@@ -23,16 +23,20 @@
   height: 36rem;
 }
 
+.legalInfo {
+  padding-top: 0.8rem;
+}
+
 .column {
   position: absolute;
   margin-top: 0.3rem;
-  margin-left: 7rem;
+  margin-left: 2rem;
 }
 
 .column1 {
   position: absolute;
   margin-top: 0.3rem;
-  margin-left: 22rem;
+  margin-left: 24rem;
 }
 
 .column2 {
@@ -48,7 +52,7 @@
 
 .text {
   position: absolute;
-  margin-top: 0.5rem;
+  margin-top: -0.1rem;
 }
 
 .other {
@@ -99,9 +103,38 @@
 .submit {
   position: absolute;
   border: 0.25rem solid brown;
-  margin-top: 32.5rem;
+  margin-top: 32rem;
   margin-left: 18rem;
   width: 6rem;
   height: 2rem;
 }
 
+small {
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: underline;
+  margin-top: -1.2rem;
+  margin-left: 12rem;
+}
+
+.statement {
+  position: absolute;
+  margin-top: -6.4rem;
+  margin-left: 14rem;
+}
+
+.busnType {
+  position: absolute;
+  margin-top: 0.05rem;
+  margin-left: 0.8rem;
+}
+
+.hiring {
+  position: absolute;
+  margin-left: 3.5rem;
+}
+
+.birthDay {
+  position: absolute;
+  margin-left: 8rem;
+}
