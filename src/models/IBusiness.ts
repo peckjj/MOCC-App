@@ -12,7 +12,7 @@ export interface IBusiness {
   zip: string;
   specialization: string;
   ownership: string;
-  website_link: string;
+  website_link?: string;
   mission_statement: string;
   hire: string;
   password: string;

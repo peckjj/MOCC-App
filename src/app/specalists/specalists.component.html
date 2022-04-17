@@ -11,26 +11,31 @@
         <div class="first">
           <label for="firstName">First name:</label><br>
           <input type="text" id="firstName" name="firstName" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="last">
           <label for="lastName">Last name:</label><br>
           <input type="text" id="lastName" name="lastName" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="email">
           <label for="email">Email:</label><br>
           <input type="text" id="email" name="email" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="contact">
           <label for="phone">Contact number:</label><br>
           <input type="text" id="number" name="number" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="password">
           <label for="password">Password:</label><br>
           <input type="text" id="password" name="password" required><br>
+          <small>Input Required</small>
         </div>
 
       </div>
@@ -40,16 +45,19 @@
         <div class="city">
           <label for="city">City:</label><br>
           <input type="text" id="city" name="city" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="state">
           <label for="state">State:</label><br>
           <input type="text" id="state" name="state" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="skill">
           <label for="specialization">What type of opportunity are you looking for?</label><br>
           <input type="text" id="specialization" name="specialization" required><br>
+          <small>Input Required</small>
         </div>
 
         <div class="college">
@@ -62,11 +70,13 @@
             <option value="4-year">Bachelors Degree</option>
             <option value="Masters">Masters Degree</option>
           </select><br>
+          <small class="eduReq">Input Required</small>
         </div>
 
         <div class="link">
           <label for="webLink">Insert website link:</label><br>
-          <input type="url" id="weblink" name="weblink" size="30"><br>
+          <input type="url" id="weblink" name="weblink" size="23"><br>
+          <small class="linkReq">Input Required</small>
         </div>
 
       </div>       
@@ -74,11 +84,13 @@
       <div class="input">
         <label for="missionState">Describe Your Talents/Skills, or Your Education/Occupation:</label><br>
         <textarea class="textarea" id="bio" name="bio" rows="4" cols="60" placeholder="Enter your bio here" required></textarea><br>
+        <small class="textReq">Input Required</small>
       </div>
 
       <div class="resume">
         <label for="resume">Upload Your Resume/Portfolio Files:</label>
         <input type="file" id="resume" name="resume" required>
+        <small class="resumeReq">Input Required</small>
       </div>
       
     </form>

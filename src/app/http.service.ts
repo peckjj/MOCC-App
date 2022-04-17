@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { IArtist } from 'src/models/IArtist';
 import { IBusiness } from 'src/models/IBusiness';
 import { IProspect } from 'src/models/IProspect';
 
@@ -12,8 +13,8 @@ export class HttpService {
   url: string = "searchbyname";
   url1: string = "prospect";
   url2: string = "create-profile";
-
-
+  url3: string = "artists";
+  url4: string = "specialists";
 
   constructor(private http: HttpClient) { 
 
@@ -29,6 +30,14 @@ export class HttpService {
 
   async submitBusiness(business: IBusiness): Promise<IBusiness[]> {
     return this.http.post<IBusiness[]>(this.apiHost+this.url2, business).toPromise();
+  }
+
+  async submitArtist(artist: IArtist): Promise<IArtist[]> {
+    return this.http.post<IArtist[]>(this.apiHost+this.url3, artist).toPromise();
+  }
+
+  async submitProspect(prospect: IProspect): Promise<IProspect[]> {
+    return this.http.post<IProspect[]>(this.apiHost+this.url4, prospect).toPromise();
   }
 
 }

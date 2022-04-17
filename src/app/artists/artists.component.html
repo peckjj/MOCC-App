@@ -9,21 +9,25 @@
       <div class="first">
         <label for="firstName">First name:</label><br>
         <input type="text" id="firstName" name="firstName" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="last">
         <label for="lastName">Last name:</label><br>
         <input type="text" id="lastName" name="lastName" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="email">
         <label for="email">Email:</label><br>
         <input type="text" id="email" name="email" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="password">
         <label for="password">Password:</label><br>
         <input type="text" id="password" name="password" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="genre">
@@ -36,37 +40,43 @@
           <option value="Rock">Rock</option>
           <option value="Country">Country</option>
         </select><br>
+        <small class="genreReq">Input Required</small>
       </div>
 
       <div class="other">
         <label for="other">If your genre is not listed please name it below:</label><br>
         <input type="text" id="other" name="other" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="city">
         <label for="city">City:</label><br>
         <input type="text" id="city" name="city" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="state">
         <label for="state">State:</label><br>
         <input type="text" id="state" name="state" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="website">
         <label for="website">Weblink:</label><br>
         <input type="text" id="website" name="website" required><br>
+        <small>Input Required</small>
       </div>
 
       <div class="file" style="width: 40%; float: right">
         <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
         <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
+        <small>Input Required</small> 
       </div>
 
     </form>
 
     <a routerLink="/payment">
-      <input class="submit" id="submit" type="button" value="Submit" onclick="">
+      <button class="submit" id="submit" type="button" [disabled]="isSubmitting" (click)="onsubmit()">Submit</button>
     </a>
 
   </div>

@@ -117,6 +117,10 @@ small {
   margin-left: 12rem;
 }
 
+.fileReq {
+  position: absolute;
+}
+
 .statement {
   position: absolute;
   margin-top: -6.4rem;

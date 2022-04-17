@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { IProspect } from 'src/models/IProspect';
+import { HttpService } from '../http.service';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-specalists',
@@ -26,9 +29,44 @@ export class SpecalistsComponent implements OnInit {
 
   //   };
 
-  constructor() { }
+  isSubmitting: boolean = false;
+
+  prospect: IProspect[] = [];
+
+  constructor(private http: HttpService) { 
+
+   }
 
   ngOnInit(): void {
+
+  }
+
+  async onsubmit() {
+
+    this.isSubmitting = true;
+
+    let prospect = {
+
+      first: (<any>document.getElementById("firstName")).value,
+      last: (<any>document.getElementById("lastName")).value,
+      birthday: (<any>document.getElementById("birthday")).value,    
+      contact: (<any>document.getElementById("number")).value,
+      email: (<any>document.getElementById("email")).value,
+      state: (<any>document.getElementById("state")).value,
+      city: (<any>document.getElementById("city")).value,
+      specialization: (<any>document.getElementById("specialization")).value, // or use description value
+      website_link: (<any>document.getElementById("weblink")).value,
+      bio: (<any>document.getElementById("bio")).value,
+      password: (<any>document.getElementById("password")).value,
+      profile: (<any>document.getElementById("resume")).value,
+      education: (<any>document.getElementById("education")).value
+
+    };
+
+    await this.http.submitProspect(prospect)
+
+    this.isSubmitting = false;
+
   }
 
 }

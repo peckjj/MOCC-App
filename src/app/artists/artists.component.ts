@@ -1,4 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { IArtist } from 'src/models/IArtist';
+import { HttpService } from '../http.service';
 
 @Component({
   selector: 'app-artists',
@@ -24,9 +27,41 @@ export class ArtistsComponent implements OnInit {
 
   //   };
 
-  constructor() { }
+  account: IArtist[] = [];
+
+  isSubmitting: boolean = false;
+
+  constructor(private http: HttpService) { }
 
   ngOnInit(): void {
+
+  }
+
+  async onsubmit() {
+
+    this.isSubmitting = true;
+
+    let artist = {
+
+      first: (<any>document.getElementById("firstName")).value,
+      last: (<any>document.getElementById("lastName")).value,
+      birthday: (<any>document.getElementById("birthday")).value,
+      contact: (<any>document.getElementById("number")).value,
+      email: (<any>document.getElementById("email")).value,
+      state: (<any>document.getElementById("state")).value,
+      city: (<any>document.getElementById("city")).value,
+      zip: (<any>document.getElementById("zip")).value,
+      website_link: (<any>document.getElementById("weblink")).value,
+      password: (<any>document.getElementById("password")).value,
+      profile: (<any>document.getElementById("myfile")).value,
+      genre: (<any>document.getElementById("genre")).value
+
+    };
+
+    await this.http.submitArtist(artist)
+
+    this.isSubmitting = false;
+
   }
 
 }

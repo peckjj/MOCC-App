@@ -8,9 +8,9 @@ export interface IArtist {
 	city: string;
 	contact: string;
 	password: string;
-	website_link: string;
-	portfolio: string;
-	rating: number;
+	website_link?: string;
+	portfolio?: string;
+	rating?: number;
 	genre: string;
 	profile: string;
 
