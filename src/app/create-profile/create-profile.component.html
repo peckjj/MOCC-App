@@ -4,41 +4,41 @@
   
   <div class="accountCreation">
 
-    <form class="legalInfo"  action="" method="get">
+    <form class="legalInfo" [formGroup]="exform">
 
         <div class="column">
 
             <label for="firstName">First name:</label><br>
-            <input type="text" id="firstName" name="firstName" required><br>
-            <small >Input Required</small>
+            <input formControlName="first" type="text" id="firstName" name="firstName" required><br>
+            <small *ngIf="exform.get('first').invalid && exform.get('first').touched" >Input Required</small>
 
             <label for="lastName">Last name:</label><br>
-            <input type="text" id="lastName" name="lastName" required><br>
-            <small>Input Required</small>
+            <input formControlName="last" type="text" id="lastName" name="lastName" required><br>
+            <small *ngIf="exform.get('last').invalid && exform.get('last').touched">Input Required</small>
 
             <label for="birthday">Birthday:</label><br>
-            <input type="date" id="birthday" name="birthday" required><br>
-            <small class="birthDay">Input Required</small>
+            <input formControlName="birthday" type="date" id="birthday" name="birthday" required><br>
+            <small class="birthDay" *ngIf="exform.get('birthday').invalid && exform.get('birthday').touched">Input Required</small>
 
             <label for="phone">Contact number:</label><br>
-            <input type="text" id="number" name="number" required><br>
-            <small>Input Required</small>
+            <input formControlName="phone" type="text" id="number" name="number" required><br>
+            <small *ngIf="exform.get('phone').invalid">Input Required</small>
 
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <small>Input Required</small>
+            <input formControlName="email" type="email" id="email" name="email" required><br>
+            <small *ngIf="exform.get('email').invalid">Input Required</small>
 
             <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" required><br>
-            <small>Input Required</small>
+            <input formControlName="password" type="password" id="password" name="password" required><br>
+            <small *ngIf="exform.get('password').invalid">Input Required</small>
 
             <label for="busName">Business Name:</label><br>
-            <input type="text" id="busName" name="busName" required><br>
-            <small>Input Required</small>
+            <input formControlName="busName" type="text" id="busName" name="busName" required><br>
+            <small *ngIf="exform.get('busName').invalid">Input Required</small>
 
             <label for="address">Business Address:</label><br>
-            <input type="text" id="address" name="address" required><br>
-            <small>Input Required</small>
+            <input formControlName="busAddy" type="text" id="address" name="address" required><br>
+            <small *ngIf="exform.get('busAddy').invalid">Input Required</small>
 
           </div>
 
@@ -46,34 +46,34 @@
 
             <div class="city">
                 <label for="city">City:</label><br>
-                <input type="text" id="city" name="city" required><br>
-                <small>Input Required</small>
+                <input formControlName="city" type="text" id="city" name="city" required><br>
+                <small *ngIf="exform.get('city').invalid">Input Required</small>
             </div>
 
             <div class="state">
                 <label for="state">State:</label><br>
-                <input type="text" id="state" name="state" required><br>
-                <small>Input Required</small>
+                <input formControlName="state" type="text" id="state" name="state" required><br>
+                <small *ngIf="exform.get('state').invalid">Input Required</small>
             </div> 
 
             <div class="zip">
                 <label for="zip">Zip:</label><br>
-                <input type="number" id="zip" name="zip" required><br>
-                <small>Input Required</small>
+                <input formControlName="zip" type="number" id="zip" name="zip" required><br>
+                <small *ngIf="exform.get('zip').invalid">Input Required</small>
             </div>
 
             <div class="hire">
                 <label for="hire">Are you currently hiring?:</label><br>
-                <select name="hire" id="hire" required><br>
+                <select formControlName="hire" name="hire" id="hire" required><br>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select><br>
-                <small class="hiring">Input Required</small>
+                <small class="hiring" *ngIf="exform.get('hire').invalid">Input Required</small>
             </div>
 
             <div class="businessType">
                 <label for="businessType">Business Type:</label><br>
-                <select name="dropdown" id="specialization" required>
+                <select formControlName="specialization" name="dropdown" id="specialization" required>
                     <option value="Other">Other</option>
                     <option value="Author">Author</option>
                     <option value="Automobile">Auto</option>
@@ -98,19 +98,19 @@
                     <option value="Travel">Travel</option>
                     <option value="Tutoring">Tutoring Services</option>
                 </select>
-                <small class="busnType">Input Required</small>
+                <small class="busnType" *ngIf="exform.get('specialization').invalid">Input Required</small>
             </div>
 
             <div class="other">
                 <label for="description">If Other, give description:</label><br>
-                <input type="text" id="description" name="description"><br>
+                <input formControlName="other" type="text" id="description" name="description"><br>
                 <small>Input Required</small>
             </div>
 
             <div class="businessOwner">
                 <label class="typeLabel" for="ownership">What type of ownership do you have? </label><br>
-                <input type="text" id="ownership" name="ownership" required><br />
-                <small>Input Required</small>
+                <input formControlName="ownership" type="text" id="ownership" name="ownership" required><br />
+                <small *ngIf="exform.get('ownership').invalid">Input Required</small>
             </div>
             
            </div>
@@ -119,8 +119,8 @@
 
             <div class="text">
                 <label for="missionState">What is your mission statement?</label><br>
-                <textarea class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter your mission statement here" required></textarea><br>
-                <small class="statement">Input Required</small>
+                <textarea formControlName="text" class="textarea" id="missionState" name="missionState" rows="5" cols="60" placeholder="Enter your mission statement here" required></textarea><br>
+                <small class="statement" *ngIf="exform.get('text').invalid">Input Required</small>
             </div>
 
             <div class="ownership" style="width: 700px;">
@@ -131,8 +131,8 @@
 
                 <div class="file" style="width: 40%; float: right">
                     <label style="white-space: nowrap;" for="myfile">Select a .img/.jpeg file for your profile picture:</label>
-                    <input type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
-                    <small class="fileReq">Input Required</small>
+                    <input formControlName="file" type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png"><br>
+                    <small class="fileReq" *ngIf="exform.get('file').invalid">Input Required</small>
                 </div>
             </div>
             

@@ -43,27 +43,30 @@ export class CreateProfileComponent implements OnInit {
       
    }
 
-
+  exform: FormGroup;
 
   ngOnInit(): void {
-    // this.form = this.fb.group({
-    //   firstName: this.fb.control('', Validators.required),
-    //   lastName: this.fb.control('', Validators.required),
-    //   birthday: this.fb.control('', Validators.required),
-    //   phone: this.fb.control('', Validators.required),
-    //   email: this.fb.control('', Validators.required),
-    //   password: this.fb.control('', Validators.required),
-    //   busName: this.fb.control('', Validators.required),
-    //   address: this.fb.control('', Validators.required),
-    //   city: this.fb.control('', Validators.required),
-    //   state: this.fb.control('', Validators.required),
-    //   zip: this.fb.control('', Validators.required),
-    //   hire: this.fb.control('', Validators.required),
-    //   businessType: this.fb.control('', Validators.required),
-    //   // other: this.fb.control('', Validators.required),
-    //   ownership: this.fb.control('', Validators.required),
-    //   missionState: this.fb.control('', Validators.required)
-    // })
+
+    this.exform = new FormGroup({
+
+      'first': new FormControl(null, Validators.required),
+      'last': new FormControl(null, Validators.required),
+      'birthday': new FormControl(null, Validators.required),
+      'phone': new FormControl(null, Validators.pattern('/^[\.-)( ]*([0-9]{3})[\.-)( ]*([0-9]{3})[\.-)( ]*([0-9]{4})$/')),
+      'email': new FormControl(null, [Validators.required, Validators.email]),
+      'password': new FormControl(null, Validators.required),
+      'busName': new FormControl(null, Validators.required),
+      'busAddy': new FormControl(null, Validators.required),
+      'city': new FormControl(null, Validators.required),
+      'state': new FormControl(null, Validators.required),
+      'zip': new FormControl(null, Validators.required),
+      'hire': new FormControl(null, Validators.required),
+      'specialization': new FormControl(null, Validators.required),
+      'ownership': new FormControl(null, Validators.required),
+      'text': new FormControl(null, [Validators.required, Validators.minLength(10)]),
+      'file': new FormControl(null, Validators.required)
+
+    });
   }
 
 
