@@ -39,6 +39,22 @@ export class SpecalistsComponent implements OnInit {
 
   ngOnInit(): void {
 
+    // this.exform = new FormGroup({
+
+    //   'first': new FormControl(null, Validators.required),
+    //   'last': new FormControl(null, Validators.required),
+    //   'phone': new FormControl(null, Validators.pattern('/^[\.-)( ]*([0-9]{3})[\.-)( ]*([0-9]{3})[\.-)( ]*([0-9]{4})$/')),
+    //   'email': new FormControl(null, [Validators.required, Validators.email]),
+    //   'password': new FormControl(null, Validators.required),
+    //   'city': new FormControl(null, Validators.required),
+    //   'state': new FormControl(null, Validators.required),
+    //   'specialization': new FormControl(null, Validators.required),
+    //   'text': new FormControl(null, [Validators.required, Validators.minLength(10)]),
+    //   'file': new FormControl(null, Validators.required),
+    //   'education': new FormControl(null, Validators.required),
+
+    // });
+
   }
 
   async onsubmit() {
@@ -57,7 +73,7 @@ export class SpecalistsComponent implements OnInit {
       specialization: (<any>document.getElementById("specialization")).value, // or use description value
       website_link: (<any>document.getElementById("weblink")).value,
       bio: (<any>document.getElementById("bio")).value,
-      password: (<any>document.getElementById("password")).value,
+      password: (<any>document.getElementById("password")).value, 
       profile: (<any>document.getElementById("resume")).value,
       education: (<any>document.getElementById("education")).value
 

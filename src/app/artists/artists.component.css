@@ -10,7 +10,7 @@
 .register {
   position: absolute;
   border: 0.6rem solid brown;
-  height: 35rem;
+  height: 36rem;
   width: 40rem;
   margin-top: 21.5rem;
   margin-left: -19rem;
@@ -27,51 +27,56 @@
   margin-top: 0.3rem;
 }
 
-.email {
+.contact {
   position: absolute;
   margin-top: 3rem;
 }
 
+.email {
+  position: absolute;
+  margin-top: 5.7rem;
+}
+
 .password {
   position: absolute;
-  margin-top: 6rem;
+  margin-top: 8.5rem;
 }
 
 .genre {
   position: absolute;
-  margin-top: 9rem;
+  margin-top: 11.4rem;
 }
 
 .other {
   position: absolute;
   white-space: nowrap;
-  margin-top: 12rem;
+  margin-top: 14rem;
 }
 
 .city {
   position: absolute;
-  margin-top: 15rem;
+  margin-top: 17rem;
 }
 
 .state {
   position: absolute;
-  margin-top: 18rem;
+  margin-top: 20rem;
 }
 
 .website {
   position: absolute;
-  margin-top: 21rem;
+  margin-top: 23rem;
 }
 
 .file {
   position: absolute;
-  margin-top: 24rem;
+  margin-top: 26rem;
 }
 
 .submit {
   position: absolute;
   border: 0.3rem solid brown;
-  margin-top: 31.5rem;
+  margin-top: 32.7rem;
   margin-left: 17rem;
   width: 5.5rem;
   height: 2rem;
