@@ -10,7 +10,7 @@ export interface IProspect {
 	bio:	string;
 	contact:	string;
 	password:	string;
-	website_link:	string;
+	website_link?:	string;
 	specialization:	string;
 	profile: string;
 

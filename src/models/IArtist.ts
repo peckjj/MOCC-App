@@ -2,7 +2,6 @@ export interface IArtist {
 
 	first: string;
 	last: string;
-	birthday: string;
 	email:	string;
 	state: string;
 	city: string;

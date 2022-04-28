@@ -60,7 +60,6 @@ export class ArtistsComponent implements OnInit {
 
       first: (<any>document.getElementById("firstName")).value,
       last: (<any>document.getElementById("lastName")).value,
-      birthday: (<any>document.getElementById("birthday")).value,
       contact: (<any>document.getElementById("number")).value,
       email: (<any>document.getElementById("email")).value,
       state: (<any>document.getElementById("state")).value,
