@@ -2,7 +2,6 @@ export interface IProspect {
 
   first:	string;
 	last:	string;
-	birthday:	string;
 	email:	string;
 	education:	string;
 	state:	string;

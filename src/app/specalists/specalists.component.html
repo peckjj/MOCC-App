@@ -95,9 +95,9 @@
       
     </form>
 
-    <a routerLink="/payment">
-      <input class="submit" id="submit" type="button" value="Submit" onclick="">
-    </a>
+    <!-- <a routerLink="/payment"> -->
+      <button class="submit" id="submit" type="button" [disabled]="isSubmitting" (click)="onsubmit()">Submit</button>
+    <!-- </a> -->
 
   </div>
 

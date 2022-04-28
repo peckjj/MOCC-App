@@ -64,8 +64,7 @@ export class ArtistsComponent implements OnInit {
       email: (<any>document.getElementById("email")).value,
       state: (<any>document.getElementById("state")).value,
       city: (<any>document.getElementById("city")).value,
-      zip: (<any>document.getElementById("zip")).value,
-      website_link: (<any>document.getElementById("weblink")).value,
+      website_link: (<any>document.getElementById("website")).value,
       password: (<any>document.getElementById("password")).value,
       profile: (<any>document.getElementById("myfile")).value,
       genre: (<any>document.getElementById("genre")).value
