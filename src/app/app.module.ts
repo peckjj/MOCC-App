@@ -35,6 +35,8 @@ import { PostComponent } from './post/post.component';
 import { EditArtistComponent } from './edit-artist/edit-artist.component';
 import { EditBusinessComponent } from './edit-business/edit-business.component';
 import { EditProspectComponent } from './edit-prospect/edit-prospect.component';
+import { MatButton, MatButtonModule } from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -77,7 +79,9 @@ import { EditProspectComponent } from './edit-prospect/edit-prospect.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatButtonModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

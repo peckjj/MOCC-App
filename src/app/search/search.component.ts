@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { IBusiness } from 'src/models/IBusiness';
 import { HttpService } from '../http.service';
+import {MatButtonModule} from '@angular/material/button';
+import {MatButtonHarness} from '@angular/material/button/testing';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 
 @Component({
   selector: 'app-search',
