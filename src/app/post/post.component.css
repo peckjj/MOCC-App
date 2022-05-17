@@ -3,7 +3,7 @@
   text-decoration: underline;
   white-space: nowrap;
   font-size: x-large;
-  margin-top: 23.2rem;
+  margin-top: 15.5rem;
   margin-left: -9rem;
 }
 
@@ -12,8 +12,18 @@
   border: 0.6rem solid brown;
   width: 40rem;
   height: 26rem;
-  margin-top: 25rem;
+  margin-top: 30.5rem;
   margin-left: -18rem;
+}
+
+.preview {
+  position: absolute;
+  border: 0.6rem solid brown;
+  margin-top: 17.5rem;
+  margin-left: -13rem;
+  height: 11rem;
+  width: 28rem;
+
 }
 
 .type {

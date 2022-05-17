@@ -12,6 +12,11 @@
         <button class="signIn">Sign In</button>
     </a>
 
+    <div class="logIn">
+        <label class="account">Signed In As:</label>
+        <p class="home" value="" type="button" routerLink="/">#email#</p>
+    </div>
+
     <div class="topnav">
         <a [routerLink]="['/']" [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['active']">Home</a>
         <a routerLink="userpage" routerLinkActive="active">UP</a>

@@ -19,6 +19,28 @@
     font-size: 1.3rem;
 }
 
+.logIn {
+    position: absolute;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 9.3rem;
+    margin-left: 18rem;
+}
+
+.account {
+    position: absolute;
+
+
+}
+
+.home {
+    position: absolute;
+    margin-top: 0.1rem;
+    margin-left: 6.8rem;
+
+}
+
 .signIn {
     position: absolute;
     border: 0.3rem solid brown;
@@ -41,6 +63,7 @@
 .logo {
     position: absolute;
     
+
 }
 
 .topnav {

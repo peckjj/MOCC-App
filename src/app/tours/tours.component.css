@@ -15,3 +15,51 @@
   margin-top: 20rem;
   margin-left: -26rem;
 }
+
+.dates {
+  position: absolute;
+  text-decoration: underline;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-spacing: 10.5rem 0px;
+
+}
+
+.row {
+  position: absolute;
+
+
+}
+
+.categories {
+  position: absolute;
+  text-decoration: underline;
+  margin-left: -8rem;
+}
+
+.image {
+  position: absolute;
+  border: 0.35rem solid brown;
+  width: 6rem;
+  height: 5.5rem;
+  margin-top: 3rem;
+  margin-left: -9.5rem;
+
+  
+}
+
+.dist {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 2rem;
+
+}
+
+.data {
+  position: absolute;
+  font-size: large;
+  margin-top: 5rem;
+  margin-left: 10rem;
+
+}
+
