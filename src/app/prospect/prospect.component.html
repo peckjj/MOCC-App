@@ -36,14 +36,10 @@
         </tr>
       </thead>
 
-      <div class="media">
-
-        <!-- <img class="profile" href="#user profile pic#" *ngFor="let data of getIncluded(searchResults)"> -->
-
-      </div>
-
       <tbody class="results">
         <tr class="row" *ngFor="let searchResult of searchResults" >
+
+          <img class="profile" href="#user profile pic#" *ngFor="let data of getIncluded(searchResults)">
 
           <td class="data" *ngFor="let data of include(searchResult)" >{{searchResult[data]}}</td>
 

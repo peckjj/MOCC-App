@@ -3,16 +3,50 @@
   white-space: nowrap;
   text-decoration: underline;
   font-size: 1.3rem;
-  margin-top: 18.3rem;
+  margin-top: 30rem;
   margin-left: -18rem;
+}
+
+.search {
+  position: absolute;
+  border: 0.5rem solid brown;
+  width: 20rem;
+  height: 8rem;
+  margin-top: 18.5rem;
+  margin-left: -9rem;
+
+}
+
+.input {
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: 4.5rem;
+
+}
+
+.heading {
+  position: absolute;
+  font-size: large;
+  margin-top: 1rem;
+  margin-left: 4rem;
+
+}
+
+.button {
+  position: absolute;
+  border: 0.25rem solid brown;
+  margin-top: 5rem;
+  margin-left: 7.2rem;
+  width: 6rem;
+  height: 2rem;
 }
 
 .tourBoard {
   position: absolute;
   border: 0.6rem solid brown;
   width: 55rem;
-  height: 35rem;
-  margin-top: 20rem;
+  height: 20rem;
+  margin-top: 31.7rem;
   margin-left: -26rem;
 }
 
@@ -37,7 +71,7 @@
   margin-left: -8rem;
 }
 
-.image {
+/* .image {
   position: absolute;
   border: 0.35rem solid brown;
   width: 6rem;
@@ -46,7 +80,7 @@
   margin-left: -9.5rem;
 
   
-}
+} */
 
 .dist {
   position: absolute;
