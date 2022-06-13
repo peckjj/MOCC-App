@@ -1,16 +1,16 @@
 .gallery {
   position: absolute;
   border: 0.6rem solid brown;
-  overflow: auto;
+  overflow-y: auto;
   width: 70rem;
-  height: 25rem;
-  margin-top: 32.5rem;
+  height: 26.5rem;
+  margin-top: 31rem;
   margin-left: -35.5rem;
 }
 
 .heading { 
   position: absolute;
-  margin-top: 30.5rem;
+  margin-top: 29rem;
   margin-left: -6.5rem;
   white-space: nowrap;
   text-decoration: underline;
