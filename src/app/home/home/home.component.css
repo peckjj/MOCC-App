@@ -9,7 +9,7 @@
     white-space: nowrap;
     text-decoration: underline;
     margin-top: 18rem;
-    margin-left: -14rem;
+    margin-left: -14.3rem;
 }
 
 .intro {
@@ -21,7 +21,7 @@
     padding-top: 1rem;
     text-align: center;
     font-size: large;
-    overflow: auto;
+    overflow-y: auto;
     width: 60rem;
     height: 34rem;
 }
@@ -42,4 +42,34 @@
     margin-left: 30rem;
     width: 60rem;
     height: 25rem;
+}
+
+.uploads {
+    position: absolute;
+    border: 0.4rem solid brown;
+    margin-top: 2.5rem;
+    margin-left: 4.5rem;
+    width: 50rem;
+    height: 15rem;
+
+}
+
+.uploads2 {
+    position: absolute;
+    border: 0.4rem solid brown;
+    margin-top: 20rem;
+    margin-left: 4.5rem;
+    width: 50rem;
+    height: 15rem;
+
+}
+
+.uploads3 {
+    position: absolute;
+    border: 0.4rem solid brown;
+    margin-top: 40rem;
+    margin-left: 4.5rem;
+    width: 50rem;
+    height: 15rem;
+
 }
