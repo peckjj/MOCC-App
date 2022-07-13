@@ -27,7 +27,7 @@
 
         <div class="artSelection">
           <label for="artCategory">Art Category:</label>
-          <select name="dropdown" required><br>
+          <select name="dropdown" id="category" required><br>
             <option value="picture">Picture</option>
             <option value="video">Video</option>
             <option value="music">Music</option>
@@ -36,7 +36,7 @@
 
         <div class="monetize">
           <label for="monetize">Monetize Your Art?</label>
-          <select name="selection" required><br>
+          <select name="selection" id="monetize" required><br>
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
@@ -44,7 +44,7 @@
 
         <div class="fileInput">
           <label for="myfile">Select a .img / .jpeg file for your submission:</label><br>
-          <input class="input" type="file" id="myfile" name="myfile" onchange="readImage(picLink)" accept=".jpg, .jpeg, .png" required><br>
+          <input class="input" type="file" id="myfile" name="myfile" accept=".jpg, .jpeg, .png" required><br>
         </div>
 
         <div class="art">
@@ -52,7 +52,7 @@
           <textarea class="caption" name="feedback" id="message" cols="70" rows="10" required>Describe this artpiece to the audience...</textarea>
         </div>
 
-        <input class="button" type="button" value="Submit" id="sub" onclick="addcard">
+        <input class="button" type="button" value="Submit" id="sub" [disabled]="isSubmitting" (click)="onsubmit()">
 
   </form>
 

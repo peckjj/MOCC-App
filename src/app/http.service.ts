@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { IArtist } from 'src/models/IArtist';
 import { IBusiness } from 'src/models/IBusiness';
 import { IProspect } from 'src/models/IProspect';
+import { IArt } from 'src/models/IArt';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +16,7 @@ export class HttpService {
   url2: string = "create-profile";
   url3: string = "artists";
   url4: string = "specialists";
+  url5: string = "submitart";
 
   constructor(private http: HttpClient) { 
 
@@ -38,6 +40,10 @@ export class HttpService {
 
   async submitProspect(prospect: IProspect): Promise<IProspect[]> {
     return this.http.post<IProspect[]>(this.apiHost+this.url4, prospect).toPromise();
+  }
+
+  async submitArt(media: IArt): Promise<IArt[]> {
+    return this.http.post<IArt[]>(this.apiHost+this.url5, media).toPromise();
   }
 
 }

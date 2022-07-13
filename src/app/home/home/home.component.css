@@ -44,32 +44,49 @@
     height: 25rem;
 }
 
+.GalleryTitle {
+    position: absolute;
+    margin-top: -2.3rem;
+    margin-left: 20rem;
+}
+
 .uploads {
     position: absolute;
     border: 0.4rem solid brown;
     margin-top: 2.5rem;
     margin-left: 4.5rem;
     width: 50rem;
-    height: 15rem;
+    height: 20rem;
 
+}
+
+.BusinessTitle {
+    position: absolute;
+    margin-top: -2.3rem;
+    margin-left: 19rem;
 }
 
 .uploads2 {
     position: absolute;
     border: 0.4rem solid brown;
-    margin-top: 20rem;
+    margin-top: 28rem;
     margin-left: 4.5rem;
     width: 50rem;
-    height: 15rem;
+    height: 20rem;
+}
 
+.TourBoardTitle {
+    position: absolute;
+    margin-top: -2.3rem;
+    margin-left: 18.5rem;
 }
 
 .uploads3 {
     position: absolute;
     border: 0.4rem solid brown;
-    margin-top: 40rem;
+    margin-top: 53rem;
     margin-left: 4.5rem;
     width: 50rem;
-    height: 15rem;
+    height: 20rem;
 
 }
